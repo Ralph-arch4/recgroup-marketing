@@ -1,0 +1,48 @@
+{
+  "project": "rec.group",
+  "url": "https://rec-group.vercel.app",
+  "command": "node screenshots.mjs",
+  "screenshots_dir": "screenshots",
+  "pages": [
+    { "file": "01-landing-hero.png",     "label": "Hero",         "auth": false },
+    { "file": "02-landing-services.png", "label": "Servizi",      "auth": false },
+    { "file": "03-landing-portfolio.png","label": "Portfolio",    "auth": false },
+    { "file": "04-landing-contact.png",  "label": "Contatti",     "auth": false }
+  ],
+  "checklists": {
+    "Hero": [
+      "Logo 'rec.group' con punto dorato visibile nella navbar",
+      "Badge 'Agenzia Digitale · Catania' con pallino verde presente",
+      "Titolo 'Il Digitale che Fa Crescere' visibile",
+      "Gradient accent-text su 'Fa Crescere'",
+      "CTA 'Prenota una Chiamata Gratuita' visibile (gold button)",
+      "CTA 'Guarda i Lavori →' visibile (outline button)",
+      "Stats bar: '2 SaaS Lanciati' / '48h Prototipo Pronto' / '0 Costi Nascosti'",
+      "Scroll indicator animato in basso al centro",
+      "TrustBar marquee visibile subito sotto l'hero"
+    ],
+    "Servizi": [
+      "HowItWorks section visibile con 3 step: Chiamata, Proposta, Lancio",
+      "Sezione ForWho con 5 categorie (PT, Parrucchieri, Ristoranti, Catering, Ville)",
+      "Sezione Servizi con titolo 'I nostri Servizi' visibile",
+      "6 card presenti con icone lucide-react",
+      "ScrollReveal stagger sulle card (visibili al caricamento)",
+      "Spaziatura uniforme tra le card"
+    ],
+    "Portfolio": [
+      "Card EventMaître con mock UI sidebar + stats + tabella",
+      "Card TrainerPro con mock UI sidebar + stats + progress bars",
+      "Tag colorati visibili (gold per EventMaître, blu per TrainerPro)",
+      "Link esterno icon presente sulle card",
+      "Team section con 3 avatar placeholder visibili"
+    ],
+    "Contatti": [
+      "Titolo '30 minuti possono cambiare tutto.' visibile",
+      "Indicatore verde 'Disponibili questa settimana' presente",
+      "Bottone WhatsApp primario (gold + glow)",
+      "Bottone Email secondario (outline)",
+      "3 trust badge: risposta 24h, preventivo gratuito, nessun impegno",
+      "Testo scarcity 'massimo 3 nuovi clienti al mese' visibile"
+    ]
+  }
+}
