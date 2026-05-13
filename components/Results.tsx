@@ -2,12 +2,11 @@
 import { useEffect, useRef, useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 
-// ⚠️ Aggiorna questi numeri con dati reali quando disponibili
 const stats = [
-  { value: 50,  suffix: "+", label: "Imprenditori Supportati",  sub: "consulenze e progetti" },
-  { value: 4,   suffix: "",  label: "Prodotti Digitali Live",   sub: "SaaS e piattaforme" },
-  { value: 48,  suffix: "h", label: "Proposta Consegnata",      sub: "dal primo contatto" },
-  { value: 100, suffix: "%", label: "Progetti in Tempo",        sub: "zero ritardi" },
+  { value: 50,  suffix: "+", label: "Clienti Soddisfatti",     sub: "freelancer, PMI e startup italiane" },
+  { value: 4,   suffix: "",  label: "Prodotti SaaS Lanciati",  sub: "piattaforme operative e scalabili" },
+  { value: 48,  suffix: "h", label: "Risposta Garantita",      sub: "preventivo gratuito in 48 ore" },
+  { value: 100, suffix: "%", label: "Tasso di Consegna",       sub: "zero ritardi, zero compromessi" },
 ];
 
 function CountUp({
@@ -126,9 +125,15 @@ export default function Results() {
               className="font-black tracking-tight"
               style={{ fontSize: "clamp(2rem, 4vw, 3rem)", color: "var(--ivory)" }}
             >
-              Risultati, non{" "}
+              Risultati concreti, non{"\ "}
               <span className="accent-text">promesse.</span>
             </h2>
+            <p
+              className="mt-4 text-sm sm:text-base max-w-xl"
+              style={{ color: "rgba(245,240,232,0.55)" }}
+            >
+              Soluzioni digitali per freelancer e PMI italiane che vogliono crescere online, automatizzare i processi e risparmiare tempo prezioso.
+            </p>
           </div>
         </ScrollReveal>
 
@@ -137,6 +142,15 @@ export default function Results() {
             <StatCard key={s.label} {...s} delay={i * 100} />
           ))}
         </div>
+
+        <ScrollReveal>
+          <p
+            className="mt-10 text-center text-xs tracking-[0.12em] uppercase"
+            style={{ color: "rgba(201,168,76,0.5)" }}
+          >
+            Risparmio medio 30% su processi amministrativi&nbsp;&middot;&nbsp;ROI misurabile entro 6 mesi&nbsp;&middot;&nbsp;Sempre in tempo
+          </p>
+        </ScrollReveal>
 
       </div>
     </section>

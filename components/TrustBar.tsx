@@ -1,14 +1,16 @@
 const items = [
-  { icon: "🌐", label: "Siti Web" },
-  { icon: "⚡", label: "Automazione" },
-  { icon: "📱", label: "Social Media" },
-  { icon: "💼", label: "Gestionali SaaS" },
-  { icon: "🍽️", label: "Menu Digitali" },
-  { icon: "🎯", label: "Identità Online" },
-  { icon: "🚀", label: "Startup Digitali" },
-  { icon: "📍", label: "Catania & Sicilia" },
+  { icon: "🌐", label: "Siti Web Professionali" },
+  { icon: "⚡", label: "Automazione Processi" },
+  { icon: "📱", label: "Social Media Management" },
+  { icon: "💼", label: "Gestionali Su Misura" },
+  { icon: "🍽️", label: "Menu Digitali QR" },
+  { icon: "🎯", label: "Strategia Digitale PMI" },
+  { icon: "🚀", label: "Lancio Startup Digitali" },
+  { icon: "📍", label: "Catania & Tutta Italia" },
   { icon: "🔗", label: "Integrazioni API" },
   { icon: "✨", label: "Design Premium" },
+  { icon: "🤖", label: "Intelligenza Artificiale" },
+  { icon: "📊", label: "ROI Misurabile" },
 ];
 
 // Doubled for seamless loop
