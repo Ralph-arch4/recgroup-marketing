@@ -5,36 +5,44 @@ import ScrollReveal from "./ScrollReveal";
 
 const faqs = [
   {
-    q: "Quanto costa un sito web o un gestionale?",
-    a: "Ogni progetto è unico, quindi il prezzo dipende dalle funzionalità richieste. Indicativamente, un sito web parte da €500 e un gestionale personalizzato da €800. Il preventivo è sempre gratuito, dettagliato e senza sorprese.",
+    q: "Quanto costa un sito web professionale per freelancer o PMI?",
+    a: "Un sito vetrina professionale parte da €700 — design, sviluppo e ottimizzazione SEO inclusi. Per un freelancer che vuole acquisire clienti online è l'investimento con il ROI più rapido: più visibilità, più credibilità, meno tempo perso in preventivi a freddo. Il preventivo è gratuito, dettagliato e senza sorprese.",
   },
   {
-    q: "Quanto tempo ci vuole per consegnare?",
-    a: "Un sito base è pronto in 1–2 settimane. Un gestionale completo richiede 3–6 settimane. Prima di iniziare ti diamo sempre una tempistica precisa — e la rispettiamo.",
+    q: "Conviene un gestionale personalizzato rispetto ai software standard?",
+    a: "I software generici come TeamSystem o SAP costano 50–150€/mese per utente — e paghi funzioni che non usi mai. Il nostro gestionale su misura parte da €900 una tantum, costruito esatto per il tuo flusso di lavoro. In media le PMI italiane recuperano l'investimento in 6–12 mesi grazie al tempo risparmiato.",
+  },
+  {
+    q: "Quanto tempo si risparmia davvero con l'automazione dei processi?",
+    a: "Le PMI italiane risparmiano mediamente 8–15 ore a settimana per dipendente dopo aver automatizzato fatturazione, solleciti pagamenti, gestione appuntamenti e report. Per un freelancer o un piccolo studio, significa recuperare 2–4 giorni interi al mese — tempo che puoi rivendere ai clienti.",
+  },
+  {
+    q: "Le PMI possono accedere agli incentivi fiscali Transizione 5.0?",
+    a: "Sì. Il piano Transizione 5.0 del MIMIT copre fino al 45% degli investimenti in beni digitali per le PMI italiane — siti web, gestionali e automazioni compresi. Un progetto da €2.000 può costarne effettivamente €1.100. Ti aiutiamo a capire cosa spetta alla tua impresa prima ancora di iniziare.",
+  },
+  {
+    q: "Quanto tempo ci vuole per avere un sito web operativo?",
+    a: "Un sito vetrina è online in 1–2 settimane. Un e-commerce o una piattaforma con area riservata richiede 3–6 settimane. Prima di iniziare ti diamo una data di consegna precisa — e la rispettiamo. Nessun cliente è mai rimasto senza aggiornamenti.",
+  },
+  {
+    q: "Il sito web include l'ottimizzazione SEO per Google?",
+    a: "Sì, sempre. Ogni sito parte già ottimizzato: struttura semantica, meta tag, Core Web Vitals, mobile-first e velocità di caricamento. Non è un extra a pagamento — è il minimo per comparire su Google e portare traffico organico nel tempo.",
+  },
+  {
+    q: "Posso gestire il sito da solo dopo la consegna?",
+    a: "Assolutamente. Costruiamo con pannelli intuitivi: aggiorni testi, immagini e prezzi in autonomia, senza toccare una riga di codice. Ti formiamo in una sessione di 30 minuti. E restiamo disponibili via WhatsApp per ogni dubbio futuro.",
   },
   {
     q: "Devo avere competenze tecniche per lavorare con voi?",
-    a: "Assolutamente no. Ci occupiamo di tutto noi. Ti formiamo su come usare gli strumenti e restiamo disponibili per ogni domanda, anche dopo il lancio.",
+    a: "No. Gestiamo tutto noi — dall'acquisto del dominio all'hosting, dallo sviluppo al lancio. Ti spieghiamo ogni passaggio in italiano semplice e restiamo al tuo fianco anche dopo la consegna.",
   },
   {
-    q: "Posso modificare il sito da solo, dopo?",
-    a: "Sì. Costruiamo con pannelli di controllo intuitivi. Puoi aggiornare testi, immagini e contenuti in autonomia — senza toccare una riga di codice.",
+    q: "Lavorate solo a Catania o in tutta Italia?",
+    a: "Siamo di Catania, ma lavoriamo con freelancer e PMI in tutta Italia — da Milano a Palermo. Tutto avviene online: chiamate, consegne, supporto. La distanza non cambia la qualità del risultato.",
   },
   {
-    q: "Lavorate solo a Catania?",
-    a: "Siamo di Catania, ma lavoriamo in tutta Italia. Chiamate, consegne e supporto avvengono online, quindi la distanza non è mai un problema.",
-  },
-  {
-    q: "Come funziona il supporto dopo il lancio?",
-    a: "Non sparisce nessuno. Restiamo disponibili via WhatsApp e email. Per chi ha bisogno di aggiornamenti frequenti, offriamo pacchetti di manutenzione mensile su misura.",
-  },
-  {
-    q: "Gestite anche i social media?",
-    a: "Sì. Dall'analisi del pubblico alla creazione dei contenuti, allo scheduling e ai report mensili. Puoi affidarci tutta la tua presenza digitale, se vuoi.",
-  },
-  {
-    q: "Come si inizia?",
-    a: "Basta una chiamata gratuita di 30 minuti. Raccontaci il tuo progetto e riceverai una proposta dettagliata entro 48 ore. Zero impegno, zero costi.",
+    q: "Come si inizia a lavorare con RecGroup?",
+    a: "Con una chiamata gratuita di 30 minuti. Raccontaci il tuo progetto, le difficoltà attuali e gli obiettivi. Riceverai una proposta su misura entro 48 ore — senza impegno e senza costi anticipati.",
   },
 ];
 
@@ -147,7 +155,7 @@ export default function Faq() {
 
                 <div
                   style={{
-                    maxHeight: open === i ? "240px" : "0",
+                    maxHeight: open === i ? "320px" : "0",
                     overflow: "hidden",
                     transition: "max-height 0.4s cubic-bezier(0.16, 1, 0.3, 1)",
                   }}
