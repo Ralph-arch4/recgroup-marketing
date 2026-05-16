@@ -63,9 +63,9 @@ export default function Hero() {
           fontSize: "clamp(0.95rem, 2vw, 1.15rem)",
           color: "rgba(245,240,232,0.60)",
         }}>
-          Siti web, gestionali, social e automazione.
+          Da €700 il sito che porta clienti. Da €900 il gestionale su misura.
           <br className="hidden sm:block" />
-          Strumenti digitali che lavorano per te — anche di notte.
+          Investimento misurabile — non un costo che dimentichi.
         </p>
 
         {/* Service chips — horizontally scrollable on mobile */}
@@ -98,7 +98,7 @@ export default function Hero() {
         {/* Stats — editorial inline style, no heavy box */}
         <div className="flex items-center justify-center gap-0 flex-wrap mt-2">
           {[
-            { value: "2",   label: "SaaS Live" },
+            { value: "4+",  label: "SaaS Live" },
             { value: "48h", label: "Proposta" },
             { value: "0€",  label: "Preventivo" },
           ].map((s, i) => (
@@ -120,7 +120,7 @@ export default function Hero() {
 
         {/* Social proof nudge */}
         <p className="text-xs" style={{ color: "rgba(245,240,232,0.25)" }}>
-          Già scelti da imprenditori a Catania, Palermo e oltre
+          Già scelti da 50+ freelancer e PMI a Catania, Palermo e in tutta Italia
         </p>
 
       </div>

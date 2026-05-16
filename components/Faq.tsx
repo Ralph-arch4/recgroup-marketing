@@ -41,6 +41,18 @@ const faqs = [
     a: "Siamo di Catania, ma lavoriamo con freelancer e PMI in tutta Italia — da Milano a Palermo. Tutto avviene online: chiamate, consegne, supporto. La distanza non cambia la qualità del risultato.",
   },
   {
+    q: "È meglio affidarsi a un'agenzia web o a un freelancer per il mio sito?",
+    a: "Un freelancer lavora da solo: una sola competenza, nessun backup se è indisponibile. Un'agenzia come RecGroup unisce sviluppo, design, SEO e copy su ogni progetto — referente unico, tempi certi. E da noi un sito vetrina parte da €700: spesso meno di quanto chiede un freelancer senior.",
+  },
+  {
+    q: "Come posso acquisire clienti online con un budget limitato?",
+    a: "Il percorso più efficiente per un freelancer o una piccola impresa: (1) sito ottimizzato SEO — porta contatti organici 24 ore su 24 senza pubblicità; (2) scheda Google Business aggiornata per il mercato locale; (3) automazione email per convertire i lead. Da €700 hai già tutto il necessario per smettere di dipendere dal passaparola.",
+  },
+  {
+    q: "Cosa si intende per soluzione digitale su misura per una PMI?",
+    a: "Una soluzione su misura è costruita sul tuo flusso di lavoro reale — non su quello generico di qualsiasi PMI. Significa: sito con i tuoi servizi e il tuo target, gestionale con i tuoi processi (prenotazioni, magazzino, fatturazione, report), automazioni tarate sulle tue priorità. Zero funzioni inutili, zero abbonamenti per strumenti che non usi.",
+  },
+  {
     q: "Come si inizia a lavorare con RecGroup?",
     a: "Con una chiamata gratuita di 30 minuti. Raccontaci il tuo progetto, le difficoltà attuali e gli obiettivi. Riceverai una proposta su misura entro 48 ore — senza impegno e senza costi anticipati.",
   },
