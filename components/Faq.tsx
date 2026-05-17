@@ -53,6 +53,18 @@ const faqs = [
     a: "Una soluzione su misura è costruita sul tuo flusso di lavoro reale — non su quello generico di qualsiasi PMI. Significa: sito con i tuoi servizi e il tuo target, gestionale con i tuoi processi (prenotazioni, magazzino, fatturazione, report), automazioni tarate sulle tue priorità. Zero funzioni inutili, zero abbonamenti per strumenti che non usi.",
   },
   {
+    q: "Posso integrare l'intelligenza artificiale nella mia piccola impresa?",
+    a: "Sì, e nel 2026 è più accessibile di quanto pensi. Integriamo chatbot AI sul tuo sito (gestisce l'80% delle domande ricorrenti senza personale), automazioni basate su AI per generare preventivi e documenti in secondi, e dashboard intelligenti che analizzano i tuoi dati di vendita. Il punto di partenza ideale per una PMI è un chatbot per il sito + automazione email: costa meno di un abbonamento a un CRM generico e lavora per te 24 ore su 24.",
+  },
+  {
+    q: "Conviene aprire un e-commerce nel 2026? Quali sono i costi reali?",
+    a: "Il mercato e-commerce italiano ha superato i 71 miliardi di euro nel 2026: la domanda c'è. Un e-commerce professionale con RecGroup parte da €1.500 — catalogo prodotti, pagamenti online, gestione ordini e SEO inclusi. Il vero ostacolo non è aprirlo, ma farlo trovare su Google: per questo ogni nostro shop include già ottimizzazione SEO e-commerce, schede prodotto ottimizzate e integrazione Google Shopping. Rientri dell'investimento tipici: 6–18 mesi per chi parte da zero.",
+  },
+  {
+    q: "Esistono altri incentivi oltre a Transizione 5.0 per digitalizzare la mia impresa?",
+    a: "Sì. Oltre a Transizione 5.0 (fino al 45%), nel 2026 sono attivi il Voucher Digitalizzazione MISE — contributo a fondo perduto del 50% fino a €10.000 per PMI che investono in siti web, software e formazione digitale — e bandi regionali che variano da regione a regione. Ti aiutiamo a identificare quale incentivo si applica al tuo progetto specifico prima ancora di iniziare: stessa chiamata gratuita di 30 minuti, zero burocrazia da parte tua.",
+  },
+  {
     q: "Come si inizia a lavorare con RecGroup?",
     a: "Con una chiamata gratuita di 30 minuti. Raccontaci il tuo progetto, le difficoltà attuali e gli obiettivi. Riceverai una proposta su misura entro 48 ore — senza impegno e senza costi anticipati.",
   },
