@@ -1,4 +1,4 @@
-const services = ["Siti Web", "Gestionali SaaS", "Social Media", "Automazione", "Identità Online"];
+const services = ["Siti Web", "Gestionali SaaS", "SEO & Ads", "Automazione AI", "Brand Identity"];
 
 export default function Hero() {
   return (
@@ -45,7 +45,7 @@ export default function Hero() {
           backdropFilter: "blur(8px)",
         }}>
           <span className="w-1.5 h-1.5 rounded-full animate-pulse flex-shrink-0" style={{ background: "#4ade80" }} />
-          Agenzia Digitale · Catania
+          Agenzia Digitale PMI · Italia
         </div>
 
         {/* Headline — tighter clamp for mobile */}
@@ -53,9 +53,9 @@ export default function Hero() {
           fontSize: "clamp(2.6rem, 8vw, 6.5rem)",
           color: "#F5F0E8",
         }}>
-          Il Digitale che
+          Converti il Web
           <br />
-          <span className="accent-text">Fa Crescere</span>
+          <span className="accent-text">in Fatturato Reale</span>
         </h1>
 
         {/* Subtext — shorter, punchy */}
@@ -63,9 +63,9 @@ export default function Hero() {
           fontSize: "clamp(0.95rem, 2vw, 1.15rem)",
           color: "rgba(245,240,232,0.60)",
         }}>
-          Da €700 il sito che porta clienti. Da €900 il gestionale su misura.
+          Siti web da €700 che trasformano visitatori in clienti. Gestionali su misura da €900 che tagliano ore di lavoro manuale ogni settimana.
           <br className="hidden sm:block" />
-          Investimento misurabile — non un costo che dimentichi.
+          ROI misurabile dal primo mese — non una spesa che dimentichi.
         </p>
 
         {/* Service chips — horizontally scrollable on mobile */}
@@ -120,7 +120,7 @@ export default function Hero() {
 
         {/* Social proof nudge */}
         <p className="text-xs" style={{ color: "rgba(245,240,232,0.25)" }}>
-          Già scelti da 50+ freelancer e PMI a Catania, Palermo e in tutta Italia
+          Già scelti da 50+ freelancer e PMI a Catania, Palermo e in tutta Italia · più contatti, meno burocrazia
         </p>
 
       </div>
