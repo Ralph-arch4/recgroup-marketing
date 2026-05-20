@@ -3,10 +3,31 @@ import { useEffect, useRef, useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 
 const stats = [
-  { value: 50,  suffix: "+", label: "Clienti Soddisfatti",     sub: "freelancer, PMI e startup italiane" },
-  { value: 4,   suffix: "",  label: "Prodotti SaaS Lanciati",  sub: "piattaforme operative e scalabili" },
-  { value: 48,  suffix: "h", label: "Risposta Garantita",      sub: "preventivo gratuito in 48 ore" },
-  { value: 100, suffix: "%", label: "Tasso di Consegna",       sub: "zero ritardi, zero compromessi" },
+  { value: 50,  suffix: "+", label: "Clienti Soddisfatti",     sub: "freelancer, PMI e startup in tutta Italia" },
+  { value: 3,   suffix: "×", label: "ROI Medio",               sub: "ritorno sull'investimento digitale entro 12 mesi" },
+  { value: 30,  suffix: "%", label: "Risparmio Tempo",         sub: "riduzione media sui processi amministrativi" },
+  { value: 48,  suffix: "h", label: "Preventivo Gratuito",     sub: "risposta garantita, zero burocrazia" },
+];
+
+const caseStudies = [
+  {
+    category: "Sito Web + SEO",
+    title: "Studio legale, Catania",
+    result: "+340% visite organiche in 6 mesi",
+    detail: "Da zero presenza online a prima pagina Google per 12 keyword locali.",
+  },
+  {
+    category: "Gestionale Su Misura",
+    title: "Consulente HR freelancer",
+    result: "8 ore/settimana risparmiate",
+    detail: "Automazione preventivi, contratti e fatturazione: da manuale a un click.",
+  },
+  {
+    category: "Automazione Processi",
+    title: "Agenzia immobiliare, PMI",
+    result: "−60% tempo gestione lead",
+    detail: "CRM personalizzato con notifiche automatiche e follow-up via WhatsApp.",
+  },
 ];
 
 function CountUp({
@@ -125,14 +146,14 @@ export default function Results() {
               className="font-black tracking-tight"
               style={{ fontSize: "clamp(2rem, 4vw, 3rem)", color: "var(--ivory)" }}
             >
-              Risultati concreti, non{"\ "}
-              <span className="accent-text">promesse.</span>
+              Numeri reali.{" "}
+              <span className="accent-text">Clienti reali.</span>
             </h2>
             <p
               className="mt-4 text-sm sm:text-base max-w-xl"
               style={{ color: "rgba(245,240,232,0.55)" }}
             >
-              Soluzioni digitali per freelancer e PMI italiane che vogliono crescere online, automatizzare i processi e risparmiare tempo prezioso.
+              Siti web professionali, gestionali su misura e automazioni per freelancer e PMI italiane — con ROI misurabile e zero sprechi di tempo.
             </p>
           </div>
         </ScrollReveal>
@@ -148,8 +169,53 @@ export default function Results() {
             className="mt-10 text-center text-xs tracking-[0.12em] uppercase"
             style={{ color: "rgba(201,168,76,0.5)" }}
           >
-            Risparmio medio 30% su processi amministrativi&nbsp;&middot;&nbsp;ROI misurabile entro 6 mesi&nbsp;&middot;&nbsp;Sempre in tempo
+            ROI misurabile entro 12 mesi&nbsp;&middot;&nbsp;Automazione processi PMI&nbsp;&middot;&nbsp;Sito web professionale Italia&nbsp;&middot;&nbsp;Zero ritardi
           </p>
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <div className="mt-16">
+            <p
+              className="text-center text-xs font-semibold tracking-[0.25em] uppercase mb-8"
+              style={{ color: "var(--accent)" }}
+            >
+              Case Study
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              {caseStudies.map((cs) => (
+                <div
+                  key={cs.title}
+                  className="glass rounded-2xl p-6"
+                  style={{ borderTop: "1px solid rgba(201,168,76,0.18)" }}
+                >
+                  <p
+                    className="text-xs font-semibold tracking-[0.18em] uppercase mb-3"
+                    style={{ color: "var(--accent)" }}
+                  >
+                    {cs.category}
+                  </p>
+                  <p
+                    className="text-sm font-bold mb-2"
+                    style={{ color: "var(--ivory)" }}
+                  >
+                    {cs.title}
+                  </p>
+                  <p
+                    className="text-base font-black mb-2"
+                    style={{ color: "var(--accent-light, #E8CC7A)" }}
+                  >
+                    {cs.result}
+                  </p>
+                  <p
+                    className="text-xs leading-relaxed"
+                    style={{ color: "rgba(245,240,232,0.45)" }}
+                  >
+                    {cs.detail}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
         </ScrollReveal>
 
       </div>
