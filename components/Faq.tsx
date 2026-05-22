@@ -65,6 +65,18 @@ const faqs = [
     a: "Sì. Oltre a Transizione 5.0 (fino al 45%), nel 2026 sono attivi il Voucher Digitalizzazione MISE — contributo a fondo perduto del 50% fino a €10.000 per PMI che investono in siti web, software e formazione digitale — e bandi regionali che variano da regione a regione. Ti aiutiamo a identificare quale incentivo si applica al tuo progetto specifico prima ancora di iniziare: stessa chiamata gratuita di 30 minuti, zero burocrazia da parte tua.",
   },
   {
+    q: "Basta Instagram e Facebook per trovare clienti, o serve anche un sito web?",
+    a: "I social danno visibilità — ma non ti appartengono. L'algoritmo cambia senza preavviso, l'account può essere sospeso, la portata organica cala ogni anno. Il sito web è tuo: indicizzato su Google, attivo 24 ore su 24, raccoglie contatti qualificati anche mentre dormi. La strategia che funziona nel 2026: sito come hub centrale (SEO, credibilità, conversioni) + social come amplificatore di traffico verso il sito. Senza sito, stai costruendo su terreno affittato.",
+  },
+  {
+    q: "Quanto costano hosting e manutenzione del sito ogni anno?",
+    a: "Hosting professionale: 80–200€/anno. Dominio: 15–30€/anno. Manutenzione (aggiornamenti, backup, sicurezza): 150–400€/anno se affidata esternamente. Con RecGroup, hosting e dominio per il primo anno sono inclusi nel prezzo del sito — zero sorprese dopo la consegna. Dal secondo anno offriamo pacchetti di hosting ottimizzato da 99€/anno con backup automatico, certificato SSL e aggiornamenti di sicurezza inclusi.",
+  },
+  {
+    q: "Come faccio a sapere se il sito web sta portando clienti reali?",
+    a: "Installiamo Google Analytics 4 e Google Search Console su ogni sito che realizziamo: vedi quante persone visitano il sito, da quali parole chiave arrivano su Google, quante compilano il modulo di contatto e quale pagina converte di più. I primi 3 mesi ti inviamo un report mensile con i dati chiave — così puoi misurare il ROI esatto del tuo investimento e capire cosa ottimizzare per crescere ulteriormente.",
+  },
+  {
     q: "Come si inizia a lavorare con RecGroup?",
     a: "Con una chiamata gratuita di 30 minuti. Raccontaci il tuo progetto, le difficoltà attuali e gli obiettivi. Riceverai una proposta su misura entro 48 ore — senza impegno e senza costi anticipati.",
   },
