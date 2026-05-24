@@ -94,8 +94,8 @@ export default function Pricing() {
               className="max-w-lg text-base leading-relaxed"
               style={{ color: "rgba(245,240,232,0.52)" }}
             >
-              Ogni pacchetto è un punto di partenza — non un limite.
-              Costruiamo sempre su misura, con trasparenza totale sui costi.
+              Preventivo gratuito, senza impegno. Ogni soluzione è costruita su misura
+              per la tua attività — con costi trasparenti e risultati misurabili fin dalla prima settimana.
             </p>
           </div>
         </ScrollReveal>
@@ -213,9 +213,9 @@ export default function Pricing() {
             className="text-center mt-10 text-sm"
             style={{ color: "rgba(245,240,232,0.28)" }}
           >
-            Tutti i prezzi sono su preventivo gratuito —{" "}
+            Preventivo gratuito in 24 ore —{" "}
             <span style={{ color: "rgba(245,240,232,0.45)" }}>
-              nessun costo nascosto, nessun contratto forzato.
+              nessun costo nascosto, nessun contratto vincolante. Parti quando sei pronto.
             </span>
           </p>
         </ScrollReveal>

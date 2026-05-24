@@ -6,37 +6,37 @@ const services = [
     icon: LayoutDashboard,
     title: "Gestionali",
     description:
-      "Dimentica Excel e i fogli volanti. Clienti, fatture, appuntamenti e flussi di lavoro in un'unica dashboard costruita attorno al tuo modo di lavorare.",
+      "Software gestionale personalizzato per freelancer e PMI. Clienti, fatture, appuntamenti e flussi di lavoro in un'unica dashboard su misura — non l'ennesimo foglio Excel. Recupera 3-5 ore a settimana dal primo giorno.",
   },
   {
     icon: Globe,
     title: "Siti Web",
     description:
-      "Da zero a online in tempi record. Veloce, moderno e trovabile su Google. Dal portfolio personale all'e-commerce, costruiamo la tua presenza online.",
+      "Sito web professionale per PMI, freelancer e professionisti: veloce, ottimizzato per Google e pronto a convertire visitatori in clienti. Dal portfolio personale all'e-commerce — online in 2 settimane, visibile su Google in 30 giorni.",
   },
   {
     icon: Tablet,
     title: "Menu Digitali",
     description:
-      "QR code + menu sempre aggiornato in tempo reale. Design che rispecchia il tuo brand. I clienti ordinano — tu incassi. Senza app da scaricare.",
+      "Menu digitale con QR code per ristoranti, bar e locali: aggiornabile in tempo reale, zero costi di stampa. Design coordinato al tuo brand. I clienti scansionano — tu incassi. Nessuna app da installare.",
   },
   {
     icon: Zap,
     title: "Automazione",
     description:
-      "Elimina le attività ripetitive: email, notifiche, sincronizzazioni tra tool. Il sistema lavora da solo — tu ti concentri su ciò che conta davvero.",
+      "Automazione di email, WhatsApp e flussi di lavoro ripetitivi. Notifiche automatiche, follow-up clienti, sincronizzazione tra tool. Il sistema gira da solo — tu elimini gli errori e recuperi ore ogni settimana.",
   },
   {
     icon: Share2,
     title: "Social Media",
     description:
-      "Strategia, contenuti professionali, scheduling e analisi. La tua voce nel digitale, amplificata. Post che fermano lo scroll e portano clienti.",
+      "Gestione social media per freelancer e PMI: strategia mensile, contenuti professionali e report con KPI reali. Post che generano richieste di preventivo — non solo like. Presenza costante senza occupare il tuo tempo.",
   },
   {
     icon: Fingerprint,
     title: "Identità Online",
     description:
-      "Logo, palette, tono di voce e presenza coerente su tutti i canali. Un'identità digitale che si ricorda al primo colpo — e si distingue dalla massa.",
+      "Brand identity digitale completa: logo, palette colori, tono di voce e presenza coordinata su ogni canale. Un'identità che i clienti riconoscono e ricordano — e che ti differenzia dalla concorrenza locale.",
   },
 ];
 
@@ -84,8 +84,8 @@ export default function Services() {
               className="max-w-lg text-base leading-relaxed"
               style={{ color: "rgba(245,240,232,0.52)" }}
             >
-              Sei soluzioni integrate. Ogni risultato misurabile.
-              Nessun tecnicismo — solo crescita reale per la tua attività.
+              Sei soluzioni digitali integrate per freelancer e PMI italiane.
+              Ogni progetto con obiettivo misurabile: più clienti, meno sprechi di tempo, crescita reale.
             </p>
           </div>
         </ScrollReveal>
