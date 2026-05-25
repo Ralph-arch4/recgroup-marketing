@@ -3,8 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://rec.group"),
-  title: "Siti Web e Gestionali su Misura per PMI | rec.group — Agenzia Digitale Catania",
-  description: "Sito web professionale + gestionale personalizzato per freelancer e PMI. Risparmia tempo, aumenta i clienti. Catania e tutta Italia. Preventivo gratuito in 24h.",
+  title: "Sito Web da €700 + Gestionale su Misura | rec.group — Agenzia Digitale Catania",
+  description: "Sito web professionale da €700 e gestionale su misura da €900 senza canone mensile. Automazioni AI che fanno risparmiare 8–15h/settimana. Freelancer e PMI in tutta Italia. Preventivo gratuito in 24h.",
   keywords: [
     "agenzia digitale Catania",
     "sito web professionale freelancer",
@@ -21,12 +21,22 @@ export const metadata: Metadata = {
     "gestionale prenotazioni online",
     "sito web vetrina professionale Catania",
     "rec group Catania",
+    "sito web da 700 euro PMI",
+    "gestionale web senza canone mensile",
+    "automazione AI freelancer Italia",
+    "chatbot AI piccola impresa",
+    "preventivo sito web gratuito 2026",
+    "agenzia digitale Sicilia prezzi",
+    "crescita online PMI 2026",
+    "web agency economica Italia",
+    "integrazioni app azienda automazione",
+    "identità digitale professionista italiano",
   ],
   authors: [{ name: "rec.group" }],
   creator: "rec.group",
   openGraph: {
-    title: "rec.group — Sito Web + Gestionale su Misura per PMI | Catania",
-    description: "Freelancer e PMI: aumenta i clienti, risparmia ore ogni settimana. Siti web professionali, gestionali custom e automazioni digitali. Preventivo gratuito in 24h.",
+    title: "Sito Web da €700 + Gestionale su Misura senza Canoni | rec.group Catania",
+    description: "Smetti di pagare €50–150/mese per software che non usi. Gestionale su misura da €900 una tantum + sito web da €700 con SEO incluso. Automazioni AI, zero canoni mensili. Preventivo gratuito in 24h per freelancer e PMI.",
     type: "website",
     locale: "it_IT",
     siteName: "rec.group",
@@ -34,8 +44,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "rec.group — Sito Web + Gestionale su Misura | Catania",
-    description: "Sito web + gestionale personalizzato per la tua attività. Risparmia tempo, aumenta clienti. Preventivo gratuito in 24h.",
+    title: "Sito Web da €700 + Gestionale su Misura | rec.group Catania",
+    description: "Gestionale personalizzato da €900 senza canone mensile. Sito web da €700 con SEO incluso. Automazioni AI che risparmiano 8–15h/settimana. Preventivo gratuito in 24h.",
   },
   robots: {
     index: true,
