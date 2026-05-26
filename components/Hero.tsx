@@ -45,7 +45,7 @@ export default function Hero() {
           backdropFilter: "blur(8px)",
         }}>
           <span className="w-1.5 h-1.5 rounded-full animate-pulse flex-shrink-0" style={{ background: "#4ade80" }} />
-          Agenzia Digitale PMI · Italia
+          Agenzia Digitale per PMI e Freelancer · Italia
         </div>
 
         {/* Headline — tighter clamp for mobile */}
@@ -53,9 +53,9 @@ export default function Hero() {
           fontSize: "clamp(2.6rem, 8vw, 6.5rem)",
           color: "#F5F0E8",
         }}>
-          Converti il Web
+          Il Web Ti Porta Clienti
           <br />
-          <span className="accent-text">in Fatturato Reale</span>
+          <span className="accent-text">O Li Porta ai Competitor</span>
         </h1>
 
         {/* Subtext — shorter, punchy */}
@@ -63,9 +63,9 @@ export default function Hero() {
           fontSize: "clamp(0.95rem, 2vw, 1.15rem)",
           color: "rgba(245,240,232,0.60)",
         }}>
-          Siti web da €700 che trasformano visitatori in clienti. Gestionali su misura da €900 che tagliano ore di lavoro manuale ogni settimana.
+          Siti web ottimizzati da €700 che trasformano visitatori in clienti paganti. Gestionali su misura da €900 che eliminano 10+ ore di lavoro manuale a settimana.
           <br className="hidden sm:block" />
-          ROI misurabile dal primo mese — non una spesa che dimentichi.
+          ROI verificabile entro 90 giorni — un investimento che si ripaga, non un costo da dimenticare.
         </p>
 
         {/* Service chips — horizontally scrollable on mobile */}
@@ -98,9 +98,9 @@ export default function Hero() {
         {/* Stats — editorial inline style, no heavy box */}
         <div className="flex items-center justify-center gap-0 flex-wrap mt-2">
           {[
-            { value: "4+",  label: "SaaS Live" },
-            { value: "48h", label: "Proposta" },
-            { value: "0€",  label: "Preventivo" },
+            { value: "50+",  label: "Clienti Attivi" },
+            { value: "90gg", label: "ROI Medio" },
+            { value: "0€",   label: "Preventivo" },
           ].map((s, i) => (
             <>
               <div key={s.label} className="flex flex-col items-center px-6 py-4">
@@ -120,7 +120,7 @@ export default function Hero() {
 
         {/* Social proof nudge */}
         <p className="text-xs" style={{ color: "rgba(245,240,232,0.25)" }}>
-          Già scelti da 50+ freelancer e PMI a Catania, Palermo e in tutta Italia · più contatti, meno burocrazia
+          Già operativi con 50+ imprenditori e PMI in Sicilia e in tutta Italia · più clienti, meno lavoro manuale, zero burocrazia
         </p>
 
       </div>
