@@ -1,16 +1,16 @@
 const items = [
-  { icon: "🌐", label: "Siti Web Professionali" },
-  { icon: "⚡", label: "Automazione Processi" },
-  { icon: "📱", label: "Social Media Management" },
-  { icon: "💼", label: "Gestionali Su Misura" },
+  { icon: "🌐", label: "Sito Web PMI Italia" },
+  { icon: "⚡", label: "Automazione Fatturazione" },
+  { icon: "📊", label: "ROI in 4–7 Mesi" },
+  { icon: "💼", label: "Gestionale Su Misura" },
+  { icon: "🤖", label: "AI per Freelancer" },
+  { icon: "🎯", label: "SEO Locale Garantita" },
   { icon: "🍽️", label: "Menu Digitali QR" },
-  { icon: "🎯", label: "Strategia Digitale PMI" },
-  { icon: "🚀", label: "Lancio Startup Digitali" },
+  { icon: "💰", label: "Bonus Transizione 5.0" },
   { icon: "📍", label: "Catania & Tutta Italia" },
-  { icon: "🔗", label: "Integrazioni API" },
-  { icon: "✨", label: "Design Premium" },
-  { icon: "🤖", label: "Intelligenza Artificiale" },
-  { icon: "📊", label: "ROI Misurabile" },
+  { icon: "🔗", label: "CRM Personalizzato" },
+  { icon: "🚀", label: "Lancio Startup Digitali" },
+  { icon: "✨", label: "5M+ Freelancer in Italia" },
 ];
 
 // Doubled for seamless loop

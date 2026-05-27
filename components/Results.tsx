@@ -3,30 +3,30 @@ import { useEffect, useRef, useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 
 const stats = [
-  { value: 50,  suffix: "+", label: "Clienti Soddisfatti",     sub: "freelancer, PMI e startup in tutta Italia" },
-  { value: 3,   suffix: "×", label: "ROI Medio",               sub: "ritorno sull'investimento digitale entro 12 mesi" },
-  { value: 30,  suffix: "%", label: "Risparmio Tempo",         sub: "riduzione media sui processi amministrativi" },
-  { value: 48,  suffix: "h", label: "Preventivo Gratuito",     sub: "risposta garantita, zero burocrazia" },
+  { value: 50,  suffix: "+", label: "Clienti Soddisfatti",     sub: "freelancer, PMI e startup — da Catania a Milano" },
+  { value: 3,   suffix: "×", label: "ROI Medio",               sub: "ritorno sull'investimento raggiunto in 4–7 mesi" },
+  { value: 40,  suffix: "%", label: "Risparmio Tempo",         sub: "riduzione media su fatturazione, preventivi e follow-up" },
+  { value: 48,  suffix: "h", label: "Preventivo Gratuito",     sub: "risposta garantita in 48 h, zero burocrazia" },
 ];
 
 const caseStudies = [
   {
-    category: "Sito Web + SEO",
-    title: "Studio legale, Catania",
+    category: "Sito Web + SEO Locale",
+    title: "Studio Legale — Catania",
     result: "+340% visite organiche in 6 mesi",
-    detail: "Da zero presenza online a prima pagina Google per 12 keyword locali.",
+    detail: "Da zero presenza online a prima pagina Google per 12 keyword locali. Investimento: 2.800 € · ROI recuperato in 5 mesi.",
   },
   {
     category: "Gestionale Su Misura",
-    title: "Consulente HR freelancer",
-    result: "8 ore/settimana risparmiate",
-    detail: "Automazione preventivi, contratti e fatturazione: da manuale a un click.",
+    title: "Consulente HR — Freelancer",
+    result: "10 ore/settimana risparmiate",
+    detail: "Automazione preventivi, contratti e fatturazione elettronica: da 3 ore di lavoro manuale a un click. Nessun abbonamento SaaS.",
   },
   {
-    category: "Automazione Processi",
-    title: "Agenzia immobiliare, PMI",
-    result: "−60% tempo gestione lead",
-    detail: "CRM personalizzato con notifiche automatiche e follow-up via WhatsApp.",
+    category: "Automazione & CRM",
+    title: "Agenzia Immobiliare — PMI",
+    result: "−65% tempo gestione lead",
+    detail: "CRM personalizzato con scoring automatico dei lead, follow-up WhatsApp e report settimanale. Chiusure +28% in 90 giorni.",
   },
 ];
 
@@ -147,13 +147,13 @@ export default function Results() {
               style={{ fontSize: "clamp(2rem, 4vw, 3rem)", color: "var(--ivory)" }}
             >
               Numeri reali.{" "}
-              <span className="accent-text">Clienti reali.</span>
+              <span className="accent-text">Risultati reali.</span>
             </h2>
             <p
               className="mt-4 text-sm sm:text-base max-w-xl"
               style={{ color: "rgba(245,240,232,0.55)" }}
             >
-              Siti web professionali, gestionali su misura e automazioni per freelancer e PMI italiane — con ROI misurabile e zero sprechi di tempo.
+              Siti web professionali, gestionali su misura e automazioni per i 5 milioni di freelancer e PMI italiane — ROI misurabile in 4–7 mesi, zero abbonamenti nascosti.
             </p>
           </div>
         </ScrollReveal>
@@ -169,7 +169,7 @@ export default function Results() {
             className="mt-10 text-center text-xs tracking-[0.12em] uppercase"
             style={{ color: "rgba(201,168,76,0.5)" }}
           >
-            ROI misurabile entro 12 mesi&nbsp;&middot;&nbsp;Automazione processi PMI&nbsp;&middot;&nbsp;Sito web professionale Italia&nbsp;&middot;&nbsp;Zero ritardi
+            ROI in 4–7 mesi&nbsp;&middot;&nbsp;Sito web PMI Italia&nbsp;&middot;&nbsp;Gestionale su misura piccola impresa&nbsp;&middot;&nbsp;Automazione fatturazione freelancer&nbsp;&middot;&nbsp;Bonus Transizione 5.0
           </p>
         </ScrollReveal>
 
