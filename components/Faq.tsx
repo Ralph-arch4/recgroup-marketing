@@ -13,12 +13,24 @@ const faqs = [
     a: "I software generici come TeamSystem o SAP costano 50–150€/mese per utente — e paghi funzioni che non usi mai. Il nostro gestionale su misura parte da €900 una tantum, costruito esatto per il tuo flusso di lavoro. In media le PMI italiane recuperano l'investimento in 6–12 mesi grazie al tempo risparmiato.",
   },
   {
+    q: "Uso ancora Excel e WhatsApp per gestire clienti e ordini: vale la pena passare a un gestionale?",
+    a: "Oltre il 60% delle PMI italiane gestisce ancora processi critici con fogli Excel, email e carta — dati MISE 2026. Il problema non è Excel in sé: è il tempo che ci butti ogni giorno. Copiare dati tra fogli, cercare la versione giusta del file, perdere un ordine in mezzo a cento messaggi WhatsApp. Un gestionale su misura centralizza tutto in un unico pannello: clienti, ordini, fatturazione, appuntamenti, report. Il passaggio richiede 2–3 settimane di setup e una sessione di formazione. Dopo, il flusso che gestivi in 3 ore lo sbrighi in 20 minuti — e zero errori da copia-incolla.",
+  },
+  {
+    q: "Il gestionale include anche la fatturazione elettronica SDI obbligatoria?",
+    a: "Sì, se richiesta. Integriamo il modulo di fatturazione elettronica SDI direttamente nel gestionale: emetti, invii e archivi fatture B2B e PA senza uscire dal pannello. Niente abbonamento a software terzi come Fatture in Cloud o Aruba — tutto nel tuo gestionale personalizzato. Per le PMI con volume elevato di fatture attive e passive, l'integrazione SDI nativa fa risparmiare 2–5 ore a settimana di lavoro amministrativo.",
+  },
+  {
     q: "Quanto tempo si risparmia davvero con l'automazione dei processi?",
     a: "Le PMI italiane risparmiano mediamente 8–15 ore a settimana per dipendente dopo aver automatizzato fatturazione, solleciti pagamenti, gestione appuntamenti e report. Per un freelancer o un piccolo studio, significa recuperare 2–4 giorni interi al mese — tempo che puoi rivendere ai clienti.",
   },
   {
     q: "Le PMI possono accedere agli incentivi fiscali Transizione 5.0?",
     a: "Sì. Il piano Transizione 5.0 del MIMIT copre fino al 45% degli investimenti in beni digitali per le PMI italiane — siti web, gestionali e automazioni compresi. Un progetto da €2.000 può costarne effettivamente €1.100. Ti aiutiamo a capire cosa spetta alla tua impresa prima ancora di iniziare.",
+  },
+  {
+    q: "Come proteggo il sito e i dati della mia impresa dagli attacchi informatici?",
+    a: "Nel 2026 gli attacchi informatici alle PMI italiane sono aumentati del 65% rispetto al 2023 — e ripristinare un sito hackerato costa in media 5–10 volte di più rispetto a proteggerlo in anticipo. Ogni sito che realizziamo parte già sicuro: HTTPS obbligatorio, certificato SSL, backup giornaliero automatico, monitoraggio uptime e aggiornamenti di sicurezza inclusi. Per le PMI che vogliono proteggersi ulteriormente, il Voucher Cybersecurity PMI 2026 del MIMIT copre il 50% dei costi fino a €10.000 — firewall avanzati, protezione da malware, formazione del personale. Ti aiutiamo a fare richiesta.",
   },
   {
     q: "Quanto tempo ci vuole per avere un sito web operativo?",
@@ -75,6 +87,10 @@ const faqs = [
   {
     q: "Come faccio a sapere se il sito web sta portando clienti reali?",
     a: "Installiamo Google Analytics 4 e Google Search Console su ogni sito che realizziamo: vedi quante persone visitano il sito, da quali parole chiave arrivano su Google, quante compilano il modulo di contatto e quale pagina converte di più. I primi 3 mesi ti inviamo un report mensile con i dati chiave — così puoi misurare il ROI esatto del tuo investimento e capire cosa ottimizzare per crescere ulteriormente.",
+  },
+  {
+    q: "Ho bisogno di un CRM separato, o il gestionale copre già la gestione dei clienti?",
+    a: "Per la maggior parte delle PMI italiane — studi professionali, agenzie, artigiani, consulenti — un gestionale su misura con modulo clienti integrato è più che sufficiente: storico acquisti, note, comunicazioni, scadenze e fatturazione in un unico pannello. Un CRM dedicato come HubSpot o Salesforce ha senso da 10+ commerciali in poi, e costa 50–150€/mese per utente — spesso per funzionalità che una piccola impresa non userà mai. Il nostro gestionale personalizzato copre l'80% delle funzioni CRM a un costo una tantum: zero abbonamenti mensili, zero vendor lock-in.",
   },
   {
     q: "Come si inizia a lavorare con RecGroup?",
