@@ -1,4 +1,4 @@
-const services = ["Siti Web", "Gestionali SaaS", "SEO & Ads", "Automazione AI", "Brand Identity"];
+const services = ["Siti Web Professionali", "Software Gestionale", "SEO & Google Ads", "Automazione AI", "E-commerce", "Brand Identity"];
 
 export default function Hero() {
   return (
@@ -45,7 +45,7 @@ export default function Hero() {
           backdropFilter: "blur(8px)",
         }}>
           <span className="w-1.5 h-1.5 rounded-full animate-pulse flex-shrink-0" style={{ background: "#4ade80" }} />
-          Agenzia Digitale per PMI e Freelancer · Italia
+          Siti Web · Gestionali Cloud · Automazioni AI · PMI Italia
         </div>
 
         {/* Headline — tighter clamp for mobile */}
@@ -55,7 +55,7 @@ export default function Hero() {
         }}>
           Il Web Ti Porta Clienti
           <br />
-          <span className="accent-text">O Li Porta ai Competitor</span>
+          <span className="accent-text">O Li Lascia ai Competitor</span>
         </h1>
 
         {/* Subtext — shorter, punchy */}
@@ -63,9 +63,9 @@ export default function Hero() {
           fontSize: "clamp(0.95rem, 2vw, 1.15rem)",
           color: "rgba(245,240,232,0.60)",
         }}>
-          Siti web ottimizzati da €700 che trasformano visitatori in clienti paganti. Gestionali su misura da €900 che eliminano 10+ ore di lavoro manuale a settimana.
+          Sito web professionale con SEO incluso da €700 — visibile su Google, ottimizzato per convertire visitatori in clienti paganti. Software gestionale personalizzato da €900 — automatizza fatturazione, CRM e agenda liberando 10+ ore a settimana.
           <br className="hidden sm:block" />
-          ROI verificabile entro 90 giorni — un investimento che si ripaga, non un costo da dimenticare.
+          ROI misurabile entro 90 giorni. Per freelancer e PMI italiane che vogliono crescere senza sprecare budget.
         </p>
 
         {/* Service chips — horizontally scrollable on mobile */}
@@ -99,7 +99,7 @@ export default function Hero() {
         <div className="flex items-center justify-center gap-0 flex-wrap mt-2">
           {[
             { value: "50+",  label: "Clienti Attivi" },
-            { value: "90gg", label: "ROI Medio" },
+            { value: "90gg", label: "ROI Garantito" },
             { value: "0€",   label: "Preventivo" },
           ].map((s, i) => (
             <>
@@ -120,7 +120,7 @@ export default function Hero() {
 
         {/* Social proof nudge */}
         <p className="text-xs" style={{ color: "rgba(245,240,232,0.25)" }}>
-          Già operativi con 50+ imprenditori e PMI in Sicilia e in tutta Italia · più clienti, meno lavoro manuale, zero burocrazia
+          Già scelti da 50+ freelancer e PMI italiane · sito web professionale, software gestionale cloud, automazioni AI · nessun costo nascosto
         </p>
 
       </div>
