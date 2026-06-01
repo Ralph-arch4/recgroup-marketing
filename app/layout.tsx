@@ -3,8 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://rec.group"),
-  title: "Sito Web da €700 + Gestionale su Misura | rec.group — Agenzia Digitale Catania",
-  description: "Sito web professionale da €700 e gestionale su misura da €900 senza canone mensile. Automazioni AI che fanno risparmiare 8–15h/settimana. Freelancer e PMI in tutta Italia. Preventivo gratuito in 24h.",
+  title: "Sito Web da €700 per PMI e Freelancer | Metà Prezzo di Mercato — rec.group Catania",
+  description: "Sito web professionale da €700 — metà del prezzo medio di mercato (€1.500–4.000). Gestionale su misura da €900 senza canone mensile. Automazioni AI che risparmiano 8–15h/settimana. Preventivo gratuito in 24h. Freelancer e PMI in tutta Italia.",
   keywords: [
     "agenzia digitale Catania",
     "sito web professionale freelancer",
@@ -31,12 +31,21 @@ export const metadata: Metadata = {
     "web agency economica Italia",
     "integrazioni app azienda automazione",
     "identità digitale professionista italiano",
+    "quanto costa un sito web 2026",
+    "quanto costa realizzare un sito web PMI",
+    "realizzare sito web prezzi 2026 Italia",
+    "sito web a basso costo qualità professionale",
+    "web agency senza canone mensile",
+    "costo gestionale personalizzato PMI",
+    "agenzia web preventivo online gratuito",
+    "sito web professionale economico Italia",
+    "metà prezzo sito web professionale",
   ],
   authors: [{ name: "rec.group" }],
   creator: "rec.group",
   openGraph: {
-    title: "Sito Web da €700 + Gestionale su Misura senza Canoni | rec.group Catania",
-    description: "Smetti di pagare €50–150/mese per software che non usi. Gestionale su misura da €900 una tantum + sito web da €700 con SEO incluso. Automazioni AI, zero canoni mensili. Preventivo gratuito in 24h per freelancer e PMI.",
+    title: "Sito Web da €700 per PMI — Metà Prezzo di Mercato | rec.group Catania",
+    description: "Il mercato italiano chiede €1.500–4.000 per un sito vetrina. Noi partiamo da €700, SEO incluso. Gestionale personalizzato da €900 una tantum — zero canoni. Automazioni AI che risparmiano 8–15h/settimana. Preventivo gratuito in 24h.",
     type: "website",
     locale: "it_IT",
     siteName: "rec.group",
@@ -44,8 +53,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sito Web da €700 + Gestionale su Misura | rec.group Catania",
-    description: "Gestionale personalizzato da €900 senza canone mensile. Sito web da €700 con SEO incluso. Automazioni AI che risparmiano 8–15h/settimana. Preventivo gratuito in 24h.",
+    title: "Sito Web da €700 per PMI — Metà Prezzo di Mercato | rec.group Catania",
+    description: "Sito vetrina da €700 (media mercato: €1.500–4.000). Gestionale su misura da €900 senza canone. Automazioni AI che risparmiano 8–15h/settimana. Preventivo gratuito in 24h.",
   },
   robots: {
     index: true,
