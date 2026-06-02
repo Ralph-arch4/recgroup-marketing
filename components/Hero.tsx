@@ -45,7 +45,7 @@ export default function Hero() {
           backdropFilter: "blur(8px)",
         }}>
           <span className="w-1.5 h-1.5 rounded-full animate-pulse flex-shrink-0" style={{ background: "#4ade80" }} />
-          Siti Web · Gestionali Cloud · Automazioni AI · PMI Italia
+          Siti Web · Gestionali Cloud · Automazioni AI · Transizione 5.0 Ammissibile
         </div>
 
         {/* Headline — tighter clamp for mobile */}
@@ -53,9 +53,9 @@ export default function Hero() {
           fontSize: "clamp(2.6rem, 8vw, 6.5rem)",
           color: "#F5F0E8",
         }}>
-          Il Web Ti Porta Clienti
+          Più Clienti, Meno Lavoro:
           <br />
-          <span className="accent-text">O Li Lascia ai Competitor</span>
+          <span className="accent-text">ROI Misurabile in 90 Giorni.</span>
         </h1>
 
         {/* Subtext — shorter, punchy */}
@@ -63,9 +63,9 @@ export default function Hero() {
           fontSize: "clamp(0.95rem, 2vw, 1.15rem)",
           color: "rgba(245,240,232,0.60)",
         }}>
-          Sito web professionale con SEO incluso da €700 — visibile su Google, ottimizzato per convertire visitatori in clienti paganti. Software gestionale personalizzato da €900 — automatizza fatturazione, CRM e agenda liberando 10+ ore a settimana.
+          Sito web professionale da €700, SEO incluso — visibile su Google e ottimizzato per convertire visitatori in clienti paganti. Software gestionale su misura da €900 — automatizza fatturazione, CRM e appuntamenti, elimina il lavoro manuale ripetitivo e ti restituisce 10+ ore ogni settimana.
           <br className="hidden sm:block" />
-          ROI misurabile entro 90 giorni. Per freelancer e PMI italiane che vogliono crescere senza sprecare budget.
+          Potenzialmente finanziabile con Transizione 5.0 (fino al 45% rimborsato). Per freelancer e PMI italiane pronte a crescere davvero.
         </p>
 
         {/* Service chips — horizontally scrollable on mobile */}
@@ -100,7 +100,7 @@ export default function Hero() {
           {[
             { value: "50+",  label: "Clienti Attivi" },
             { value: "90gg", label: "ROI Garantito" },
-            { value: "0€",   label: "Preventivo" },
+            { value: "45%",  label: "Transizione 5.0" },
           ].map((s, i) => (
             <>
               <div key={s.label} className="flex flex-col items-center px-6 py-4">
@@ -120,7 +120,7 @@ export default function Hero() {
 
         {/* Social proof nudge */}
         <p className="text-xs" style={{ color: "rgba(245,240,232,0.25)" }}>
-          Già scelti da 50+ freelancer e PMI italiane · sito web professionale, software gestionale cloud, automazioni AI · nessun costo nascosto
+          Già scelti da 50+ freelancer e PMI italiane · sito web professionale SEO, software gestionale su misura, automazioni AI · Transizione 5.0 ammissibile · nessun costo nascosto
         </p>
 
       </div>
