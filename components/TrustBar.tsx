@@ -4,13 +4,13 @@ const items = [
   { icon: "📊", label: "ROI in 4–7 Mesi" },
   { icon: "💼", label: "Gestionale Su Misura" },
   { icon: "🤖", label: "AI per Freelancer" },
-  { icon: "🎯", label: "SEO Locale Garantita" },
+  { icon: "🎯", label: "Prima Pagina Google" },
   { icon: "🍽️", label: "Menu Digitali QR" },
   { icon: "💰", label: "Bonus Transizione 5.0" },
-  { icon: "📍", label: "Catania & Tutta Italia" },
+  { icon: "📍", label: "Catania · Milano · Roma" },
   { icon: "🔗", label: "CRM Personalizzato" },
-  { icon: "🚀", label: "Lancio Startup Digitali" },
-  { icon: "✨", label: "5M+ Freelancer in Italia" },
+  { icon: "🚀", label: "Lancio Sito in 7 Giorni" },
+  { icon: "✨", label: "300K+ Freelancer Digitali" },
 ];
 
 // Doubled for seamless loop

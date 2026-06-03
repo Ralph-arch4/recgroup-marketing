@@ -3,10 +3,10 @@ import { useEffect, useRef, useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 
 const stats = [
-  { value: 50,  suffix: "+", label: "Clienti Soddisfatti",     sub: "freelancer, PMI e startup — da Catania a Milano" },
-  { value: 3,   suffix: "×", label: "ROI Medio",               sub: "ritorno sull'investimento raggiunto in 4–7 mesi" },
-  { value: 40,  suffix: "%", label: "Risparmio Tempo",         sub: "riduzione media su fatturazione, preventivi e follow-up" },
-  { value: 48,  suffix: "h", label: "Preventivo Gratuito",     sub: "risposta garantita in 48 h, zero burocrazia" },
+  { value: 50,  suffix: "+", label: "Clienti Soddisfatti",     sub: "freelancer, PMI e startup — da Catania a Milano, Roma, Torino" },
+  { value: 3,   suffix: "×", label: "ROI Medio",               sub: "ritorno sull'investimento in 4–7 mesi — media italiana: 12+ mesi" },
+  { value: 40,  suffix: "%", label: "Risparmio Tempo",         sub: "riduzione su fatturazione elettronica, preventivi, CRM e follow-up" },
+  { value: 48,  suffix: "h", label: "Risposta Garantita",      sub: "preventivo gratuito in 48 h — nessun costo nascosto, mai" },
 ];
 
 const caseStudies = [
@@ -14,19 +14,19 @@ const caseStudies = [
     category: "Sito Web + SEO Locale",
     title: "Studio Legale — Catania",
     result: "+340% visite organiche in 6 mesi",
-    detail: "Da zero presenza online a prima pagina Google per 12 keyword locali. Investimento: 2.800 € · ROI recuperato in 5 mesi.",
+    detail: "Da zero presenza online a prima pagina Google per 12 keyword locali. Investimento da 2.800 € — costo recuperato in 5 mesi grazie a +340% di richieste organiche.",
   },
   {
     category: "Gestionale Su Misura",
     title: "Consulente HR — Freelancer",
     result: "10 ore/settimana risparmiate",
-    detail: "Automazione preventivi, contratti e fatturazione elettronica: da 3 ore di lavoro manuale a un click. Nessun abbonamento SaaS.",
+    detail: "Gestionale su misura con automazione preventivi, contratti e fatturazione elettronica: da 3 ore manuali a un click. Nessun canone SaaS mensile — proprietà totale del software.",
   },
   {
     category: "Automazione & CRM",
     title: "Agenzia Immobiliare — PMI",
     result: "−65% tempo gestione lead",
-    detail: "CRM personalizzato con scoring automatico dei lead, follow-up WhatsApp e report settimanale. Chiusure +28% in 90 giorni.",
+    detail: "CRM personalizzato con scoring automatico dei lead, follow-up WhatsApp e report settimanale. Chiusure contratti +28% in 90 giorni. Agevolabile con Bonus Transizione 5.0.",
   },
 ];
 
@@ -153,7 +153,7 @@ export default function Results() {
               className="mt-4 text-sm sm:text-base max-w-xl"
               style={{ color: "rgba(245,240,232,0.55)" }}
             >
-              Siti web professionali, gestionali su misura e automazioni per i 5 milioni di freelancer e PMI italiane — ROI misurabile in 4–7 mesi, zero abbonamenti nascosti.
+              Il 58% delle PMI italiane ha già un sito web, ma solo il 21% lo usa per vendere (ISTAT 2024). Noi costruiamo la tua presenza digitale per stare nel 21% — ROI misurabile in 4–7 mesi, zero abbonamenti nascosti.
             </p>
           </div>
         </ScrollReveal>
@@ -169,7 +169,7 @@ export default function Results() {
             className="mt-10 text-center text-xs tracking-[0.12em] uppercase"
             style={{ color: "rgba(201,168,76,0.5)" }}
           >
-            ROI in 4–7 mesi&nbsp;&middot;&nbsp;Sito web PMI Italia&nbsp;&middot;&nbsp;Gestionale su misura piccola impresa&nbsp;&middot;&nbsp;Automazione fatturazione freelancer&nbsp;&middot;&nbsp;Bonus Transizione 5.0
+            ROI in 4–7 mesi&nbsp;&middot;&nbsp;Sito web PMI Italia&nbsp;&middot;&nbsp;Gestionale su misura piccola impresa&nbsp;&middot;&nbsp;Automazione fatturazione freelancer&nbsp;&middot;&nbsp;CRM personalizzato freelancer&nbsp;&middot;&nbsp;Prima pagina Google PMI&nbsp;&middot;&nbsp;Agenzia digitale Sud Italia&nbsp;&middot;&nbsp;Bonus Transizione 5.0
           </p>
         </ScrollReveal>
 
