@@ -83,11 +83,21 @@ const jsonLd = {
         "Siti web professionali, gestionali su misura e automazioni digitali per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       inLanguage: "it-IT",
       publisher: { "@id": "https://rec.group/#organization" },
-      potentialAction: {
-        "@type": "ContactAction",
-        target: "https://rec.group/#contatti",
-        name: "Richiedi Preventivo Gratuito in 24h",
-      },
+      potentialAction: [
+        {
+          "@type": "ContactAction",
+          target: "https://rec.group/#contatti",
+          name: "Richiedi Preventivo Gratuito in 24h",
+        },
+        {
+          "@type": "SearchAction",
+          target: {
+            "@type": "EntryPoint",
+            urlTemplate: "https://rec.group/?q={search_term_string}",
+          },
+          "query-input": "required name=search_term_string",
+        },
+      ],
     },
     {
       "@type": "Organization",
@@ -296,6 +306,14 @@ const jsonLd = {
         "web app personalizzata piccola impresa",
         "consulenza digitale PMI Catania Sicilia",
       ],
+      makesOffer: [
+        { "@id": "https://rec.group/#service-sito-web" },
+        { "@id": "https://rec.group/#service-gestionale" },
+        { "@id": "https://rec.group/#service-social" },
+        { "@id": "https://rec.group/#service-automazione" },
+        { "@id": "https://rec.group/#service-ecommerce" },
+        { "@id": "https://rec.group/#service-menu" },
+      ],
       parentOrganization: { "@id": "https://rec.group/#organization" },
     },
     {
@@ -481,6 +499,30 @@ const jsonLd = {
         availability: "https://schema.org/InStock",
         description: "Gestionale personalizzato una tantum — nessun canone mensile",
         seller: { "@id": "https://rec.group/#organization" },
+      },
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://rec.group/#webpage",
+      url: "https://rec.group",
+      name: "Sito Web da €700 per PMI e Freelancer | rec.group Catania",
+      isPartOf: { "@id": "https://rec.group/#website" },
+      about: { "@id": "https://rec.group/#organization" },
+      primaryImageOfPage: {
+        "@type": "ImageObject",
+        url: "https://rec.group/og-image.png",
+        width: 1200,
+        height: 630,
+      },
+      datePublished: "2024-01-01",
+      dateModified: "2026-06-04",
+      description:
+        "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
+      breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
+      inLanguage: "it-IT",
+      potentialAction: {
+        "@type": "ReadAction",
+        target: ["https://rec.group"],
       },
     },
     {
