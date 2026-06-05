@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: "Il sito web include l'ottimizzazione SEO per Google?",
-    a: "Sì, sempre. Ogni sito parte già ottimizzato: struttura semantica, meta tag, Core Web Vitals, mobile-first e velocità di caricamento. Non è un extra a pagamento — è il minimo per comparire su Google e portare traffico organico nel tempo.",
+    a: "Sì, sempre. Ogni sito parte già ottimizzato per il posizionamento su Google: struttura semantica HTML, meta tag descrittivi, Core Web Vitals nella fascia verde, design mobile-first e velocità di caricamento sotto i 2 secondi. Integriamo anche la sitemap XML, i dati strutturati Schema.org e l'ottimizzazione delle immagini per la ricerca visiva. Non è un extra a pagamento — è il minimo indispensabile per comparire nei risultati di ricerca e portare traffico organico qualificato senza pagare pubblicità ogni mese.",
   },
   {
     q: "Posso gestire il sito da solo dopo la consegna?",
@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     q: "Come posso acquisire clienti online con un budget limitato?",
-    a: "Il percorso più efficiente per un freelancer o una piccola impresa: (1) sito ottimizzato SEO — porta contatti organici 24 ore su 24 senza pubblicità; (2) scheda Google Business aggiornata per il mercato locale; (3) automazione email per convertire i lead. Da €700 hai già tutto il necessario per smettere di dipendere dal passaparola.",
+    a: "Il percorso più efficiente per un freelancer o una piccola impresa: (1) sito web ottimizzato SEO — porta lead organici 24 ore su 24 senza costo per click; (2) scheda Google Business Profile aggiornata con foto, orari e recensioni — fondamentale per la lead generation locale; (3) automazione email per convertire i contatti in clienti senza lavoro manuale; (4) landing page dedicata se vuoi testare campagne a pagamento su un'offerta specifica. Da €700 hai sito, SEO di base e modulo di contatto ottimizzato — tutto il necessario per smettere di dipendere dal passaparola e iniziare ad acquisire clienti qualificati online.",
   },
   {
     q: "Cosa si intende per soluzione digitale su misura per una PMI?",
@@ -87,6 +87,18 @@ const faqs = [
   {
     q: "Come faccio a sapere se il sito web sta portando clienti reali?",
     a: "Installiamo Google Analytics 4 e Google Search Console su ogni sito che realizziamo: vedi quante persone visitano il sito, da quali parole chiave arrivano su Google, quante compilano il modulo di contatto e quale pagina converte di più. I primi 3 mesi ti inviamo un report mensile con i dati chiave — così puoi misurare il ROI esatto del tuo investimento e capire cosa ottimizzare per crescere ulteriormente.",
+  },
+  {
+    q: "È meglio una landing page o un sito web completo per acquisire clienti?",
+    a: "Dipende dall'obiettivo. Una landing page è una singola pagina ottimizzata per una conversione specifica — preventivo, iscrizione, acquisto — ed è la scelta giusta per campagne Google Ads o Meta Ads dove ogni click ha un costo. Un sito web completo costruisce credibilità nel tempo, si posiziona su Google con più keyword e funziona 24 ore su 24 senza pubblicità a pagamento. Per un freelancer o una PMI che parte da zero: il sito web porta traffico organico a lungo termine, la landing page massimizza una campagna specifica. Con RecGroup puoi averli entrambi: landing page da €400, sito vetrina da €700 — usati insieme moltiplicano i risultati.",
+  },
+  {
+    q: "Si può automatizzare WhatsApp Business per rispondere ai clienti e inviare preventivi?",
+    a: "Sì. Nel 2026, WhatsApp Business API permette di automatizzare il 70–80% delle risposte ricorrenti — orari, prezzi, preventivi, conferme appuntamento — senza un operatore presente. Per una PMI significa rispondere ai clienti alle 2 di notte, recuperare lead che non aspettano e ridurre il carico sul personale. Integriamo le automazioni WhatsApp direttamente nel tuo gestionale o sito: quando arriva una richiesta, il sistema risponde, raccoglie i dati e li carica nel pannello clienti. Il costo di setup parte da €500 — meno di un mese di risposte manuali perse.",
+  },
+  {
+    q: "Ho già un sito vecchio e lento: conviene rifarlo o aggiornarlo?",
+    a: "Se il tuo sito ha più di 3 anni, probabilmente costa più tenerlo in vita che rifarlo. I segnali che è ora di agire: Core Web Vitals insufficienti (Google ti penalizza nel posizionamento), struttura non mobile-first, zero conversioni da visitatori a contatti. Aggiornare un sito vecchio con patch e restyling costa il 60–80% di un sito nuovo — con risultati incerti e vita residua breve. Un sito nuovo con RecGroup parte da €700, include SEO tecnico, Core Web Vitals ottimizzati e design responsive da zero. La prima sessione è gratuita: valutiamo insieme cosa conviene fare.",
   },
   {
     q: "Ho bisogno di un CRM separato, o il gestionale copre già la gestione dei clienti?",
