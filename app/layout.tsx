@@ -402,6 +402,22 @@ const jsonLd = {
         },
         {
           "@type": "Question",
+          name: "Come ottenere più recensioni su Google Maps per far crescere la mia attività locale?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "L'81% dei consumatori italiani legge le recensioni Google prima di contattare un'attività locale — e Google Maps usa le recensioni come segnale di ranking diretto: più recensioni recenti e dettagliate hai, più alta è la probabilità di comparire nel 'local pack'. Cosa funziona nel 2026: chiedi la recensione subito dopo la consegna; invia un link diretto al profilo Google Business Profile via WhatsApp o email; invita il cliente a descrivere il problema risolto, non solo a dare stelle. Con le nostre automazioni WhatsApp Business, la richiesta viene inviata automaticamente 24 ore dopo ogni lavoro completato. Risultato tipico: +15–30 recensioni nei primi 90 giorni, con impatto misurabile sul posizionamento locale.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Google Ads o SEO: cosa conviene di più per una PMI italiana con budget limitato?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Google Ads porta lead in 24 ore ma smette non appena smetti di pagare — costo medio per click in Italia: €0,50–3,00, budget minimo efficace: €300–500/mese per una PMI locale. SEO porta traffico organico gratuito ma richiede 3–6 mesi per i primi risultati con un ROI a lungo termine superiore al 700%. Per una PMI con budget limitato: sito ottimizzato SEO come base permanente (incluso in ogni nostro progetto), Google Ads solo su campagne ad alto margine. Se hai bisogno di contatti entro 30 giorni parti con gli Ads; se vuoi costruire traffico qualificato nel tempo senza pagare per ogni click, investi nel SEO prima.",
+          },
+        },
+        {
+          "@type": "Question",
           name: "Lavorate solo a Catania o in tutta Italia?",
           acceptedAnswer: {
             "@type": "Answer",
@@ -515,7 +531,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-06-04",
+      dateModified: "2026-06-06",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },

@@ -61,6 +61,10 @@ const faqs = [
     a: "Il percorso più efficiente per un freelancer o una piccola impresa: (1) sito web ottimizzato SEO — porta lead organici 24 ore su 24 senza costo per click; (2) scheda Google Business Profile aggiornata con foto, orari e recensioni — fondamentale per la lead generation locale; (3) automazione email per convertire i contatti in clienti senza lavoro manuale; (4) landing page dedicata se vuoi testare campagne a pagamento su un'offerta specifica. Da €700 hai sito, SEO di base e modulo di contatto ottimizzato — tutto il necessario per smettere di dipendere dal passaparola e iniziare ad acquisire clienti qualificati online.",
   },
   {
+    q: "Come ottenere più recensioni su Google Maps per far crescere la mia attività locale?",
+    a: "L'81% dei consumatori italiani legge le recensioni Google prima di contattare un'attività locale — e Google Maps usa le recensioni come segnale di ranking diretto: più recensioni recenti e dettagliate hai, più alta è la probabilità di comparire nel 'local pack' (i 3 risultati in cima alla ricerca). Cosa funziona nel 2026: (1) chiedi la recensione subito dopo la consegna, nel momento di massima soddisfazione; (2) invia un link diretto al profilo Google Business Profile via WhatsApp o email — riduce il tasso di abbandono dell'80%; (3) invita il cliente a descrivere il problema risolto, non solo a dare stelle: le recensioni generiche pesano meno nell'algoritmo rispetto a quelle contestuali. Con le nostre automazioni WhatsApp Business, la richiesta viene inviata automaticamente 24 ore dopo ogni lavoro completato. Risultato tipico: +15–30 recensioni nei primi 90 giorni, con impatto misurabile sul posizionamento locale.",
+  },
+  {
     q: "Cosa si intende per soluzione digitale su misura per una PMI?",
     a: "Una soluzione su misura è costruita sul tuo flusso di lavoro reale — non su quello generico di qualsiasi PMI. Significa: sito con i tuoi servizi e il tuo target, gestionale con i tuoi processi (prenotazioni, magazzino, fatturazione, report), automazioni tarate sulle tue priorità. Zero funzioni inutili, zero abbonamenti per strumenti che non usi.",
   },
@@ -79,6 +83,10 @@ const faqs = [
   {
     q: "Basta Instagram e Facebook per trovare clienti, o serve anche un sito web?",
     a: "I social danno visibilità — ma non ti appartengono. L'algoritmo cambia senza preavviso, l'account può essere sospeso, la portata organica cala ogni anno. Il sito web è tuo: indicizzato su Google, attivo 24 ore su 24, raccoglie contatti qualificati anche mentre dormi. La strategia che funziona nel 2026: sito come hub centrale (SEO, credibilità, conversioni) + social come amplificatore di traffico verso il sito. Senza sito, stai costruendo su terreno affittato.",
+  },
+  {
+    q: "Google Ads o SEO: cosa conviene di più per una PMI italiana con budget limitato?",
+    a: "Timing diverso, ROI diverso. Google Ads porta lead in 24 ore ma smette non appena smetti di pagare — costo medio per click in Italia: €0,50–3,00 per keyword commerciali, budget minimo efficace: €300–500/mese per una PMI locale. SEO porta traffico organico gratuito ma richiede 3–6 mesi per i primi risultati: il ROI a lungo termine supera il 700% contro il 200% degli Ads. Chi ha investito €2.000–3.000/mese in Ads per 12 mesi parallelamente al SEO ha poi ridotto il budget pubblicitario del 60–70% mantenendo lo stesso volume di lead. Per una PMI o un freelancer che parte da zero: (1) sito già ottimizzato SEO come base permanente — incluso in ogni nostro progetto; (2) Google Ads solo su campagne ad alto margine o per testare nuovi servizi. La regola pratica: se hai bisogno di contatti entro 30 giorni parti con gli Ads; se vuoi costruire traffico qualificato nel tempo senza pagare per ogni click, investi nel SEO prima.",
   },
   {
     q: "Quanto costano hosting e manutenzione del sito ogni anno?",
