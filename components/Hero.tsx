@@ -1,4 +1,4 @@
-const services = ["Siti Web Professionali", "Software Gestionale", "SEO & Google Ads", "Automazione AI", "E-commerce", "Brand Identity"];
+const services = ["Sito Web da €700", "Gestionale da €900", "SEO & Google Ads", "Automazione AI", "E-commerce Professionale", "Brand Identity"];
 
 export default function Hero() {
   return (
@@ -45,7 +45,7 @@ export default function Hero() {
           backdropFilter: "blur(8px)",
         }}>
           <span className="w-1.5 h-1.5 rounded-full animate-pulse flex-shrink-0" style={{ background: "#4ade80" }} />
-          Siti Web · Gestionali Cloud · Automazioni AI · Transizione 5.0 Ammissibile
+          Sito Web da €700 · Gestionale da €900 · AI Automation · Transizione 5.0 fino al 45%
         </div>
 
         {/* Headline — tighter clamp for mobile */}
@@ -53,9 +53,9 @@ export default function Hero() {
           fontSize: "clamp(2.6rem, 8vw, 6.5rem)",
           color: "#F5F0E8",
         }}>
-          Più Clienti, Meno Lavoro:
+          Ogni Giorno Senza Sito Web Ti Costa Clienti —
           <br />
-          <span className="accent-text">ROI Misurabile in 90 Giorni.</span>
+          <span className="accent-text">Noi lo Lanciamo in 30 Giorni, ROI Garantito.</span>
         </h1>
 
         {/* Subtext — shorter, punchy */}
@@ -63,9 +63,9 @@ export default function Hero() {
           fontSize: "clamp(0.95rem, 2vw, 1.15rem)",
           color: "rgba(245,240,232,0.60)",
         }}>
-          Sito web professionale da €700, SEO incluso — visibile su Google e ottimizzato per convertire visitatori in clienti paganti. Software gestionale su misura da €900 — automatizza fatturazione, CRM e appuntamenti, elimina il lavoro manuale ripetitivo e ti restituisce 10+ ore ogni settimana.
+          <strong style={{ color: "rgba(245,240,232,0.85)", fontWeight: 600 }}>Sito web professionale con SEO da €700</strong> — visibile su Google in 30 giorni, costruito per convertire visitatori in clienti paganti. I nostri clienti guadagnano in media <strong style={{ color: "#C9A84C" }}>+40% di nuovi lead</strong> nei primi 90 giorni.
           <br className="hidden sm:block" />
-          Potenzialmente finanziabile con Transizione 5.0 (fino al 45% rimborsato). Per freelancer e PMI italiane pronte a crescere davvero.
+          <strong style={{ color: "rgba(245,240,232,0.85)", fontWeight: 600 }}>Gestionale su misura da €900</strong> — fatturazione automatica, CRM e agenda integrati: <strong style={{ color: "#C9A84C" }}>10+ ore risparmiate ogni settimana</strong>. Potenzialmente finanziabile con Transizione 5.0 (fino al 45% rimborsato).
         </p>
 
         {/* Service chips — horizontally scrollable on mobile */}
@@ -88,7 +88,7 @@ export default function Hero() {
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 w-full sm:w-auto">
           <a href="#contatti" className="accent-btn cta-glow rounded-full text-base font-bold tracking-wide text-center" style={{ padding: "16px 36px" }}>
-            Prenota una Chiamata Gratuita
+            Prenota Consulenza Gratuita →
           </a>
           <a href="#portfolio" className="outline-btn rounded-full text-base font-semibold tracking-wide text-center" style={{ padding: "16px 36px" }}>
             Guarda i Lavori →
@@ -98,9 +98,9 @@ export default function Hero() {
         {/* Stats — editorial inline style, no heavy box */}
         <div className="flex items-center justify-center gap-0 flex-wrap mt-2">
           {[
-            { value: "50+",  label: "Clienti Attivi" },
-            { value: "90gg", label: "ROI Garantito" },
-            { value: "45%",  label: "Transizione 5.0" },
+            { value: "50+",  label: "PMI e Freelancer" },
+            { value: "+40%", label: "Lead in 90 Giorni" },
+            { value: "45%",  label: "Rimborso T5.0" },
           ].map((s, i) => (
             <>
               <div key={s.label} className="flex flex-col items-center px-6 py-4">
@@ -120,7 +120,7 @@ export default function Hero() {
 
         {/* Social proof nudge */}
         <p className="text-xs" style={{ color: "rgba(245,240,232,0.25)" }}>
-          Già scelti da 50+ freelancer e PMI italiane · sito web professionale SEO, software gestionale su misura, automazioni AI · Transizione 5.0 ammissibile · nessun costo nascosto
+          Già scelti da 50+ freelancer e PMI italiane · sito web professionale SEO da €700 · software gestionale personalizzato da €900 · automazioni AI · Transizione 5.0 · nessun costo nascosto
         </p>
 
       </div>
