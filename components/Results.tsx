@@ -28,6 +28,12 @@ const caseStudies = [
     result: "−65% tempo gestione lead",
     detail: "CRM personalizzato con scoring automatico dei lead, follow-up WhatsApp e report settimanale. Chiusure contratti +28% in 90 giorni. Agevolabile con Bonus Transizione 5.0.",
   },
+  {
+    category: "Menu Digitale QR + Sito Web",
+    title: "Ristorante — Sicilia",
+    result: "72% dei clienti consulta il menu prima di prenotare",
+    detail: "Solo il 14,6% dei ristoranti italiani ha già un menu digitale (dato 2024): menu QR multilingua con foto piatti e allergeni sempre aggiornati da pannello, zero ristampe. ROI medio di settore 250–400% nel primo anno.",
+  },
 ];
 
 function CountUp({
@@ -169,7 +175,7 @@ export default function Results() {
             className="mt-10 text-center text-xs tracking-[0.12em] uppercase"
             style={{ color: "rgba(201,168,76,0.5)" }}
           >
-            ROI in 4–7 mesi&nbsp;&middot;&nbsp;Sito web PMI Italia&nbsp;&middot;&nbsp;Gestionale su misura piccola impresa&nbsp;&middot;&nbsp;Automazione fatturazione freelancer&nbsp;&middot;&nbsp;CRM personalizzato freelancer&nbsp;&middot;&nbsp;Prima pagina Google PMI&nbsp;&middot;&nbsp;Agenzia digitale Sud Italia&nbsp;&middot;&nbsp;Bonus Transizione 5.0
+            ROI in 4–7 mesi&nbsp;&middot;&nbsp;Sito web PMI Italia&nbsp;&middot;&nbsp;Gestionale su misura piccola impresa&nbsp;&middot;&nbsp;Automazione fatturazione freelancer&nbsp;&middot;&nbsp;CRM personalizzato freelancer&nbsp;&middot;&nbsp;Prima pagina Google PMI&nbsp;&middot;&nbsp;Agenzia digitale Sud Italia&nbsp;&middot;&nbsp;Menu digitale QR ristoranti&nbsp;&middot;&nbsp;Bonus Transizione 5.0
           </p>
         </ScrollReveal>
 
@@ -181,7 +187,7 @@ export default function Results() {
             >
               Case Study
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {caseStudies.map((cs) => (
                 <div
                   key={cs.title}
