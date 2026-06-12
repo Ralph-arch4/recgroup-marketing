@@ -113,6 +113,10 @@ const faqs = [
     a: "Per la maggior parte delle PMI italiane — studi professionali, agenzie, artigiani, consulenti — un gestionale su misura con modulo clienti integrato è più che sufficiente: storico acquisti, note, comunicazioni, scadenze e fatturazione in un unico pannello. Un CRM dedicato come HubSpot o Salesforce ha senso da 10+ commerciali in poi, e costa 50–150€/mese per utente — spesso per funzionalità che una piccola impresa non userà mai. Il nostro gestionale personalizzato copre l'80% delle funzioni CRM a un costo una tantum: zero abbonamenti mensili, zero vendor lock-in.",
   },
   {
+    q: "Il gestionale su misura è accessibile da remoto, da smartphone o tablet?",
+    a: "Sì. Ogni gestionale che realizziamo è un'applicazione web: nessuna installazione, nessun server da gestire in ufficio. Accedi da computer, tablet o smartphone con una semplice connessione internet — da ufficio, da casa o in trasferta — con dati sempre sincronizzati e protetti da backup automatico. È la stessa flessibilità di un gestionale cloud in abbonamento come TeamSystem o Zucchetti, ma con un costo una tantum e zero canone mensile per utente.",
+  },
+  {
     q: "Come si inizia a lavorare con RecGroup?",
     a: "Con una chiamata gratuita di 30 minuti. Raccontaci il tuo progetto, le difficoltà attuali e gli obiettivi. Riceverai una proposta su misura entro 48 ore — senza impegno e senza costi anticipati.",
   },
