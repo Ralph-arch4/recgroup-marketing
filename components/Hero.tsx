@@ -100,6 +100,7 @@ export default function Hero() {
           {[
             { value: "50+",  label: "PMI e Freelancer" },
             { value: "+40%", label: "Lead in 90 Giorni" },
+            { value: "-70%", label: "Costo vs Agenzia" },
             { value: "45%",  label: "Rimborso T5.0" },
           ].map((s, i) => (
             <>
@@ -111,7 +112,7 @@ export default function Hero() {
                   {s.label}
                 </span>
               </div>
-              {i < 2 && (
+              {i < 3 && (
                 <div key={`sep-${i}`} className="w-px h-8 self-center flex-shrink-0" style={{ background: "rgba(201,168,76,0.15)" }} />
               )}
             </>
@@ -120,7 +121,7 @@ export default function Hero() {
 
         {/* Social proof nudge */}
         <p className="text-xs" style={{ color: "rgba(245,240,232,0.25)" }}>
-          Già scelti da 50+ freelancer e PMI italiane · sito web professionale SEO da €700 · software gestionale personalizzato da €900 · automazioni AI · Transizione 5.0 · nessun costo nascosto
+          Già scelti da 50+ freelancer e PMI italiane · sito web professionale SEO da €700 (fino al 70% in meno di un'agenzia tradizionale) · software gestionale personalizzato da €900 · automazioni AI · Transizione 5.0 · nessun costo nascosto
         </p>
 
       </div>
