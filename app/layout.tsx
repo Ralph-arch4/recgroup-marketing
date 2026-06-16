@@ -3,8 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://rec.group"),
-  title: "Siti Web da €700 e Gestionali da €900 | rec.group Catania",
-  description: "Sito vetrina da €700 — il mercato 2026 parte da €2.000–8.000. Gestionale su misura da €900, zero canoni mensili. SEO incluso, preventivo gratuito in 24h. Per freelancer e PMI in tutta Italia.",
+  title: "Siti Web da €700 — Risparmia fino al 75% sul Mercato | rec.group Catania",
+  description: "Sito web da €700 invece di €2.000–8.000. Gestionale su misura da €900, zero canoni. SEO, Core Web Vitals e AI inclusi. Preventivo gratuito in 24h. Per freelancer e PMI italiane.",
   keywords: [
     "agenzia digitale Catania",
     "sito web professionale freelancer",
@@ -46,12 +46,25 @@ export const metadata: Metadata = {
     "gestionale economico alternativa TeamSystem SAP",
     "sito web aziendale prezzo PMI 2026",
     "agenzia web o freelance conviene 2026",
+    "GEO generative engine optimization PMI Italia",
+    "agenti AI autonomi piccola impresa 2026",
+    "alternativa odoo economico Italia PMI",
+    "alternativa teamsystem gestionale economico",
+    "risparmia 75 percento sito web professionale",
+    "sito web 700 euro catania sicilia",
+    "gestionale personalizzato 900 euro su misura",
+    "web agency prezzi chiari senza sorprese",
+    "digitalizzazione PMI Transizione 5.0 2026 incentivi",
+    "core web vitals ottimizzazione sito PMI",
+    "sito web professionale veloce mobile-first PMI",
+    "gestionale web cloud senza installazione PMI",
+    "automazione flussi lavoro n8n make zapier freelancer",
   ],
   authors: [{ name: "rec.group" }],
   creator: "rec.group",
   openGraph: {
-    title: "Sito Web da €700, Gestionale da €900 — Fino a 6 Volte Meno del Mercato",
-    description: "Il mercato 2026 chiede €2.000–8.000 per un sito vetrina e €5.000–8.000 per un gestionale su misura. Noi partiamo da €700 e €900, SEO incluso, zero canoni mensili. Preventivo gratuito in 24h.",
+    title: "Sito Web da €700, Gestionale da €900 — Risparmia fino al 75% sul Mercato 2026",
+    description: "Il mercato 2026 parte da €2.000–8.000 per un sito e fino a €5.000 per un gestionale su misura. Noi partiamo da €700 e €900. SEO, Core Web Vitals e automazioni AI incluse. Preventivo gratuito 24h — risponde un umano.",
     type: "website",
     locale: "it_IT",
     siteName: "rec.group",
@@ -59,8 +72,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sito Web da €700, Gestionale da €900 | rec.group",
-    description: "Sito vetrina da €700 (media mercato 2026: €2.000–8.000). Gestionale su misura da €900, zero canoni mensili. Automazioni AI incluse. Preventivo gratuito in 24h.",
+    title: "Sito Web da €700, Gestionale da €900 — Risparmia 75% | rec.group",
+    description: "Sito web da €700 (mercato 2026: €2.000–8.000). Gestionale su misura da €900, zero canoni. SEO, AI e Core Web Vitals inclusi. Preventivo gratuito in 24h.",
   },
   robots: {
     index: true,
@@ -537,7 +550,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-06-06",
+      dateModified: "2026-06-16",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
