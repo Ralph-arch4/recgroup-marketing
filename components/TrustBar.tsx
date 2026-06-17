@@ -7,10 +7,12 @@ const items = [
   { icon: "🎯", label: "Prima Pagina Google" },
   { icon: "🍽️", label: "Menu Digitali QR" },
   { icon: "💰", label: "Bonus Transizione 5.0" },
-  { icon: "📍", label: "Catania · Milano · Roma" },
+  { icon: "📍", label: "Catania · Milano · Roma · Napoli" },
   { icon: "🔗", label: "CRM Personalizzato" },
   { icon: "🚀", label: "Lancio Sito in 7 Giorni" },
-  { icon: "✨", label: "300K+ Freelancer Digitali" },
+  { icon: "✨", label: "70+ Clienti Soddisfatti" },
+  { icon: "🛒", label: "E-commerce Artigiani" },
+  { icon: "📈", label: "Digitalizzazione PMI 2025" },
 ];
 
 // Doubled for seamless loop
