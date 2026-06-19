@@ -117,6 +117,18 @@ const faqs = [
     a: "Sì. Ogni gestionale che realizziamo è un'applicazione web: nessuna installazione, nessun server da gestire in ufficio. Accedi da computer, tablet o smartphone con una semplice connessione internet — da ufficio, da casa o in trasferta — con dati sempre sincronizzati e protetti da backup automatico. È la stessa flessibilità di un gestionale cloud in abbonamento come TeamSystem o Zucchetti, ma con un costo una tantum e zero canone mensile per utente.",
   },
   {
+    q: "Cos'è la GEO e come preparo il mio sito per i motori di ricerca AI nel 2026?",
+    a: "La GEO — Generative Engine Optimization — è l'evoluzione della SEO tradizionale: nel 2026, oltre il 40% delle ricerche online in Italia passa attraverso motori di ricerca basati su intelligenza artificiale come Google AI Overviews, Perplexity e ChatGPT Search. Se il tuo sito non è strutturato per essere citato da queste piattaforme, perdi visibilità anche con un buon posizionamento SEO classico. Cosa facciamo: strutturiamo i contenuti del sito con risposte chiare e dirette alle domande del tuo target, implementiamo dati strutturati Schema.org avanzati, ottimizziamo per i featured snippet e creiamo contenuti E-E-A-T (esperienza, competenza, autorevolezza, affidabilità) che le AI riconoscono come fonti attendibili. Il risultato: il tuo sito non solo si posiziona su Google, ma viene citato direttamente nelle risposte AI — traffico qualificato senza pagare un centesimo per click.",
+  },
+  {
+    q: "Il mio sito web deve essere a norma GDPR? Cosa rischio se non è conforme?",
+    a: "Sì, è obbligatorio. Dal 2018 il GDPR impone a ogni sito web che raccoglie dati personali — moduli di contatto, cookie, analytics — di rispettare regole precise su consenso, informativa privacy e trattamento dati. Le sanzioni per le PMI italiane non conformi partono da €10.000 e possono arrivare fino al 4% del fatturato annuo. Nel 2026 il Garante Privacy ha intensificato i controlli sulle piccole imprese: solo nei primi 6 mesi sono state emesse oltre 200 sanzioni a PMI e professionisti. Ogni sito che realizziamo include: cookie banner a norma con gestione granulare del consenso, informativa privacy personalizzata, moduli di contatto conformi, integrazione Google Analytics 4 con anonimizzazione IP e configurazione corretta dei cookie di terze parti. Non è un optional — è la base per operare online senza rischi legali.",
+  },
+  {
+    q: "Come faccio a scegliere un'agenzia web affidabile senza buttare soldi?",
+    a: "Il mercato italiano è pieno di agenzie web che promettono tutto e spariscono dopo la consegna. Ecco i 5 segnali di un'agenzia seria: (1) portfolio verificabile con siti reali online, non mockup; (2) preventivo dettagliato voce per voce — chi ti dà solo un totale sta nascondendo qualcosa; (3) tempi di consegna scritti nero su bianco con penali o garanzie; (4) assistenza post-lancio inclusa, non venduta come extra; (5) nessun vincolo contrattuale pluriennale su hosting o manutenzione. Con RecGroup: il preventivo è gratuito, dettagliato e arriva entro 48 ore. I nostri siti sono online e verificabili. L'assistenza post-lancio è inclusa per 12 mesi. Zero vincoli: il sito è tuo, il codice è tuo, l'hosting lo puoi spostare quando vuoi.",
+  },
+  {
     q: "Come si inizia a lavorare con RecGroup?",
     a: "Con una chiamata gratuita di 30 minuti. Raccontaci il tuo progetto, le difficoltà attuali e gli obiettivi. Riceverai una proposta su misura entro 48 ore — senza impegno e senza costi anticipati.",
   },
@@ -231,7 +243,7 @@ export default function Faq() {
 
                 <div
                   style={{
-                    maxHeight: open === i ? "320px" : "0",
+                    maxHeight: open === i ? "500px" : "0",
                     overflow: "hidden",
                     transition: "max-height 0.4s cubic-bezier(0.16, 1, 0.3, 1)",
                   }}
