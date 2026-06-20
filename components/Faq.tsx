@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "Le PMI possono accedere agli incentivi fiscali Transizione 5.0?",
-    a: "Sì. Il piano Transizione 5.0 del MIMIT copre fino al 45% degli investimenti in beni digitali per le PMI italiane — siti web, gestionali e automazioni compresi. Un progetto da €2.000 può costarne effettivamente €1.100. Ti aiutiamo a capire cosa spetta alla tua impresa prima ancora di iniziare.",
+    a: "Sì. Il piano Transizione 5.0 del MIMIT copre fino al 45% degli investimenti in beni digitali per le PMI italiane — siti web, gestionali e automazioni compresi. Nel 2026 sono stanziati oltre 300 milioni di euro tra strumenti nazionali e programmi regionali, con intensità di aiuto dal 30% al 50%. Eppure il 64% delle PMI italiane non ha mai usufruito di alcun incentivo di digitalizzazione — un'opportunità enorme che la maggior parte delle imprese non coglie. Un progetto da €2.000 può costarne effettivamente €1.100. Ti aiutiamo a capire cosa spetta alla tua impresa prima ancora di iniziare — nella stessa chiamata gratuita di 30 minuti.",
   },
   {
     q: "Come proteggo il sito e i dati della mia impresa dagli attacchi informatici?",
@@ -78,7 +78,7 @@ const faqs = [
   },
   {
     q: "Esistono altri incentivi oltre a Transizione 5.0 per digitalizzare la mia impresa?",
-    a: "Sì. Oltre a Transizione 5.0 (fino al 45%), nel 2026 sono attivi il Voucher Digitalizzazione MISE — contributo a fondo perduto del 50% fino a €10.000 per PMI che investono in siti web, software e formazione digitale — e bandi regionali che variano da regione a regione. Ti aiutiamo a identificare quale incentivo si applica al tuo progetto specifico prima ancora di iniziare: stessa chiamata gratuita di 30 minuti, zero burocrazia da parte tua.",
+    a: "Sì, e sono più di quanti pensi. Nel 2026 le risorse destinate alla digitalizzazione delle PMI superano i 10 miliardi di euro tra fondi nazionali, bandi regionali e programmi europei. Oltre a Transizione 5.0 (fino al 45%), sono attivi: la Nuova Sabatini — finanziamento agevolato per beni digitali con contributo in conto interessi, nessuna perizia sotto i 40.000€; il Voucher Digitalizzazione MISE — contributo a fondo perduto del 50% fino a €10.000 per siti web, software e formazione digitale; il programma Digital Transformation del MIMIT; il Voucher Cybersecurity PMI; e bandi camerali e regionali che variano da territorio a territorio. Ti aiutiamo a identificare la combinazione di incentivi più conveniente per il tuo progetto specifico: stessa chiamata gratuita di 30 minuti, zero burocrazia da parte tua.",
   },
   {
     q: "Basta Instagram e Facebook per trovare clienti, o serve anche un sito web?",
@@ -127,6 +127,18 @@ const faqs = [
   {
     q: "Come faccio a scegliere un'agenzia web affidabile senza buttare soldi?",
     a: "Il mercato italiano è pieno di agenzie web che promettono tutto e spariscono dopo la consegna. Ecco i 5 segnali di un'agenzia seria: (1) portfolio verificabile con siti reali online, non mockup; (2) preventivo dettagliato voce per voce — chi ti dà solo un totale sta nascondendo qualcosa; (3) tempi di consegna scritti nero su bianco con penali o garanzie; (4) assistenza post-lancio inclusa, non venduta come extra; (5) nessun vincolo contrattuale pluriennale su hosting o manutenzione. Con RecGroup: il preventivo è gratuito, dettagliato e arriva entro 48 ore. I nostri siti sono online e verificabili. L'assistenza post-lancio è inclusa per 12 mesi. Zero vincoli: il sito è tuo, il codice è tuo, l'hosting lo puoi spostare quando vuoi.",
+  },
+  {
+    q: "Posso finanziare sito web e gestionale con la Nuova Sabatini 2026?",
+    a: "Sì. La Nuova Sabatini è uno degli incentivi più accessibili per le PMI italiane nel 2026: copre investimenti in beni digitali — siti web professionali, gestionali personalizzati, software e infrastrutture cloud — con un contributo in conto interessi che abbatte il costo del finanziamento fino al 3,575% annuo. Per le micro e piccole imprese del Mezzogiorno l'agevolazione è ancora più vantaggiosa. A differenza di Transizione 5.0, la Nuova Sabatini non richiede perizia tecnica per importi sotto i 40.000€ e i tempi di istruttoria sono più rapidi: in media 60–90 giorni. Si combina con il Voucher Digitalizzazione MISE e con i bandi regionali. Ti aiutiamo a identificare la combinazione di incentivi più conveniente per il tuo progetto nella chiamata gratuita di 30 minuti — zero burocrazia da parte tua.",
+  },
+  {
+    q: "Serve un sito web a uno studio professionale — avvocato, commercialista, architetto?",
+    a: "Nel 2026 è quasi obbligatorio. L'87% dei potenziali clienti cerca un professionista su Google prima di contattarlo — e se non hai un sito, sceglierà chi ce l'ha. Per avvocati, commercialisti, consulenti del lavoro, architetti e ingegneri, un sito web professionale non è una vetrina: è il primo filtro di credibilità. Cosa deve avere: pagina servizi chiara con le aree di competenza, sezione 'chi siamo' con curriculum e iscrizione all'albo, modulo di contatto per richiesta appuntamento, ottimizzazione SEO locale per comparire nelle ricerche tipo 'commercialista a [città]' o 'avvocato divorzista [provincia]'. Con RecGroup un sito per studio professionale parte da €700, include SEO locale, design conforme alle linee guida dell'ordine professionale e scheda Google Business Profile ottimizzata. Tempi di consegna: 1–2 settimane.",
+  },
+  {
+    q: "Come funziona un gestionale con prenotazione appuntamenti online per artigiani e professionisti?",
+    a: "Un gestionale con sistema di prenotazione integrato permette ai tuoi clienti di fissare appuntamenti direttamente dal sito — 24 ore su 24, senza telefonate. L'agenda si aggiorna in tempo reale: niente sovrapposizioni, niente appuntamenti persi su foglietti o WhatsApp. Il sistema invia promemoria automatici via SMS o email, riducendo i 'no-show' del 40–60%. Per artigiani (idraulici, elettricisti, parrucchieri), professionisti sanitari, consulenti e studi tecnici è la funzione che fa risparmiare più tempo in assoluto: gestire manualmente un'agenda di 15–30 appuntamenti a settimana costa 3–5 ore. Con il gestionale su misura di RecGroup: il cliente prenota online, riceve conferma automatica, tu vedi tutto nel pannello insieme a storico cliente, fatturazione e note — un unico strumento al posto di agenda Google + Excel + WhatsApp. Costo del modulo prenotazioni integrato nel gestionale: a partire da €300 sul gestionale base.",
   },
   {
     q: "Come si inizia a lavorare con RecGroup?",
