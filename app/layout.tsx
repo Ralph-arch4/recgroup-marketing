@@ -3,8 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://rec.group"),
-  title: "Siti Web da €700 — Risparmia fino al 75% sul Mercato | rec.group Catania",
-  description: "Sito web da €700 invece di €2.000–8.000. Gestionale su misura da €900, zero canoni. SEO, Core Web Vitals e AI inclusi. Preventivo gratuito in 24h. Per freelancer e PMI italiane.",
+  title: "Sito Web PMI da €700 | Risparmia 75% vs Agenzie 2026 — rec.group Catania",
+  description: "Sito web professionale da €700 (mercato 2026: €2.000–8.000). Gestionale su misura da €900, zero canoni mensili. ROI medio SEO per PMI: 748%. Core Web Vitals, AI e ottimizzazione GEO inclusi. Incentivi Transizione 5.0 fino al 45%. Preventivo gratuito in 24h — freelancer e PMI italiane.",
   keywords: [
     "agenzia digitale Catania",
     "sito web professionale freelancer",
@@ -68,12 +68,21 @@ export const metadata: Metadata = {
     "sito web accessibile WCAG normativa 2026",
     "indicizzazione AI motori ricerca generativi",
     "progressive web app PWA piccola impresa",
+    "ROI SEO PMI italiane 748 percento",
+    "gestionale su misura vs SaaS TeamSystem Fatture in Cloud",
+    "sito web professionale consegna 2 settimane PMI",
+    "agenzia digitale specializzata PMI micro impresa",
+    "ottimizzazione GEO Google AI Overview PMI 2026",
+    "costo digitalizzazione azienda PMI 2026 guida",
+    "consulenza digitale gratuita PMI freelancer Italia",
+    "sito web aziendale senza canone manutenzione",
+    "ERP economico piccola impresa alternativa cloud",
   ],
   authors: [{ name: "rec.group" }],
   creator: "rec.group",
   openGraph: {
-    title: "Sito Web da €700, Gestionale da €900 — Risparmia fino al 75% sul Mercato 2026",
-    description: "Il mercato 2026 parte da €2.000–8.000 per un sito e fino a €5.000 per un gestionale su misura. Noi partiamo da €700 e €900. SEO, Core Web Vitals e automazioni AI incluse. Preventivo gratuito 24h — risponde un umano.",
+    title: "Sito Web PMI da €700, Gestionale da €900 — ROI 748% Medio | rec.group 2026",
+    description: "Mercato 2026: €2.000–8.000 per un sito, €5.000+ per un gestionale. Noi: €700 e €900 tutto incluso. SEO con ROI medio 748%, Core Web Vitals, GEO e automazioni AI. Incentivi Transizione 5.0 fino al 45%. Preventivo gratuito 24h — risponde un umano.",
     type: "website",
     locale: "it_IT",
     siteName: "rec.group",
@@ -81,8 +90,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sito Web da €700, Gestionale da €900 — Risparmia 75% | rec.group",
-    description: "Sito web da €700 (mercato 2026: €2.000–8.000). Gestionale su misura da €900, zero canoni. SEO, AI e Core Web Vitals inclusi. Preventivo gratuito in 24h.",
+    title: "Sito Web PMI da €700 — Gestionale €900 Zero Canoni | rec.group 2026",
+    description: "PMI e freelancer: sito web da €700 (mercato 2026: €2.000–8.000). Gestionale su misura da €900, zero canoni. ROI SEO medio 748%. GEO, AI e Core Web Vitals inclusi. Incentivi 5.0 fino al 45%.",
   },
   robots: {
     index: true,
@@ -570,7 +579,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-06-18",
+      dateModified: "2026-06-22",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
