@@ -1,4 +1,4 @@
-const services = ["Sito Web da €700", "Gestionale da €900", "SEO & Google Ads", "Automazione AI", "E-commerce Professionale", "Brand Identity"];
+const services = ["Sito Web da €700 (mercato: €2.000+)", "Gestionale da €900 (mercato: €5.000+)", "SEO & Google Ads", "Automazione AI", "E-commerce Professionale", "Brand Identity"];
 
 export default function Hero() {
   return (
@@ -45,7 +45,7 @@ export default function Hero() {
           backdropFilter: "blur(8px)",
         }}>
           <span className="w-1.5 h-1.5 rounded-full animate-pulse flex-shrink-0" style={{ background: "#4ade80" }} />
-          Sito Web da €700 · Gestionale da €900 · AI Automation · Transizione 5.0 fino al 45%
+          ⚡ Sito da €700 invece di €2.000+ · Gestionale da €900 invece di €5.000+ · Transizione 5.0 fino al 45%
         </div>
 
         {/* Headline — tighter clamp for mobile */}
@@ -53,9 +53,9 @@ export default function Hero() {
           fontSize: "clamp(2.6rem, 8vw, 6.5rem)",
           color: "#F5F0E8",
         }}>
-          Ogni Giorno Senza Sito Web Ti Costa Clienti —
+          Nel 2026, Chi Non È Su Google Non Esiste —
           <br />
-          <span className="accent-text">Noi lo Lanciamo in 30 Giorni, ROI Garantito.</span>
+          <span className="accent-text">Sito Web da €700, Online in 30 Giorni, Clienti dal Primo Mese.</span>
         </h1>
 
         {/* Subtext — shorter, punchy */}
@@ -63,9 +63,11 @@ export default function Hero() {
           fontSize: "clamp(0.95rem, 2vw, 1.15rem)",
           color: "rgba(245,240,232,0.60)",
         }}>
-          <strong style={{ color: "rgba(245,240,232,0.85)", fontWeight: 600 }}>Sito web professionale con SEO da €700</strong> — visibile su Google in 30 giorni, costruito per convertire visitatori in clienti paganti. I nostri clienti guadagnano in media <strong style={{ color: "#C9A84C" }}>+40% di nuovi lead</strong> nei primi 90 giorni.
+          Un sito web professionale in Italia costa in media <strong style={{ color: "#C9A84C" }}>€2.000–5.000</strong> da un freelancer e <strong style={{ color: "#C9A84C" }}>€5.000–8.000</strong> da un'agenzia.
+          {" "}Noi lo realizziamo a <strong style={{ color: "rgba(245,240,232,0.85)", fontWeight: 600 }}>€700 con SEO incluso</strong> — ottimizzato per Google, pronto a generare clienti entro 30 giorni. Risultato medio: <strong style={{ color: "#C9A84C" }}>+40% di richieste in 90 giorni</strong>.
           <br className="hidden sm:block" />
-          <strong style={{ color: "rgba(245,240,232,0.85)", fontWeight: 600 }}>Gestionale su misura da €900</strong> — fatturazione automatica, CRM e agenda integrati: <strong style={{ color: "#C9A84C" }}>10+ ore risparmiate ogni settimana</strong>. Potenzialmente finanziabile con Transizione 5.0 (fino al 45% rimborsato).
+          Un gestionale personalizzato parte da <strong style={{ color: "#C9A84C" }}>€5.000–15.000</strong> sul mercato.
+          {" "}Il nostro? <strong style={{ color: "rgba(245,240,232,0.85)", fontWeight: 600 }}>€900 con CRM, fatturazione e agenda integrati</strong> — risparmi <strong style={{ color: "#C9A84C" }}>10+ ore a settimana</strong>. Con Transizione 5.0 recuperi fino al 45%: paghi effettivamente <strong style={{ color: "#C9A84C" }}>da €495</strong>.
         </p>
 
         {/* Service chips — horizontally scrollable on mobile */}
@@ -99,9 +101,9 @@ export default function Hero() {
         <div className="flex items-center justify-center gap-0 flex-wrap mt-2">
           {[
             { value: "50+",  label: "PMI e Freelancer" },
-            { value: "+40%", label: "Lead in 90 Giorni" },
-            { value: "-70%", label: "Costo vs Agenzia" },
-            { value: "45%",  label: "Rimborso T5.0" },
+            { value: "+40%", label: "Nuovi Lead in 90gg" },
+            { value: "-85%", label: "vs Prezzo di Mercato" },
+            { value: "€495",  label: "Sito con Bonus 5.0" },
           ].map((s, i) => (
             <>
               <div key={s.label} className="flex flex-col items-center px-6 py-4">
@@ -121,7 +123,7 @@ export default function Hero() {
 
         {/* Social proof nudge */}
         <p className="text-xs" style={{ color: "rgba(245,240,232,0.25)" }}>
-          Già scelti da 50+ freelancer e PMI italiane · sito web professionale SEO da €700 (fino al 70% in meno di un'agenzia tradizionale) · software gestionale personalizzato da €900 · automazioni AI · Transizione 5.0 · nessun costo nascosto
+          Già scelti da 50+ freelancer e PMI italiane · sito web professionale SEO da €700 (prezzo medio mercato €2.000–5.000) · gestionale su misura da €900 (mercato €5.000–15.000) · fino all'85% di risparmio · Transizione 5.0 · zero costi nascosti · online in 30 giorni
         </p>
 
       </div>
