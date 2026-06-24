@@ -3,10 +3,10 @@ import { useEffect, useRef, useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 
 const stats = [
-  { value: 70,  suffix: "+", label: "Clienti Soddisfatti",     sub: "freelancer, PMI e startup in tutta Italia — da Catania a Milano, Roma, Torino, Napoli" },
-  { value: 3,   suffix: "×", label: "ROI Medio",               sub: "ritorno sull'investimento in 4–7 mesi — media italiana: 12+ mesi" },
-  { value: 40,  suffix: "%", label: "Risparmio Tempo",         sub: "in meno su fatturazione elettronica, preventivi, CRM e gestione clienti" },
-  { value: 48,  suffix: "h", label: "Risposta Garantita",      sub: "preventivo gratuito in 48 h — nessun costo nascosto, mai" },
+  { value: 70,  suffix: "+", label: "Clienti Soddisfatti",     sub: "freelancer, PMI e startup in tutta Italia — da Catania a Milano, Roma, Torino, Napoli. Il 38% delle PMI investirà in digitale nel 2025–2026 (ISTAT)" },
+  { value: 3,   suffix: "×", label: "ROI Medio",               sub: "ritorno sull'investimento in 4–7 mesi — media mercato: 12+ mesi. Confermato dai dati di settore 2026" },
+  { value: 40,  suffix: "%", label: "Risparmio Tempo",         sub: "meno ore su fatturazione elettronica, preventivi, CRM e gestione clienti — il 52,6% delle imprese ha già investito in digitale" },
+  { value: 48,  suffix: "h", label: "Risposta Garantita",      sub: "preventivo gratuito in 48 h — zero costi nascosti, zero abbonamenti SaaS obbligatori" },
 ];
 
 const caseStudies = [
@@ -14,19 +14,19 @@ const caseStudies = [
     category: "Sito Web + SEO Locale",
     title: "Studio Legale — Catania",
     result: "+340% visite organiche in 6 mesi",
-    detail: "Da zero presenza online a prima pagina Google per 12 keyword locali. Investimento da 2.800 € recuperato in 5 mesi. Solo il 26% delle PMI italiane ha digitalizzazione avanzata (ISTAT 2025) — i nostri clienti ci arrivano.",
+    detail: "Da zero presenza online a prima pagina Google per 12 keyword locali. Investimento da 2.800 € — contro i 5.000–7.000 €/mese di un'agenzia tradizionale. Solo il 26% delle PMI italiane ha digitalizzazione avanzata (ISTAT 2025) — i nostri clienti ci arrivano.",
   },
   {
     category: "Gestionale Su Misura",
     title: "Consulente HR — Freelancer",
     result: "10 ore/settimana risparmiate",
-    detail: "Gestionale personalizzato con automazione preventivi, contratti e fatturazione elettronica: da 3 ore manuali a un click. Nessun canone SaaS mensile — proprietà totale del software. Investimento da 1.800 €, ammortizzato in 3 mesi.",
+    detail: "Software gestionale personalizzato con automazione preventivi, contratti e fatturazione elettronica: da 3 ore manuali a un click. Costo una tantum da 1.800 € — nessun canone SaaS mensile, proprietà totale. Il 14,2% delle piccole imprese usa l'AI (ISTAT 2025): noi ti portiamo nel gruppo.",
   },
   {
     category: "Automazione & CRM",
     title: "Agenzia Immobiliare — PMI",
     result: "−65% tempo gestione lead",
-    detail: "CRM personalizzato con scoring automatico, follow-up WhatsApp e report settimanale. Chiusure contratti +28% in 90 giorni. Agevolabile con Bonus Transizione 5.0 — fino al 45% di credito d'imposta.",
+    detail: "CRM personalizzato con scoring automatico, follow-up WhatsApp e report settimanale. Chiusure contratti +28% in 90 giorni. Agevolabile con Bonus Transizione 5.0 — credito d'imposta fino al 45% per innovazione digitale.",
   },
   {
     category: "E-commerce + Vendita Online",
@@ -165,7 +165,7 @@ export default function Results() {
               className="mt-4 text-sm sm:text-base max-w-xl"
               style={{ color: "rgba(245,240,232,0.55)" }}
             >
-              Il 70% delle PMI italiane ha un livello base di digitalizzazione, ma solo il 26% raggiunge livelli avanzati e appena il 20% vende online (ISTAT 2025). Noi ti portiamo nel 26% che cresce davvero — ROI misurabile in 4–7 mesi, zero abbonamenti nascosti.
+              L&apos;88,3% delle PMI italiane ha raggiunto il livello base di digitalizzazione (ISTAT 2025), ma solo il 16,4% usa l&apos;AI per crescere. Noi ti portiamo nel gruppo che cresce davvero — ROI misurabile in 4–7 mesi, gestionale su misura da 1.800 €, zero abbonamenti nascosti.
             </p>
           </div>
         </ScrollReveal>
@@ -181,7 +181,7 @@ export default function Results() {
             className="mt-10 text-center text-xs tracking-[0.12em] uppercase"
             style={{ color: "rgba(201,168,76,0.5)" }}
           >
-            ROI in 4–7 mesi&nbsp;&middot;&nbsp;Sito web PMI Italia&nbsp;&middot;&nbsp;Gestionale su misura piccola impresa&nbsp;&middot;&nbsp;Automazione fatturazione freelancer&nbsp;&middot;&nbsp;CRM personalizzato freelancer&nbsp;&middot;&nbsp;Prima pagina Google PMI&nbsp;&middot;&nbsp;Agenzia digitale Sud Italia&nbsp;&middot;&nbsp;Menu digitale QR ristoranti&nbsp;&middot;&nbsp;Bonus Transizione 5.0&nbsp;&middot;&nbsp;E-commerce artigiani Italia&nbsp;&middot;&nbsp;Digitalizzazione PMI 2025&nbsp;&middot;&nbsp;Vendita online piccola impresa
+            ROI in 4–7 mesi&nbsp;&middot;&nbsp;Sito web PMI Italia&nbsp;&middot;&nbsp;Software gestionale personalizzato piccola impresa&nbsp;&middot;&nbsp;Automazione fatturazione elettronica freelancer&nbsp;&middot;&nbsp;CRM personalizzato PMI&nbsp;&middot;&nbsp;Prima pagina Google azienda locale&nbsp;&middot;&nbsp;Agenzia digitale Sud Italia&nbsp;&middot;&nbsp;Bonus Transizione 5.0 credito imposta&nbsp;&middot;&nbsp;E-commerce artigianale&nbsp;&middot;&nbsp;ISTAT digitalizzazione 2025&nbsp;&middot;&nbsp;AI per piccole imprese&nbsp;&middot;&nbsp;Menu digitale QR ristorante
           </p>
         </ScrollReveal>
 
