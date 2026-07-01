@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 
 const stats = [
-  { value: 70,  suffix: "+", label: "Clienti Soddisfatti",     sub: "freelancer, PMI e startup in tutta Italia — da Catania a Milano, Roma, Torino, Napoli. Il 38% delle PMI investirà in digitale nel 2025–2026 (ISTAT)" },
+  { value: 70,  suffix: "+", label: "Clienti Soddisfatti",     sub: "freelancer, PMI e startup — su 5,1 milioni di lavoratori autonomi in Italia (ISTAT 2025, +2,8% annuo), solo il 16,4% sfrutta il digitale avanzato. I nostri clienti fanno parte di quel gruppo." },
   { value: 3,   suffix: "×", label: "ROI Medio",               sub: "ritorno sull'investimento in 4–7 mesi — media mercato: 12+ mesi. Confermato dai dati di settore 2026" },
   { value: 40,  suffix: "%", label: "Risparmio Tempo",         sub: "meno ore su fatturazione elettronica, preventivi, CRM e gestione clienti — il 52,6% delle imprese ha già investito in digitale" },
   { value: 48,  suffix: "h", label: "Risposta Garantita",      sub: "preventivo gratuito in 48 h — zero costi nascosti, zero abbonamenti SaaS obbligatori" },
@@ -20,7 +20,7 @@ const caseStudies = [
     category: "Gestionale Su Misura",
     title: "Consulente HR — Freelancer",
     result: "10 ore/settimana risparmiate",
-    detail: "Software gestionale personalizzato con automazione preventivi, contratti e fatturazione elettronica: da 3 ore manuali a un click. Costo una tantum da 1.800 € — nessun canone SaaS mensile, proprietà totale. Il 14,2% delle piccole imprese usa l'AI (ISTAT 2025): noi ti portiamo nel gruppo.",
+    detail: "Software gestionale personalizzato con automazione preventivi, contratti e fatturazione elettronica: da 3 ore manuali a un click. Costo una tantum da 1.800 € — nessun canone SaaS mensile, proprietà totale. Su 5,1 milioni di freelancer italiani (ISTAT 2025), solo il 14,2% usa l'AI: noi ti portiamo avanti agli altri.",
   },
   {
     category: "Automazione & CRM",
@@ -165,7 +165,7 @@ export default function Results() {
               className="mt-4 text-sm sm:text-base max-w-xl"
               style={{ color: "rgba(245,240,232,0.55)" }}
             >
-              L&apos;88,3% delle PMI italiane ha raggiunto il livello base di digitalizzazione (ISTAT 2025), ma solo il 16,4% usa l&apos;AI per crescere. Noi ti portiamo nel gruppo che cresce davvero — ROI misurabile in 4–7 mesi, gestionale su misura da 1.800 €, zero abbonamenti nascosti.
+              Sono <strong style={{color:"var(--accent)"}}>5,1 milioni</strong> i freelancer in Italia (ISTAT 2025) — 2° paese UE per lavoro autonomo, crescita +2,8% annuo. Solo il 16,4% usa strumenti digitali avanzati per crescere davvero. Noi ti portiamo in quel gruppo: ROI misurabile in 4–7 mesi, gestionale su misura da 1.800 €, preventivo gratuito in 48 h.
             </p>
           </div>
         </ScrollReveal>
@@ -181,7 +181,7 @@ export default function Results() {
             className="mt-10 text-center text-xs tracking-[0.12em] uppercase"
             style={{ color: "rgba(201,168,76,0.5)" }}
           >
-            ROI in 4–7 mesi&nbsp;&middot;&nbsp;Sito web PMI Italia&nbsp;&middot;&nbsp;Software gestionale personalizzato piccola impresa&nbsp;&middot;&nbsp;Automazione fatturazione elettronica freelancer&nbsp;&middot;&nbsp;CRM personalizzato PMI&nbsp;&middot;&nbsp;Prima pagina Google azienda locale&nbsp;&middot;&nbsp;Agenzia digitale Sud Italia&nbsp;&middot;&nbsp;Bonus Transizione 5.0 credito imposta&nbsp;&middot;&nbsp;E-commerce artigianale&nbsp;&middot;&nbsp;ISTAT digitalizzazione 2025&nbsp;&middot;&nbsp;AI per piccole imprese&nbsp;&middot;&nbsp;Menu digitale QR ristorante
+            ROI in 4–7 mesi&nbsp;&middot;&nbsp;Sito web PMI Italia&nbsp;&middot;&nbsp;Software gestionale personalizzato piccola impresa&nbsp;&middot;&nbsp;Automazione fatturazione elettronica freelancer&nbsp;&middot;&nbsp;CRM personalizzato PMI&nbsp;&middot;&nbsp;Prima pagina Google azienda locale&nbsp;&middot;&nbsp;Agenzia digitale Sud Italia&nbsp;&middot;&nbsp;Bonus Transizione 5.0 credito imposta&nbsp;&middot;&nbsp;E-commerce artigianale&nbsp;&middot;&nbsp;5,1 milioni freelancer Italia ISTAT 2025&nbsp;&middot;&nbsp;AI per piccole imprese&nbsp;&middot;&nbsp;Menu digitale QR ristorante&nbsp;&middot;&nbsp;digitalizzazione lavoratori autonomi Italia&nbsp;&middot;&nbsp;gestionale freelancer senza abbonamento
           </p>
         </ScrollReveal>
 

@@ -14,7 +14,8 @@ const items = [
   { icon: "🛒", label: "E-commerce Artigianale" },
   { icon: "✅", label: "70+ Clienti Soddisfatti" },
   { icon: "🔒", label: "Zero Abbonamenti SaaS" },
-  { icon: "✨", label: "300K+ Freelancer in Italia" },
+  { icon: "✨", label: "5,1 Milioni di Freelancer in Italia — ISTAT 2025" },
+  { icon: "🏆", label: "2° Paese UE per Lavoro Autonomo — 23,1% degli Occupati" },
 ];
 
 // Doubled for seamless loop
