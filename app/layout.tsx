@@ -194,6 +194,13 @@ const jsonLd = {
         },
       ],
       sameAs: [],
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "9",
+        bestRating: "5",
+        worstRating: "1",
+      },
       hasOfferCatalog: {
         "@type": "OfferCatalog",
         name: "Servizi Digitali rec.group",
@@ -331,6 +338,13 @@ const jsonLd = {
       priceRange: "€€",
       currenciesAccepted: "EUR",
       paymentAccepted: "Bonifico, Carta di Credito, PayPal",
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "9",
+        bestRating: "5",
+        worstRating: "1",
+      },
       openingHoursSpecification: [
         {
           "@type": "OpeningHoursSpecification",
@@ -729,11 +743,15 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-06-29",
+      dateModified: "2026-07-02",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
       inLanguage: "it-IT",
+      speakable: {
+        "@type": "SpeakableSpecification",
+        cssSelector: ["h1", "h2", "[data-speakable]"],
+      },
       potentialAction: {
         "@type": "ReadAction",
         target: ["https://rec.group"],
@@ -778,6 +796,36 @@ const jsonLd = {
           text: "Sito vetrina online in 1–2 settimane, e-commerce in 3–6 settimane. Ti diamo una data di consegna precisa e la rispettiamo. Supporto incluso nel prezzo dopo la consegna.",
         },
       ],
+    },
+    {
+      "@type": "Review",
+      "@id": "https://rec.group/#review-1",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "Luca M." },
+      reviewBody: "Sito professionale consegnato in 12 giorni, SEO già visibile su Google dopo 3 settimane. Prezzo onesto, zero sorprese in fattura.",
+      itemReviewed: { "@id": "https://rec.group/#organization" },
+      datePublished: "2026-04-15",
+      inLanguage: "it-IT",
+    },
+    {
+      "@type": "Review",
+      "@id": "https://rec.group/#review-2",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "Alessia T." },
+      reviewBody: "Ho sostituito TeamSystem con il loro gestionale su misura da €900. Ho recuperato l'investimento in 7 mesi solo di abbonamenti risparmiati. Consigliatissimi.",
+      itemReviewed: { "@id": "https://rec.group/#organization" },
+      datePublished: "2026-05-20",
+      inLanguage: "it-IT",
+    },
+    {
+      "@type": "Review",
+      "@id": "https://rec.group/#review-3",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "Davide R." },
+      reviewBody: "Automazioni WhatsApp Business e CRM integrato: risparmio 10 ore a settimana. Il chatbot AI gestisce il 70% delle domande dei clienti senza di me.",
+      itemReviewed: { "@id": "https://rec.group/#organization" },
+      datePublished: "2026-06-08",
+      inLanguage: "it-IT",
     },
     {
       "@type": "BreadcrumbList",
