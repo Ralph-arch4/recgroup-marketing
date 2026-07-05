@@ -435,6 +435,22 @@ const jsonLd = {
       mainEntity: [
         {
           "@type": "Question",
+          name: "SaaS o gestionale su misura: qual è il costo totale reale su 5 anni per una PMI?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "La domanda giusta non è 'quanto costa svilupparlo?' ma 'quanto spendo in totale nei prossimi 5 anni?'. SaaS mid-range (TeamSystem, Danea, Fatture in Cloud con moduli avanzati): 40–80€/mese per utente = fino a 14.400€ in 5 anni — e al termine non possiedi nulla. Gestionale su misura RecGroup: €900 una tantum + hosting 99€/anno = circa €1.400 in 5 anni. Il software è tuo: nessun vendor lock-in, nessun aumento tariffario, dati esportabili. Risparmio netto su 5 anni: da €5.800 a €16.600 rispetto a un SaaS mid-range. Con incentivi Transizione 5.0 (fino al 45%) il costo effettivo scende a €495–630.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Cosa include esattamente il sito web professionale da €700? Ci sono costi nascosti?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Zero costi nascosti. Incluso da €700: layout personalizzato mobile-first, fino a 6–8 sezioni, velocità sotto i 2 secondi; SEO on-page completo (meta tag, Schema.org, Core Web Vitals verdi, sitemap XML); dominio e hosting primo anno inclusi, certificato SSL, Google Analytics 4 e Search Console configurati; Google Business Profile ottimizzato; formazione 30 min e assistenza WhatsApp 3 mesi. Extra dichiarati nel preventivo: copywriting da zero, fotografia, e-commerce (da €1.500), integrazioni gestionali custom. Nessuna sorpresa in fattura.",
+          },
+        },
+        {
+          "@type": "Question",
           name: "Quanto costa un sito web professionale per freelancer o PMI?",
           acceptedAnswer: {
             "@type": "Answer",
@@ -761,7 +777,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-07-04",
+      dateModified: "2026-07-05",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
