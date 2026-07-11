@@ -106,6 +106,15 @@ export const metadata: Metadata = {
     "ERP personalizzabile piccola azienda economico",
     "alternativa SmartERP Zucchetti gestionale su misura",
     "prezzi trasparenti web agency PMI preventivo dettagliato",
+    "sito web personal trainer prezzo 2026 Italia",
+    "quanto costa sito personal trainer professionale",
+    "sito web per personal trainer prenotazioni online",
+    "personal trainer sito web gestionale clienti",
+    "agenti AI autonomi piccola impresa 2026",
+    "AI agent PMI italiane automazione intelligente",
+    "agente AI preventivi automatici freelancer",
+    "agenti intelligenti aziendali PMI costi 2026",
+    "quanto costa implementare AI agent piccola impresa",
   ],
   authors: [{ name: "rec.group" }],
   creator: "rec.group",
@@ -560,6 +569,22 @@ const jsonLd = {
         },
         {
           "@type": "Question",
+          name: "Quanto costa un sito web per un personal trainer nel 2026? Cosa serve davvero?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Un personal trainer senza sito perde il 60–70% dei potenziali clienti: nel 2026 la ricerca online precede quasi sempre il primo contatto. Il costo medio di un sito per personal trainer da un'agenzia web italiana varia tra €1.500 e €4.000. Con RecGroup un sito completo per personal trainer parte da €700 — prenotazioni sessioni integrate, SEO locale per comparire su Google Maps nella tua città e ottimizzazione per ricerche tipo 'personal trainer vicino a me'. Chi lo abbina al gestionale da €900 automatizza anche pagamenti, schede clienti e programmazione mensile: zero fogli Excel. Consegna in 10–14 giorni.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Cosa sono gli agenti AI e convengono davvero per una piccola impresa italiana?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Un agente AI ragiona, pianifica e agisce in autonomia — qualifica lead, invia email, compila report, prenota appuntamenti senza supervisione umana costante. Nel 2026 il 40% delle applicazioni aziendali integrerà almeno un AI Agent (Gartner 2026). Benefici misurabili nelle PMI: tempi di risposta ridotti del 70%, costi operativi ridotti del 25–40% entro 12 mesi, recupero di 15–25 ore settimanali. Con RecGroup integriamo agenti AI nei gestionali su misura da €1.500 — con Transizione 5.0 (45%) il costo effettivo scende a circa €825.",
+          },
+        },
+        {
+          "@type": "Question",
           name: "Come si inizia a lavorare con RecGroup?",
           acceptedAnswer: {
             "@type": "Answer",
@@ -782,7 +807,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-07-07",
+      dateModified: "2026-07-11",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
