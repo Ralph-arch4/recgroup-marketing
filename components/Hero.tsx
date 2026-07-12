@@ -45,7 +45,7 @@ export default function Hero() {
           backdropFilter: "blur(8px)",
         }}>
           <span className="w-1.5 h-1.5 rounded-full animate-pulse flex-shrink-0" style={{ background: "#4ade80" }} />
-          ⚡ Sito Web SEO da €700 invece di €3.000–€8.000 · Gestionale PMI da €900 invece di €5.000+ · Solo 3 posti disponibili a Luglio
+          ⚡ Sito Web SEO da €700 invece di €3.000–€8.000 · Gestionale PMI da €900 invece di €5.000+ · Solo 2 posti liberi — Offerta scade 31 Luglio
         </div>
 
         {/* Headline — tighter clamp for mobile */}

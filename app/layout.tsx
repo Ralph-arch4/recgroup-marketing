@@ -585,6 +585,22 @@ const jsonLd = {
         },
         {
           "@type": "Question",
+          name: "Differenza tra sito vetrina, sito aziendale e web app per una PMI: quale scegliere nel 2026?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Tre strumenti diversi per tre obiettivi diversi. Sito vetrina (da €700): 4–8 pagine per credibilità e acquisizione contatti — la scelta giusta per freelancer, artigiani e PMI che vogliono comparire su Google e ricevere preventivi online. Sito aziendale strutturato (da €1.200): blog, portfolio esteso, più sezioni di servizio — consigliato per PMI con più linee di prodotto che vogliono autorità SEO nel tempo. Web app / gestionale (da €900): applicazione interattiva con login, dashboard e funzionalità operative — prenotazioni, CRM, fatturazione, magazzino. Regola pratica: se vuoi trovare clienti → sito vetrina SEO; se vuoi gestire clienti ed eliminare Excel → gestionale su misura; se vuoi entrambi, si integrano nello stesso preventivo.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Il 93% delle aziende italiane è online, ma solo il 15% intercetta clienti su Google: perché?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Il gap tra presenza online e acquisizione clienti si spiega con 5 errori strutturali: (1) sito senza SEO tecnico — meta tag generici, struttura semantica errata, assenza di Schema.org; (2) Core Web Vitals insufficienti — Google penalizza nel ranking i siti con caricamento superiore a 2,5 secondi, e oltre il 60% dei siti PMI italiani fallisce questo test; (3) design non mobile-first — oltre il 70% delle ricerche avviene da smartphone; (4) contenuti assenti o generici — senza keyword specifiche il sito è invisibile per le ricerche del tuo target; (5) Google Business Profile incompleto — il Local Pack di Google Maps è il canale con il ROI più alto per le attività locali, ma solo il 35% delle PMI ha il profilo ottimizzato. Con RecGroup ogni sito viene consegnato già nella fascia del 15% virtuoso — Core Web Vitals verdi, SEO tecnico, Schema.org e Google Business Profile ottimizzato come standard.",
+          },
+        },
+        {
+          "@type": "Question",
           name: "Come si inizia a lavorare con RecGroup?",
           acceptedAnswer: {
             "@type": "Answer",
@@ -807,7 +823,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-07-11",
+      dateModified: "2026-07-12",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
