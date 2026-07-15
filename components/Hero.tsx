@@ -45,7 +45,7 @@ export default function Hero() {
           backdropFilter: "blur(8px)",
         }}>
           <span className="w-1.5 h-1.5 rounded-full animate-pulse flex-shrink-0" style={{ background: "#4ade80" }} />
-          ⚡ Sito Web SEO da €700 invece di €3.000–€8.000 · Gestionale PMI da €900 invece di €5.000+ · Solo 2 posti liberi — Offerta scade 31 Luglio
+          ⚡ Sito Web SEO da €700 invece di €3.000–€8.000 · Gestionale PMI da €900 invece di €5.000+ · Transizione 5.0 fino al 45% · Solo 2 posti — Scade 31 Luglio
         </div>
 
         {/* Headline — tighter clamp for mobile */}
@@ -53,9 +53,9 @@ export default function Hero() {
           fontSize: "clamp(2.6rem, 8vw, 6.5rem)",
           color: "#F5F0E8",
         }}>
-          Ogni Giorno Senza Sito SEO Ti Costa Clienti —
+          Il 76% delle PMI Italiane Perde Clienti Online Ogni Giorno —
           <br />
-          <span className="accent-text">Online in 30 Giorni da €700. ROI Misurabile dal Primo Mese.</span>
+          <span className="accent-text">Online in 30 Giorni da €700. ROI 150–300% nel Primo Anno.</span>
         </h1>
 
         {/* Subtext — scannable value props */}
@@ -64,13 +64,13 @@ export default function Hero() {
           color: "rgba(245,240,232,0.60)",
         }}>
           <p>
-            Il mercato italiano quota un sito web professionale <strong style={{ color: "#C9A84C" }}>€3.000–€8.000</strong>. Il tuo con RecGroup? <strong style={{ color: "rgba(245,240,232,0.85)" }}>€700 SEO incluso, online in 30 giorni</strong> — ROI misurabile entro 4–7 mesi, +40% di lead in 90 giorni.
+            Il <strong style={{ color: "#C9A84C" }}>76% delle PMI italiane</strong> è sotto la media europea di digitalizzazione: ogni giorno offline sono clienti persi alla concorrenza. Il mercato quota un sito professionale <strong style={{ color: "#C9A84C" }}>€3.000–€8.000</strong>. Con RecGroup? <strong style={{ color: "rgba(245,240,232,0.85)" }}>€700 SEO incluso, online in 30 giorni</strong> — +40% di lead in 90 giorni, ROI 150–300% nel primo anno.
           </p>
           <p>
-            Un gestionale su misura per PMI costa sul mercato <strong style={{ color: "#C9A84C" }}>€5.000–€15.000</strong>. Il nostro parte da <strong style={{ color: "rgba(245,240,232,0.85)" }}>€900 con CRM, IA integrata e fatturazione automatica</strong> — i clienti risparmiano <strong style={{ color: "#C9A84C" }}>10+ ore/settimana</strong> e riducono l&apos;amministrativo del 30–40%.
+            Un software gestionale personalizzato per PMI costa sul mercato <strong style={{ color: "#C9A84C" }}>€8.000–€15.000</strong>. Il nostro parte da <strong style={{ color: "rgba(245,240,232,0.85)" }}>€900 con CRM, IA integrata e fatturazione automatica</strong> — riduzione del <strong style={{ color: "#C9A84C" }}>35–40% dei tempi di gestione</strong>, 10+ ore/settimana risparmiate, ROI recuperato in 10–14 mesi.
           </p>
           <p style={{ fontSize: "0.85em" }}>
-            Con <strong style={{ color: "#C9A84C" }}>Transizione 5.0</strong> recuperi fino al 45%: sito da <strong style={{ color: "#C9A84C" }}>€495 effettivi</strong>, gestionale da <strong style={{ color: "#C9A84C" }}>€495 effettivi</strong>. Zero costi nascosti.
+            Con il <strong style={{ color: "#C9A84C" }}>Piano Transizione 5.0</strong> e i <strong style={{ color: "#C9A84C" }}>Bandi Digital Marketing 2026</strong> recuperi fino al 45% come credito d&apos;imposta: sito da <strong style={{ color: "#C9A84C" }}>€495 effettivi</strong>, gestionale da <strong style={{ color: "#C9A84C" }}>€495 effettivi</strong>. Zero costi nascosti, zero burocrazia.
           </p>
         </div>
 
@@ -107,7 +107,7 @@ export default function Hero() {
             { value: "50+",  label: "PMI e Freelancer" },
             { value: "+40%", label: "Nuovi Lead in 90gg" },
             { value: "-85%", label: "vs Prezzo di Mercato" },
-            { value: "4-7 Mesi",  label: "ROI Medio Clienti" },
+            { value: "150-300%", label: "ROI Primo Anno" },
           ].map((s, i) => (
             <>
               <div key={s.label} className="flex flex-col items-center px-6 py-4">
@@ -127,7 +127,7 @@ export default function Hero() {
 
         {/* Social proof nudge */}
         <p className="text-xs" style={{ color: "rgba(245,240,232,0.25)" }}>
-          Già scelti da 50+ freelancer e PMI italiane · realizzazione sito web professionale SEO da €700 (mercato €3.000–€8.000) · software gestionale con IA personalizzato PMI da €900 (mercato €5.000–€15.000) · CRM e fatturazione automatica integrati · digitalizzazione piccola impresa 2026 · automazione processi aziendali · ROI in 4–7 mesi · risparmio 10+ ore/settimana · fino all'85% sotto il prezzo di mercato · Transizione 5.0 · agenzia digitale freelancer Italia · zero costi nascosti · online in 30 giorni
+          Già scelti da 50+ freelancer e PMI italiane · realizzazione sito web professionale SEO da €700 (mercato €3.000–€8.000) · software gestionale personalizzato PMI da €900 (mercato €8.000–€15.000) · CRM e fatturazione automatica integrati · digitalizzazione PMI 2026 · automazione processi aziendali · ROI 150–300% primo anno · risparmio 10+ ore/settimana · riduzione 35–40% tempi gestione · fino all'85% sotto il prezzo di mercato · Piano Transizione 5.0 credito imposta 45% · Bandi Digital Marketing 2026 · agenzia digitale freelancer Italia · 76% PMI italiane sotto media europea digitalizzazione · bandi digitalizzazione imprese 2026 · software gestionale su misura piccola impresa · sito web SEO professionale freelancer · zero costi nascosti · online in 30 giorni
         </p>
 
       </div>
