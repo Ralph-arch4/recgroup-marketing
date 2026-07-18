@@ -620,6 +620,30 @@ const jsonLd = {
         },
         {
           "@type": "Question",
+          name: "Ho chiesto un preventivo ad altre agenzie e mi chiedono €20.000–60.000 per un gestionale: come fate a svilupparlo da €900?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Le grandi software house quotano €20.000–60.000 per strutture di costo elevate e scope enterprise sproporzionato. RecGroup si differenzia su tre fronti: (1) scope mirato — gestionali per PMI con 1–15 utenti, non corporate da 200 dipendenti; le funzioni per un artigiano o uno studio professionale sono chiare e replicabili; (2) stack moderno e snello — Next.js, database leggeri, hosting cloud senza licenze ERP o middleware inutili; (3) team piccolo, costi fissi minimi — il risparmio va direttamente nel prezzo. Il gestionale da €900 una tantum è tuo per sempre: nessun canone mensile, nessun vendor lock-in. Non è indicato per ERP enterprise da 50+ dipendenti — ma per sostituire Excel, WhatsApp e carta in una PMI piccola è la soluzione con il ROI più rapido sul mercato.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Sito web per dentista, studio dentistico o clinica odontoiatrica nel 2026: cosa serve davvero?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Nel 2026 il 91% dei pazienti cerca un dentista su Google prima di prenotare. Un sito efficace per studio odontoiatrico include: pagina servizi ottimizzata per keyword locali ('dentista [città]', 'ortodontista [quartiere]'); sistema di prenotazione appuntamenti online con conferma automatica via WhatsApp; scheda Google Business Profile ottimizzata con foto e recensioni; sezione FAQ medica per le domande più cercate ('quanto costa un impianto dentale?'); conformità GDPR per dati sanitari sensibili. Con RecGroup un sito per studio dentistico parte da €700 — prenotazioni integrate, SEO locale e conformità normativa. Il gestionale da €900 abbinato elimina l'agenda cartacea. Consegna in 2 settimane.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Sito web per B&B, affittacamere o casa vacanze nel 2026: come ridurre le commissioni Booking.com?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Booking.com e Airbnb prendono il 15–30% su ogni prenotazione — per una struttura con €20.000 di fatturato annuo significa perdere €3.000–6.000/anno in commissioni. Un sito con prenotazione diretta recupera queste commissioni già dalla prima stagione. Include: motore di prenotazione con disponibilità in tempo reale e pagamento online; integrazione channel manager per evitare doppie prenotazioni; SEO locale per 'B&B [città]' e 'affittacamere [zona]'; schema markup LodgingBusiness per i rich snippet su Google. Con RecGroup un sito per B&B con booking diretto parte da €1.200 — con 3–4 prenotazioni dirette al mese risparmiate dalla commissione, il ROI è completo in pochi mesi.",
+          },
+        },
+        {
+          "@type": "Question",
           name: "Come si inizia a lavorare con RecGroup?",
           acceptedAnswer: {
             "@type": "Answer",
@@ -842,7 +866,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-07-16",
+      dateModified: "2026-07-18",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
