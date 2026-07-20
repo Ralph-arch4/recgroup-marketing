@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://rec.group"),
   title: "Sito Web PMI da €700 | Risparmia 75% vs Agenzie — SEO, AEO & AI 2026 | rec.group Catania",
-  description: "Sito web professionale da €700 (mercato 2026: €2.000–8.000). Gestionale su misura da €900 una tantum — concorrenza: €5.000–8.000. ROI medio SEO per PMI: 748%. Core Web Vitals, AI, GEO e accessibilità WCAG/EAA inclusi. Incentivi Transizione 5.0 fino al 45% + Voucher MISE 50%. Consegna in 14 giorni. Preventivo gratuito in 24h — freelancer e PMI italiane.",
+  description: "L'88% delle PMI italiane è invisibile su ChatGPT, Gemini e Perplexity. Sito web da €700 (mercato: €2.000–8.000) e gestionale su misura da €900 senza canone — ROI medio SEO 748%. GEO, AEO, Core Web Vitals e accessibilità EAA inclusi. Incentivi Transizione 5.0 fino al 45%. Preventivo gratuito in 24h.",
   keywords: [
     "agenzia digitale Catania",
     "sito web professionale freelancer",
@@ -129,6 +129,13 @@ export const metadata: Metadata = {
     "consulenza digitale gratuita PMI freelancer Catania Italia",
     "cybersecurity NIS2 PMI 2026 sito web protetto",
     "AI cloud digitalizzazione PMI contributo fondo perduto 2026",
+    "88 percento PMI italiane invisibile ChatGPT Gemini Perplexity",
+    "visibilità AI motori intelligenza artificiale PMI 2026",
+    "PMI invisibile ChatGPT Gemini Perplexity SearchGPT Italia",
+    "GEO generative engine optimization agenzia Italia 2026",
+    "ottimizzazione visibilità AI PMI freelancer Italia",
+    "azienda citata ChatGPT come ottimizzare PMI Italia",
+    "strategia visibilità AI PMI 2026 Politecnico Milano",
   ],
   authors: [{ name: "rec.group" }],
   creator: "rec.group",
@@ -139,11 +146,20 @@ export const metadata: Metadata = {
     locale: "it_IT",
     siteName: "rec.group",
     url: "https://rec.group",
+    images: [
+      {
+        url: "https://rec.group/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "rec.group — Sito Web PMI da €700 | Gestionale da €900 | Agenzia Digitale Catania",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Sito Web PMI da €700 — Gestionale €900 Zero Canoni | rec.group 2026",
-    description: "Solo il 45% dei siti PMI italiani è ottimizzato e mobile-first. Il tuo? Sito da €700, gestionale da €900 zero canoni. ROI SEO 748%. Accessibilità EAA e NIS2-ready inclusi. Incentivi 5.0 + Voucher MISE 50%.",
+    description: "88% delle PMI italiane invisibile su ChatGPT, Gemini e Perplexity. Sito da €700, gestionale da €900 zero canoni. ROI SEO 748%. GEO, AEO e EAA inclusi. Incentivi 5.0 + Voucher MISE 50%.",
+    images: ["https://rec.group/og-image.png"],
   },
   robots: {
     index: true,
@@ -644,6 +660,14 @@ const jsonLd = {
         },
         {
           "@type": "Question",
+          name: "L'88% delle PMI italiane è invisibile su ChatGPT, Gemini e Perplexity: come risolvere?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Secondo il Politecnico di Milano (2026), solo il 12% delle PMI italiane ha una strategia per la visibilità sui motori AI — l'88% è completamente assente su ChatGPT, Gemini, Perplexity e SearchGPT. Questo significa perdere clienti che non cercano più su Google ma chiedono direttamente a un AI. Come risolvere: (1) contenuti strutturati con Schema.org che i motori AI leggono e citano; (2) FAQ con risposte dirette a domande reali — la forma preferita dai modelli AI per generare risposte; (3) menzione del brand su fonti autorevoli che gli AI indicizzano; (4) ottimizzazione GEO (Generative Engine Optimization) del sito — diversa dalla SEO classica. Con RecGroup ogni progetto include ottimizzazione GEO e AEO di base: il tuo brand diventa citabile dagli AI al posto dei concorrenti.",
+          },
+        },
+        {
+          "@type": "Question",
           name: "Come si inizia a lavorare con RecGroup?",
           acceptedAnswer: {
             "@type": "Answer",
@@ -866,7 +890,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-07-18",
+      dateModified: "2026-07-20",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
