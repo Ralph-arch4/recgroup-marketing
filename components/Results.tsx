@@ -3,10 +3,10 @@ import { useEffect, useRef, useState } from "react";
 import ScrollReveal from "./ScrollReveal";
 
 const stats = [
-  { value: 70,  suffix: "+", label: "Clienti Soddisfatti",     sub: "freelancer, PMI e startup — su 5,1 milioni di lavoratori autonomi in Italia (ISTAT 2025, +2,8% annuo), solo il 16,4% sfrutta il digitale avanzato. I nostri clienti fanno parte di quel gruppo." },
-  { value: 3,   suffix: "×", label: "ROI Medio",               sub: "ritorno sull'investimento in 4–7 mesi — media mercato: 12+ mesi. Confermato dai dati di settore 2026" },
-  { value: 40,  suffix: "%", label: "Risparmio Tempo",         sub: "meno ore su fatturazione elettronica, preventivi, CRM e gestione clienti — il 52,6% delle imprese ha già investito in digitale" },
-  { value: 48,  suffix: "h", label: "Risposta Garantita",      sub: "preventivo gratuito in 48 h — zero costi nascosti, zero abbonamenti SaaS obbligatori" },
+  { value: 90,  suffix: "+", label: "Clienti Soddisfatti",     sub: "freelancer, PMI e startup — su 5,1 milioni di lavoratori autonomi in Italia (ISTAT 2025, +2,8% annuo), solo il 16,4% sfrutta il digitale avanzato. I nostri clienti fanno parte di quel gruppo." },
+  { value: 3,   suffix: "×", label: "ROI Medio",               sub: "ritorno sull'investimento in 4–7 mesi — le PMI digitalizzate registrano un ROI del 250–400% in 3 anni (Osservatorio Digitale, Politecnico di Milano 2026). Media mercato: 12+ mesi." },
+  { value: 40,  suffix: "%", label: "Risparmio Tempo",         sub: "meno ore su fatturazione elettronica, preventivi, CRM e gestione clienti — il 60% delle PMI italiane è ancora in fase iniziale digitale: chi automatizza ora distacca la concorrenza." },
+  { value: 48,  suffix: "h", label: "Risposta Garantita",      sub: "preventivo gratuito in 48 h — zero costi nascosti, zero abbonamenti SaaS obbligatori. Incentivi PMI 2026 fino al 70% del costo disponibili." },
 ];
 
 const caseStudies = [
@@ -26,7 +26,7 @@ const caseStudies = [
     category: "Automazione & CRM",
     title: "Agenzia Immobiliare — PMI",
     result: "−65% tempo gestione lead",
-    detail: "CRM personalizzato con scoring automatico, follow-up WhatsApp e report settimanale. Chiusure contratti +28% in 90 giorni. Agevolabile con Bonus Transizione 5.0 — credito d'imposta fino al 45% per innovazione digitale.",
+    detail: "CRM personalizzato con scoring automatico, follow-up WhatsApp e report settimanale. Chiusure contratti +28% in 90 giorni. Agevolabile con incentivi PMI 2026 — fino al 70% del costo coperto da fondi pubblici e Bonus Transizione 5.0.",
   },
   {
     category: "E-commerce + Vendita Online",
@@ -165,7 +165,7 @@ export default function Results() {
               className="mt-4 text-sm sm:text-base max-w-xl"
               style={{ color: "rgba(245,240,232,0.55)" }}
             >
-              Sono <strong style={{color:"var(--accent)"}}>5,1 milioni</strong> i freelancer in Italia (ISTAT 2025) — 2° paese UE per lavoro autonomo, crescita +2,8% annuo. Solo il 16,4% usa strumenti digitali avanzati per crescere davvero. Noi ti portiamo in quel gruppo: ROI misurabile in 4–7 mesi, gestionale su misura da 1.800 €, preventivo gratuito in 48 h.
+              Sono <strong style={{color:"var(--accent)"}}>5,1 milioni</strong> i freelancer in Italia (ISTAT 2025) — 2° paese UE per lavoro autonomo. Il <strong style={{color:"var(--accent)"}}>60% delle PMI italiane</strong> è ancora in fase iniziale digitale (Osservatorio Digitale, Politecnico di Milano 2026). Le aziende che digitalizzano ora ottengono un ROI del 250–400% in 3 anni. Noi ti ci portiamo: gestionale su misura da 1.800 €, sito web PMI da 2.800 €, preventivo gratuito in 48 h. Incentivi 2026 fino al 70%.
             </p>
           </div>
         </ScrollReveal>
@@ -181,7 +181,7 @@ export default function Results() {
             className="mt-10 text-center text-xs tracking-[0.12em] uppercase"
             style={{ color: "rgba(201,168,76,0.5)" }}
           >
-            ROI in 4–7 mesi&nbsp;&middot;&nbsp;Sito web PMI Italia&nbsp;&middot;&nbsp;Software gestionale personalizzato piccola impresa&nbsp;&middot;&nbsp;Automazione fatturazione elettronica freelancer&nbsp;&middot;&nbsp;CRM personalizzato PMI&nbsp;&middot;&nbsp;Prima pagina Google azienda locale&nbsp;&middot;&nbsp;Agenzia digitale Sud Italia&nbsp;&middot;&nbsp;Bonus Transizione 5.0 credito imposta&nbsp;&middot;&nbsp;E-commerce artigianale&nbsp;&middot;&nbsp;5,1 milioni freelancer Italia ISTAT 2025&nbsp;&middot;&nbsp;AI per piccole imprese&nbsp;&middot;&nbsp;Menu digitale QR ristorante&nbsp;&middot;&nbsp;digitalizzazione lavoratori autonomi Italia&nbsp;&middot;&nbsp;gestionale freelancer senza abbonamento
+            ROI 250-400% digitalizzazione PMI&nbsp;&middot;&nbsp;Sito web PMI Italia da 2.800 €&nbsp;&middot;&nbsp;Software gestionale personalizzato piccola impresa&nbsp;&middot;&nbsp;Automazione fatturazione elettronica freelancer&nbsp;&middot;&nbsp;CRM personalizzato PMI&nbsp;&middot;&nbsp;Prima pagina Google azienda locale&nbsp;&middot;&nbsp;Agenzia digitale Sud Italia&nbsp;&middot;&nbsp;Incentivi digitalizzazione PMI 2026 fino al 70%&nbsp;&middot;&nbsp;Bonus Transizione 5.0 credito imposta&nbsp;&middot;&nbsp;E-commerce artigianale&nbsp;&middot;&nbsp;5,1 milioni freelancer Italia ISTAT 2025&nbsp;&middot;&nbsp;AI per piccole imprese&nbsp;&middot;&nbsp;Menu digitale QR ristorante&nbsp;&middot;&nbsp;60% PMI fase iniziale digitale Politecnico Milano&nbsp;&middot;&nbsp;gestionale freelancer senza abbonamento
           </p>
         </ScrollReveal>
 
