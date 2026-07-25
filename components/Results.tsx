@@ -165,7 +165,7 @@ export default function Results() {
               className="mt-4 text-sm sm:text-base max-w-xl"
               style={{ color: "rgba(245,240,232,0.55)" }}
             >
-              Sono <strong style={{color:"var(--accent)"}}>5,1 milioni</strong> i freelancer in Italia (ISTAT 2025) — 2° paese UE per lavoro autonomo. Il <strong style={{color:"var(--accent)"}}>60% delle PMI italiane</strong> è ancora in fase iniziale digitale (Osservatorio Digitale, Politecnico di Milano 2026). Le aziende che digitalizzano ora ottengono un ROI del 250–400% in 3 anni. Noi ti ci portiamo: gestionale su misura da 1.800 €, sito web PMI da 2.800 €, preventivo gratuito in 48 h. Incentivi 2026 fino al 70%.
+              Sono <strong style={{color:"var(--accent)"}}>5,1 milioni</strong> i freelancer in Italia (ISTAT 2025) — 2° paese UE per lavoro autonomo. Il <strong style={{color:"var(--accent)"}}>60% delle PMI italiane</strong> è ancora in fase iniziale digitale (Osservatorio Digitale, Politecnico di Milano 2026). Le aziende che digitalizzano ora ottengono un ROI del 250–400% in 3 anni. Noi ti ci portiamo: <strong style={{color:"var(--accent)"}}>sito web professionale da €700</strong>, <strong style={{color:"var(--accent)"}}>gestionale su misura da €900</strong> senza canone mensile, preventivo gratuito in 48 h. Incentivi 2026 fino al 70%.
             </p>
           </div>
         </ScrollReveal>

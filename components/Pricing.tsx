@@ -5,6 +5,8 @@ const plans = [
   {
     name: "Starter",
     tagline: "Presenza Online",
+    price: "da €700",
+    priceNote: "sito web · identità visiva",
     description: "Per chi parte da zero e vuole un'identità digitale professionale in tempi rapidi.",
     features: [
       "Sito web professionale (5 pagine)",
@@ -22,6 +24,8 @@ const plans = [
   {
     name: "Growth",
     tagline: "Crescita Attiva",
+    price: "da €1.500",
+    priceNote: "sito + gestionale",
     description: "Per chi ha già una base e vuole accelerare con strumenti digitali completi.",
     features: [
       "Tutto di Starter, più:",
@@ -40,6 +44,8 @@ const plans = [
   {
     name: "Pro",
     tagline: "Ecosistema Digitale",
+    price: "Su misura",
+    priceNote: "preventivo personalizzato",
     description: "Per chi vuole un ecosistema digitale completo che scala insieme all'attività.",
     features: [
       "Tutto di Growth, più:",
@@ -147,6 +153,20 @@ export default function Pricing() {
                     >
                       {plan.name}
                     </h3>
+                    <div className="flex items-baseline gap-2 mb-1">
+                      <span
+                        className="text-3xl font-black"
+                        style={{ color: "var(--accent)" }}
+                      >
+                        {plan.price}
+                      </span>
+                    </div>
+                    <p
+                      className="text-xs mb-3"
+                      style={{ color: "rgba(201,168,76,0.55)" }}
+                    >
+                      {plan.priceNote}
+                    </p>
                     <p
                       className="text-sm leading-relaxed"
                       style={{ color: "rgba(245,240,232,0.5)" }}
