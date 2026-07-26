@@ -675,6 +675,22 @@ const jsonLd = {
         },
         {
           "@type": "Question",
+          name: "Conviene un sito web per estetista, parrucchiere o centro estetico nel 2026?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Nel 2026 Treatwell e Fresha trattengono il 20–30% su ogni prenotazione. Per un centro estetico con 600€/giorno di fatturato, significa 1.800–3.600€/mese di commissioni. Un sito con prenotazione diretta recupera quelle commissioni già dal primo mese. Con RecGroup un sito per estetista o parrucchiere parte da €700 — prenotazioni online con promemoria WhatsApp automatici, gallery trattamenti, SEO locale ('estetista [città]', 'parrucchiere [quartiere]') e pagina recensioni integrata. Consegna in 10–14 giorni. Il gestionale da €900 elimina l'agenda cartacea e automatizza i solleciti per clienti non tornati da 60+ giorni.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Il gestionale su misura RecGroup conviene rispetto a Gestify, Planet Premium o iMio per idraulici ed elettricisti?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "I software verticali per impiantisti come Gestify, Planet Premium o iMio costano 40–120€/mese per utente — per 3 tecnici: 1.440–4.320€/anno in perpetuo senza mai possedere il software. Il gestionale RecGroup parte da €900 una tantum con preventivi e rapportini digitali da smartphone, agenda tecnici, magazzino con alert riordino, fatturazione SDI e storico impianti. Su 5 anni per 3 utenti: SaaS verticale = €7.200–21.600; RecGroup = circa €1.400 totali. Con Transizione 5.0 (45%) il costo effettivo scende a circa €495. Indicato per imprese con 1–10 operatori — il TCO più basso del mercato per artigiani idraulici ed elettricisti italiani.",
+          },
+        },
+        {
+          "@type": "Question",
           name: "Come si inizia a lavorare con RecGroup?",
           acceptedAnswer: {
             "@type": "Answer",
@@ -923,7 +939,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-07-25",
+      dateModified: "2026-07-26",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
