@@ -17,6 +17,9 @@ const items = [
   { icon: "🔒", label: "Zero Abbonamenti SaaS" },
   { icon: "✨", label: "5,1 Milioni di Freelancer in Italia — ISTAT 2025" },
   { icon: "🏆", label: "2° Paese UE per Lavoro Autonomo — 23,1% degli Occupati" },
+  { icon: "💡", label: "55% Risparmio vs Agenzia Tradizionale" },
+  { icon: "🧑‍💼", label: "Personal Branding Coach & Freelancer" },
+  { icon: "📉", label: "Solo il 21% delle PMI Vende Online — Noi Ti Portiamo Lì" },
 ];
 
 // Doubled for seamless loop
