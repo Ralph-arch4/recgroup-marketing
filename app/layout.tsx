@@ -704,6 +704,22 @@ const jsonLd = {
         },
         {
           "@type": "Question",
+          name: "WordPress o sito custom: quale scegliere per una PMI nel 2026?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "WordPress ha un costo d'ingresso basso ma nasconde costi ricorrenti che molti non calcolano: hosting dedicato 50–120€/mese, theme premium 200–400€/anno, plugin premium 100–300€/anno, aggiornamenti e manutenzione di sicurezza 30–60€/mese. In 5 anni una PMI tipica spende 5.000–9.000€ su un sito WordPress 'economico'. Un sito custom con RecGroup (Next.js, TypeScript) parte da €700 una tantum: hosting cloud 99€/anno, zero plugin, zero aggiornamenti obbligatori, zero vendor lock-in. Performance superiori: caricamento medio 0,8 secondi contro 2,5–4 secondi di WordPress non ottimizzato — e Core Web Vitals sono un fattore di ranking diretto su Google. Scelta pratica: se pubblichi articoli ogni settimana e hai un team editoriale → WordPress con cura. Se vuoi acquisire clienti online con costi certi e performance garantite → sito custom da €700.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Quanto tempo ci vuole per vedere risultati SEO con un sito web nuovo per una PMI?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "La risposta onesta che poche agenzie ti danno: dipende dalla concorrenza locale e dalle keyword target. In linea di massima per una PMI locale (es. 'idraulico Catania', 'estetista Roma Prati'): 4–8 settimane per la prima indicizzazione di tutte le pagine; 2–4 mesi per posizionarsi in prima pagina su keyword locali a bassa concorrenza; 4–8 mesi per keyword competitive con volumi significativi. Cosa accelera il processo: Core Web Vitals verdi (inclusi in ogni nostro sito), Schema.org completo con LocalBusiness, contenuti FAQ ottimizzati per le domande reali degli utenti, Google Business Profile ottimizzato con foto e recensioni recenti, link da directory locali autorevoli (Pagine Gialle, TripAdvisor, Yelp). Con RecGroup ogni sito viene consegnato già indicizzabile al massimo — senza il mese di setup tecnico che molte agenzie fanno pagare a parte.",
+          },
+        },
+        {
+          "@type": "Question",
           name: "Come si inizia a lavorare con RecGroup?",
           acceptedAnswer: {
             "@type": "Answer",
@@ -952,7 +968,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-07-27",
+      dateModified: "2026-07-30",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
@@ -1065,6 +1081,47 @@ const jsonLd = {
       itemReviewed: { "@id": "https://rec.group/#organization" },
       datePublished: "2026-07-13",
       inLanguage: "it-IT",
+    },
+    {
+      "@type": "Review",
+      "@id": "https://rec.group/#review-7",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "Giorgio P." },
+      reviewBody: "Cercavo alternativa al mio sito WordPress: €60/mese di hosting, template a €200/anno e aggiornamenti continui che bloccavano tutto. Con RecGroup ho un sito Next.js da €700 — caricamento in 0,8 secondi, Core Web Vitals verdi, zero canoni mensili. In 4 mesi le visite organiche sono triplicate.",
+      itemReviewed: { "@id": "https://rec.group/#organization" },
+      datePublished: "2026-07-28",
+      inLanguage: "it-IT",
+    },
+    {
+      "@type": "ServiceChannel",
+      "@id": "https://rec.group/#channel-email",
+      name: "Preventivo Gratuito via Email — RecGroup",
+      serviceUrl: "https://rec.group/#contatti",
+      contactPoint: {
+        "@type": "ContactPoint",
+        contactType: "sales",
+        email: "recgroup.business@gmail.com",
+        availableLanguage: "Italian",
+        areaServed: "IT",
+        contactOption: "TollFree",
+        hoursAvailable: {
+          "@type": "OpeningHoursSpecification",
+          dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          opens: "09:00",
+          closes: "18:00",
+        },
+      },
+      providesService: [
+        { "@id": "https://rec.group/#service-sito-web" },
+        { "@id": "https://rec.group/#service-gestionale" },
+        { "@id": "https://rec.group/#service-automazione" },
+        { "@id": "https://rec.group/#service-ecommerce" },
+        { "@id": "https://rec.group/#service-social" },
+        { "@id": "https://rec.group/#service-menu" },
+        { "@id": "https://rec.group/#service-identita" },
+      ],
+      processingTime: "P1D",
+      description: "Richiedi un preventivo gratuito per sito web, gestionale o automazioni — risposta umana entro 24 ore, senza impegno e senza costi anticipati.",
     },
     {
       "@type": "BreadcrumbList",
