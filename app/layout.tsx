@@ -157,6 +157,21 @@ export const metadata: Metadata = {
     "gestionale ordini clienti PMI senza canone mensile web-based",
     "come portare clienti online PMI italiana guida pratica 2026",
     "perché solo 21 percento PMI vende online soluzione sito web",
+    "sito web fotografo professionista prezzo 2026 Italia",
+    "quanto costa sito web per fotografo matrimoni Italia",
+    "sito web studio fotografico portfolio online SEO 2026",
+    "fotografo aziendale sito web prenotazione sessioni online",
+    "SEO fotografo matrimoni città Google 2026",
+    "portfolio fotografico online ottimizzato Google Immagini",
+    "sito web tatuatore tattoo studio 2026 prezzo",
+    "gestionale tatuatore prenotazione appuntamenti online",
+    "tattoo studio sito web portfolio SEO locale 2026",
+    "tatuatore digitale gestionale clienti lista attesa",
+    "sito web wedding planner Italia prezzo 2026",
+    "organizzatore matrimoni sito web portfolio SEO",
+    "wedding planner trovare clienti online Google 2026",
+    "quanto costa sito wedding planner organizzatore eventi Italia",
+    "sito web organizzatore eventi preventivo online SEO",
   ],
   authors: [{ name: "rec.group" }],
   creator: "rec.group",
@@ -728,6 +743,30 @@ const jsonLd = {
         },
         {
           "@type": "Question",
+          name: "Sito web per fotografo professionista o studio fotografico nel 2026: cosa serve davvero?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Un fotografo professionista senza sito web ottimizzato SEO dipende solo dal passaparola e da Instagram — che porta follower, non sempre clienti con intento immediato. Con RecGroup un sito per fotografo parte da €700: portfolio galleria ottimizzata per Google Immagini con schema markup Photographer, pagina servizi (matrimoni, corporate, ritratti, prodotto, eventi), sistema di prenotazione sessioni online, SEO locale per keyword come 'fotografo matrimonio [città]' e 'shooting aziendale [zona]'. Il gestionale da €900 abbinato centralizza clienti, sessioni, consegne e fatturazione. Consegna in 10–14 giorni.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Sito web e gestionale per tatuatore o tattoo studio nel 2026: come digitalizzarsi davvero?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Il 74% delle richieste ai tatuatori italiani arriva da Google Maps e ricerche locali. Un tattoo studio senza sito web perde prenotazioni ogni giorno. Con RecGroup: sito con portfolio per stile (realistico, minimal, blackwork) da €700, sistema di prenotazione online con lista d'attesa digitale e promemoria WhatsApp (-40–60% no-show), SEO locale per 'tatuatore [città]', pagamento acconto online. Il gestionale da €900 gestisce clienti, appuntamenti e fatturazione. Con Transizione 5.0 (45%) il pacchetto completo scende a circa €880. Consegna in 2 settimane.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Sito web per wedding planner o organizzatore di eventi nel 2026: come trovare più coppie online?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Il 91% delle coppie italiane inizia la ricerca del wedding planner su Google — e le prime 3 posizioni su 'wedding planner [città]' raccolgono l'85% dei click. Con RecGroup un sito per wedding planner parte da €700: portfolio matrimoni con SEO per ogni storia, pagina pacchetti con prezzi trasparenti, modulo preventivo che qualifica i lead, testimonianze sposi, SEO locale per 'wedding planner [città]' e 'organizzatore matrimoni [regione]', schema markup EventPlanner. Il gestionale da €900 abbinato gestisce clienti, fornitori, checklist eventi e fatturazione. Consegna in 1–2 settimane.",
+          },
+        },
+        {
+          "@type": "Question",
           name: "Come si inizia a lavorare con RecGroup?",
           acceptedAnswer: {
             "@type": "Answer",
@@ -976,7 +1015,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-08-01",
+      dateModified: "2026-08-02",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
