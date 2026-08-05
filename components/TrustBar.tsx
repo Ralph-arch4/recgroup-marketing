@@ -12,14 +12,17 @@ const items = [
   { icon: "🔗", label: "CRM Personalizzato PMI" },
   { icon: "🚀", label: "Lancio Sito in 7 Giorni" },
   { icon: "📈", label: "ROI 250–400% in 3 Anni — Politecnico di Milano 2026" },
-  { icon: "🛒", label: "E-commerce Artigianale" },
+  { icon: "🛒", label: "E-commerce PMI da €2.500 — Senza Marketplace" },
   { icon: "✅", label: "90+ Clienti Soddisfatti" },
   { icon: "🔒", label: "Zero Abbonamenti SaaS" },
   { icon: "✨", label: "5,1 Milioni di Freelancer in Italia — ISTAT 2025" },
   { icon: "🏆", label: "2° Paese UE per Lavoro Autonomo — 23,1% degli Occupati" },
   { icon: "💡", label: "55% Risparmio vs Agenzia Tradizionale" },
-  { icon: "🧑‍💼", label: "Personal Branding Coach & Freelancer" },
+  { icon: "🔄", label: "Alternativa Fatture in Cloud — Gestionale Su Misura" },
   { icon: "📉", label: "Solo il 21% delle PMI Vende Online — Noi Ti Portiamo Lì" },
+  { icon: "🖥️", label: "Sito Web Vetrina 5 Pagine — da €1.500" },
+  { icon: "🧲", label: "Landing Page Alta Conversione — da €700" },
+  { icon: "📑", label: "Preventivi e Contratti Automatici — Zero Ore Manuali" },
 ];
 
 // Doubled for seamless loop
