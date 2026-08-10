@@ -3,8 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://rec.group"),
-  title: "Sito Web PMI da €700 | Risparmia 75% vs Agenzie — SEO, AEO & AI 2026 | rec.group Catania",
-  description: "L'88% delle PMI italiane è invisibile su ChatGPT e Gemini. Solo il 21% riceve ordini online, solo il 41% usa un gestionale strutturato (ISTAT 2026). Sito web da €700 (mercato: €2.000–8.000) e gestionale su misura da €900 zero canone. ROI SEO 748%. GEO, AEO, Core Web Vitals, EAA. Incentivi Transizione 5.0 fino al 45%. Preventivo gratuito in 24h.",
+  title: "Sito Web PMI da €700 | Visibile su Google AI Overviews & ChatGPT — GEO, AEO, SEO 2026 | rec.group Catania",
+  description: "Da agosto 2026 Google AI Overviews risponde al 65% delle ricerche in italiano — l'88% delle PMI è escluso. Sito web da €700 (mercato: €2.000–8.000), gestionale da €900 zero canone. GEO, AEO, Core Web Vitals, EAA inclusi. ROI SEO medio 748%. Incentivi Transizione 5.0 fino al 45%. Preventivo gratuito 24h — risponde un umano.",
   keywords: [
     "agenzia digitale Catania",
     "sito web professionale freelancer",
@@ -190,12 +190,21 @@ export const metadata: Metadata = {
     "78 percento PMI gestionale miglioramento produttività Osservatorio Digitale",
     "3 secondi decisione utente sito web velocità PMI",
     "local SEO AI Google Business Profile PMI agosto 2026",
+    "Google AI Overviews Italia agosto 2026 PMI visibilità",
+    "sito web visibile Google AI Overviews ChatGPT Gemini PMI",
+    "agenzia GEO AEO certificata Italia PMI freelancer 2026",
+    "chatbot H24 sito web PMI senza assumere personale",
+    "lead generation conversazionale AI piccola impresa 2026",
+    "sito web aziendale 5 10 pagine PMI prezzo reale 2026",
+    "web agency competenze GEO AEO certificata 2026",
+    "costo sito web vetrina confronto agenzie Italia 2026",
+    "generazione contenuti SEO automatica AI PMI italiano",
   ],
   authors: [{ name: "rec.group" }],
   creator: "rec.group",
   openGraph: {
-    title: "Sito Web PMI da €700, Gestionale da €900 — ROI 748% Medio | rec.group 2026",
-    description: "Il 72% delle PMI ha un sito — ma solo il 45% è ottimizzato. Noi: siti da €700 e gestionali da €900 (concorrenza: €5.000–8.000). SEO ROI 748%, accessibilità EAA, Core Web Vitals e AI inclusi. Incentivi fino al 70% nel Mezzogiorno. Preventivo gratuito 24h — risponde un umano.",
+    title: "Sito Web PMI da €700 | GEO per Google AI Overviews & ChatGPT — ROI 748% | rec.group 2026",
+    description: "Da agosto 2026 Google AI Overviews risponde al 65% delle ricerche italiane: le PMI non ottimizzate GEO spariscono. Siti da €700 e gestionali da €900 (concorrenza: €3.000–8.000). SEO+GEO+AEO inclusi, Core Web Vitals verdi, EAA. Incentivi fino al 70% nel Mezzogiorno. Preventivo gratuito 24h — risponde un umano.",
     type: "website",
     locale: "it_IT",
     siteName: "rec.group",
@@ -211,8 +220,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sito Web PMI da €700 — Gestionale €900 Zero Canoni | rec.group 2026",
-    description: "88% delle PMI italiane invisibile su ChatGPT, Gemini e Perplexity. Sito da €700, gestionale da €900 zero canoni. ROI SEO 748%. GEO, AEO e EAA inclusi. Incentivi 5.0 + Voucher MISE 50%.",
+    title: "Sito Web PMI da €700 | GEO Google AI Overviews & ChatGPT — Gestionale €900 | rec.group 2026",
+    description: "Google AI Overviews attivo in Italia agosto 2026: l'88% delle PMI è escluso. Sito da €700 visibile su AI Overviews, ChatGPT e Gemini. Gestionale da €900 zero canoni. GEO+AEO+SEO inclusi. Incentivi 5.0 fino al 45%.",
     images: ["https://rec.group/og-image.png"],
   },
   robots: {
@@ -1091,7 +1100,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-08-09",
+      dateModified: "2026-08-10",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
