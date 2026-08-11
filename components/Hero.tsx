@@ -45,7 +45,7 @@ export default function Hero() {
           backdropFilter: "blur(8px)",
         }}>
           <span className="w-1.5 h-1.5 rounded-full animate-pulse flex-shrink-0" style={{ background: "#4ade80" }} />
-          ⚡ Sito Web SEO + GEO da €700 (mercato €3.000–€8.000) · Gestionale IA da €900 (mercato €20.000+) · Transizione 5.0 −45% · Voucher MIMIT €10.000 · Solo 2 posti — Scade 31 Agosto
+          Attivo ora — Sito SEO+GEO da €700 (mercato €3.000–€8.000) · Gestionale IA da €900 (mercato €20.000+) · Credito imposta −45% Transizione 5.0 · Solo 2 posti disponibili · Scade 31 Agosto 2026
         </div>
 
         {/* Headline — tighter clamp for mobile */}
@@ -64,7 +64,7 @@ export default function Hero() {
           color: "rgba(245,240,232,0.60)",
         }}>
           <p>
-            Secondo <strong style={{ color: "#C9A84C" }}>ISTAT</strong>, solo il <strong style={{ color: "#C9A84C" }}>21% delle PMI italiane</strong> riceve ordini online — il 79% regala clienti alla concorrenza ogni giorno. Il mercato quota un sito professionale <strong style={{ color: "#C9A84C" }}>€3.000–€8.000</strong>. Con RecGroup? <strong style={{ color: "rgba(245,240,232,0.85)" }}>€700 SEO incluso, online in 30 giorni</strong> — +40% di lead in 90 giorni, ROI 150–300% nel primo anno. Il <strong style={{ color: "#C9A84C" }}>68% delle PMI</strong> sceglie chi offre un unico interlocutore e prezzi trasparenti: siamo noi.
+            Secondo <strong style={{ color: "#C9A84C" }}>ISTAT</strong>, solo il <strong style={{ color: "#C9A84C" }}>21% delle PMI italiane</strong> riceve ordini online — il 79% regala clienti alla concorrenza ogni giorno senza saperlo. Il mercato quota un sito professionale con SEO <strong style={{ color: "#C9A84C" }}>€3.000–€8.000</strong>. Con RecGroup? <strong style={{ color: "rgba(245,240,232,0.85)" }}>€700 tutto incluso, online in 30 giorni garantiti</strong> — +40% di lead qualificati in 90 giorni, ROI 150–300% nel primo anno. Il <strong style={{ color: "#C9A84C" }}>68% delle PMI</strong> sceglie chi offre un unico interlocutore e prezzi trasparenti: siamo noi, e lo facciamo da subito.
           </p>
           <p>
             Il <strong style={{ color: "#C9A84C" }}>62% delle PMI italiane</strong> gestisce ancora processi critici su <strong style={{ color: "#C9A84C" }}>Excel o software generici</strong> — errori manuali, dati frammentati, ore perse ogni giorno. Un software gestionale personalizzato per PMI costa sul mercato <strong style={{ color: "#C9A84C" }}>€8.000–€15.000</strong>. Il nostro parte da <strong style={{ color: "rgba(245,240,232,0.85)" }}>€900 con CRM, IA integrata e fatturazione automatica</strong> — risparmio di <strong style={{ color: "#C9A84C" }}>€45.000–55.000 annui</strong> (PMI 30+ dipendenti), ROI recuperato in <strong style={{ color: "#C9A84C" }}>14–18 mesi</strong>. L&apos;<strong style={{ color: "#C9A84C" }}>81% delle aziende</strong> con software su misura dichiara un aumento misurabile dell&apos;efficienza operativa (Forrester).
@@ -94,12 +94,17 @@ export default function Hero() {
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 w-full sm:w-auto">
           <a href="#contatti" className="accent-btn cta-glow rounded-full text-base font-bold tracking-wide text-center" style={{ padding: "16px 36px" }}>
-            Ottieni il Tuo Preventivo Gratuito →
+            Consulenza Gratuita 30 Min — Senza Impegni →
           </a>
           <a href="#portfolio" className="outline-btn rounded-full text-base font-semibold tracking-wide text-center" style={{ padding: "16px 36px" }}>
             Vedi i Risultati dei Clienti →
           </a>
         </div>
+
+        {/* Trust micro-copy */}
+        <p className="text-xs text-center" style={{ color: "rgba(245,240,232,0.28)" }}>
+          Risposta garantita entro 24h · Preventivo gratuito senza impegni · 50+ PMI italiane già digitalizzate
+        </p>
 
         {/* Stats — editorial inline style, no heavy box */}
         <div className="flex items-center justify-center gap-0 flex-wrap mt-2">
