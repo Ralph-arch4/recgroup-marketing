@@ -4,8 +4,8 @@ import ScrollReveal from "./ScrollReveal";
 
 const stats = [
   { value: 90,  suffix: "+", label: "Clienti Soddisfatti",     sub: "freelancer, PMI e startup — su 5,1 milioni di lavoratori autonomi in Italia (ISTAT 2025, +2,8% annuo), solo il 16,4% sfrutta il digitale avanzato. I nostri clienti fanno parte di quel gruppo." },
-  { value: 3,   suffix: "×", label: "ROI Medio",               sub: "ritorno sull'investimento in 4–7 mesi — le PMI digitalizzate registrano un ROI del 250–400% in 3 anni (Osservatorio Digitale, Politecnico di Milano 2026). Media mercato: 12+ mesi." },
-  { value: 40,  suffix: "%", label: "Risparmio Tempo",         sub: "meno ore su fatturazione elettronica, preventivi, CRM e gestione clienti — il 60% delle PMI italiane è ancora in fase iniziale digitale: chi automatizza ora distacca la concorrenza." },
+  { value: 3,   suffix: "×", label: "ROI Medio",               sub: "ritorno sull'investimento in 4–7 mesi — fino al 1.350% ROI nel primo anno per chi parte da zero (LAMPO 2026). Le PMI digitalizzate registrano un ROI del 250–400% in 3 anni (Osservatorio Digitale, Politecnico di Milano 2026). Media mercato: 12+ mesi." },
+  { value: 40,  suffix: "%", label: "Risparmio Tempo",         sub: "meno ore su fatturazione elettronica, preventivi, CRM e gestione clienti — il 70% delle PMI italiane investe in digitale proprio per ridurre il tempo perso su attività manuali. Chi automatizza ora distacca la concorrenza." },
   { value: 55,  suffix: "%", label: "Risparmio vs Agenzia",     sub: "le PMI che scelgono un partner specializzato risparmiano in media il 55% sui costi di progetto rispetto alle grandi agenzie — a parità di qualità. Sito web vetrina PMI da 1.500–4.000 €, noi partiamo da 700 €. Preventivo gratuito in 48 h." },
 ];
 
@@ -45,6 +45,12 @@ const caseStudies = [
     title: "Personal Trainer — Coach Online",
     result: "+220% clienti online in 3 mesi",
     detail: "Landing page ad alta conversione con prenotazione sessioni automatizzata e profilo Google Business ottimizzato. Da 2 a 9 nuovi clienti/mese con investimento da 900 €. Nessun canone mensile, zero commissioni. Il 79% dei consumatori italiani cerca professionisti locali su Google prima di contattarli — noi ti portiamo davanti a loro.",
+  },
+  {
+    category: "Presenza Digitale da Zero",
+    title: "Consulente Fiscale — Freelancer",
+    result: "Investimento recuperato in 28 giorni",
+    detail: "Landing page + Google Business ottimizzato: da zero presenza online a 3 nuovi contatti/settimana sin dal primo mese. ROI 1.350% nel primo anno (LAMPO 2026). Il 64% delle PMI italiane spende meno di 1.000 € per il primo sito — e lo recupera in meno di 30 giorni con la strategia giusta. Nessun abbonamento, nessuna commissione.",
   },
 ];
 
@@ -171,7 +177,7 @@ export default function Results() {
               className="mt-4 text-sm sm:text-base max-w-xl"
               style={{ color: "rgba(245,240,232,0.55)" }}
             >
-              Sono <strong style={{color:"var(--accent)"}}>5,1 milioni</strong> i freelancer in Italia (ISTAT 2025) — 2° paese UE per lavoro autonomo. Il <strong style={{color:"var(--accent)"}}>58% delle PMI italiane ha un sito web, ma solo il 21% riceve ordini online</strong>. Avere un sito non basta: serve uno fatto per convertire. Le aziende che digitalizzano ora ottengono un ROI del 250–400% in 3 anni (Politecnico di Milano 2026). Noi ti ci portiamo: <strong style={{color:"var(--accent)"}}>sito web professionale da €700</strong>, <strong style={{color:"var(--accent)"}}>gestionale su misura da €900</strong> senza canone mensile, preventivo gratuito in 48 h. Incentivi 2026 fino al 70%.
+              Sono <strong style={{color:"var(--accent)"}}>5,1 milioni</strong> i freelancer in Italia (ISTAT 2025) — 2° paese UE per lavoro autonomo. Il <strong style={{color:"var(--accent)"}}>58% delle PMI italiane ha un sito web, ma solo il 21% riceve ordini online</strong>. Avere un sito non basta: serve uno fatto per convertire. Chi parte da zero e lo fa bene recupera l'investimento in <strong style={{color:"var(--accent)"}}>meno di 30 giorni</strong> con un ROI fino al <strong style={{color:"var(--accent)"}}>1.350% nel primo anno</strong> (LAMPO 2026). Le aziende che digitalizzano registrano un ROI del 250–400% in 3 anni (Politecnico di Milano 2026). Noi ti ci portiamo: <strong style={{color:"var(--accent)"}}>sito web professionale da €700</strong>, <strong style={{color:"var(--accent)"}}>gestionale su misura da €900</strong> senza canone mensile, preventivo gratuito in 48 h. Incentivi 2026 fino al 70%.
             </p>
           </div>
         </ScrollReveal>
@@ -187,7 +193,7 @@ export default function Results() {
             className="mt-10 text-center text-xs tracking-[0.12em] uppercase"
             style={{ color: "rgba(201,168,76,0.5)" }}
           >
-            ROI 250-400% digitalizzazione PMI&nbsp;&middot;&nbsp;Sito web PMI Italia da 700 €&nbsp;&middot;&nbsp;Software gestionale personalizzato piccola impresa&nbsp;&middot;&nbsp;Automazione fatturazione elettronica freelancer&nbsp;&middot;&nbsp;CRM personalizzato PMI&nbsp;&middot;&nbsp;Prima pagina Google azienda locale&nbsp;&middot;&nbsp;Agenzia digitale Sud Italia&nbsp;&middot;&nbsp;Incentivi digitalizzazione PMI 2026 fino al 70%&nbsp;&middot;&nbsp;Bonus Transizione 5.0 credito imposta 45%&nbsp;&middot;&nbsp;E-commerce PMI senza marketplace&nbsp;&middot;&nbsp;5,1 milioni freelancer Italia ISTAT 2025&nbsp;&middot;&nbsp;AI per piccole imprese&nbsp;&middot;&nbsp;Menu digitale QR ristorante&nbsp;&middot;&nbsp;58% PMI ha sito web solo 21% vende online&nbsp;&middot;&nbsp;55% risparmio vs agenzia tradizionale&nbsp;&middot;&nbsp;alternativa Fatture in Cloud gestionale su misura&nbsp;&middot;&nbsp;landing page alta conversione da 700 euro&nbsp;&middot;&nbsp;sito web vetrina professionale 5 pagine PMI da 1500 euro&nbsp;&middot;&nbsp;gestionale freelancer senza abbonamento mensile&nbsp;&middot;&nbsp;costo sito web aziendale PMI 2026&nbsp;&middot;&nbsp;preventivi automatici freelancer&nbsp;&middot;&nbsp;software fatturazione elettronica personalizzato&nbsp;&middot;&nbsp;quanto costa un sito web PMI Italia 2026&nbsp;&middot;&nbsp;e-commerce artigianale da 2500 euro senza marketplace
+            ROI 250-400% digitalizzazione PMI&nbsp;&middot;&nbsp;ROI 1350% primo anno sito web PMI&nbsp;&middot;&nbsp;recupero investimento 30 giorni&nbsp;&middot;&nbsp;Sito web PMI Italia da 700 €&nbsp;&middot;&nbsp;Software gestionale personalizzato piccola impresa&nbsp;&middot;&nbsp;Automazione fatturazione elettronica freelancer&nbsp;&middot;&nbsp;CRM personalizzato PMI&nbsp;&middot;&nbsp;Prima pagina Google azienda locale&nbsp;&middot;&nbsp;Agenzia digitale Sud Italia&nbsp;&middot;&nbsp;Incentivi digitalizzazione PMI 2026 fino al 70%&nbsp;&middot;&nbsp;Bonus Transizione 5.0 credito imposta 45%&nbsp;&middot;&nbsp;E-commerce PMI senza marketplace&nbsp;&middot;&nbsp;5,1 milioni freelancer Italia ISTAT 2025&nbsp;&middot;&nbsp;AI per piccole imprese&nbsp;&middot;&nbsp;Menu digitale QR ristorante&nbsp;&middot;&nbsp;58% PMI ha sito web solo 21% vende online&nbsp;&middot;&nbsp;55% risparmio vs agenzia tradizionale&nbsp;&middot;&nbsp;alternativa Fatture in Cloud gestionale su misura&nbsp;&middot;&nbsp;landing page alta conversione da 700 euro&nbsp;&middot;&nbsp;sito web vetrina professionale 5 pagine PMI da 1500 euro&nbsp;&middot;&nbsp;gestionale freelancer senza abbonamento mensile&nbsp;&middot;&nbsp;costo sito web aziendale PMI 2026&nbsp;&middot;&nbsp;preventivi automatici freelancer&nbsp;&middot;&nbsp;software fatturazione elettronica personalizzato&nbsp;&middot;&nbsp;quanto costa un sito web PMI Italia 2026&nbsp;&middot;&nbsp;e-commerce artigianale da 2500 euro senza marketplace&nbsp;&middot;&nbsp;70% PMI investe digitale risparmio tempo&nbsp;&middot;&nbsp;64% PMI spende meno 1000 euro primo sito&nbsp;&middot;&nbsp;presenza digitale da zero freelancer&nbsp;&middot;&nbsp;consulente fiscale freelancer sito web&nbsp;&middot;&nbsp;gestionale personalizzato consulente freelancer
           </p>
         </ScrollReveal>
 

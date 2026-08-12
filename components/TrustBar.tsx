@@ -23,6 +23,10 @@ const items = [
   { icon: "🖥️", label: "Sito Web Vetrina 5 Pagine — da €1.500" },
   { icon: "🧲", label: "Landing Page Alta Conversione — da €700" },
   { icon: "📑", label: "Preventivi e Contratti Automatici — Zero Ore Manuali" },
+  { icon: "🏅", label: "ROI 1.350% nel 1° Anno — Chi Parte da Zero" },
+  { icon: "⏱️", label: "Recupero Investimento in 30 Giorni" },
+  { icon: "📊", label: "70% PMI Investe in Digitale per Risparmiare Tempo" },
+  { icon: "💶", label: "64% delle PMI — Primo Sito da Meno di €1.000" },
 ];
 
 // Doubled for seamless loop
