@@ -813,6 +813,22 @@ const jsonLd = {
         },
         {
           "@type": "Question",
+          name: "Sito web per fisioterapista o studio di fisioterapia nel 2026: cosa serve davvero?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Nel 2026 l'82% dei nuovi pazienti cerca un fisioterapista su Google — keyword come 'fisioterapista [città]', 'riabilitazione [zona]' e 'fisioterapia post-operatoria [provincia]' hanno concorrenza SEO locale ancora bassa. Un sito efficace include: pagina specializzazioni ottimizzata per keyword locali, sistema di prenotazione sedute online con conferma WhatsApp (-40% no-show), FAQ sanitaria detraibilità e costi, schema markup MedicalClinic e conformità GDPR per dati sanitari. Il costo medio da agenzie italiane varia tra €1.200 e €3.500 — con RecGroup parte da €700 incluso SEO locale e prenotazioni. Il gestionale da €900 elimina l'agenda cartacea. Con Transizione 5.0 (45%) il pacchetto completo scende a circa €880. Consegna in 10–14 giorni.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Sito web per psicologo o psicoterapeuta nel 2026: come trovare pazienti online?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Nel 2026 il 74% dei pazienti cerca il proprio psicologo su Google prima di contattarlo — e la concorrenza SEO locale per psicologi è tra le più basse tra le professioni sanitarie. Keyword con volumi reali: 'psicologo [città]', 'psicoterapeuta CBT [zona]', 'psicologo ansia [provincia]'. Un sito che converte deve avere: pagina approccio terapeutico con keyword specifiche per metodo, sistema di prenotazione colloquio gratuito online (+45% conversioni), FAQ su costi e detraibilità, schema markup Physician e FAQPage per le AI Overviews, conformità GDPR rigorosa per dati psicologici sensibili. Il costo medio in Italia varia tra €1.200 e €2.600 — con RecGroup parte da €700 incluso SEO locale. Consegna in 10–14 giorni.",
+          },
+        },
+        {
+          "@type": "Question",
           name: "Come si inizia a lavorare con RecGroup?",
           acceptedAnswer: {
             "@type": "Answer",
@@ -1100,7 +1116,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-08-13",
+      dateModified: "2026-08-15",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
