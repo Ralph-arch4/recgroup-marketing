@@ -829,6 +829,22 @@ const jsonLd = {
         },
         {
           "@type": "Question",
+          name: "Sito web per avvocato o studio legale nel 2026: come trovare clienti online?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Nel 2026 l'89% delle persone che cercano un avvocato parte da Google — con keyword come 'avvocato divorzista [città]' o 'studio legale diritto del lavoro [provincia]'. Il 60% degli studi legali italiani ha ancora un sito obsoleto o assente: chi ottimizza ora si posiziona in prima pagina in 60–120 giorni. Un sito efficace per uno studio legale deve avere: pagina aree di pratica con testi SEO specifici per keyword locali; modulo richiesta colloquio conoscitivo che qualifica il lead; sezione 'chi siamo' con iscrizione all'albo e specializzazioni; FAQ giuridica con risposte alle domande più cercate ('quanto costa un avvocato per separazione?', 'posso avere il gratuito patrocinio?'); schema markup LegalService e FAQPage per le AI Overviews di Google; conformità GDPR. Con RecGroup un sito per studio legale parte da €700 — SEO locale, modulo colloquio e conformità normativa inclusi. Consegna in 1–2 settimane.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Sito web per commercialista o studio tributario nel 2026: cosa serve davvero?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Nel 2026 il 84% dei titolari di PMI cerca il proprio commercialista su Google — con keyword come 'commercialista [città]', 'consulenza fiscale partita IVA [provincia]'. La stagione fiscale porta picchi di ricerca del +240%: uno studio senza sito ottimizzato perde clienti nel momento in cui la domanda è più alta. Un sito che converte per uno studio contabile deve avere: pagina servizi con specializzazioni (contabilità PMI, forfettario, pianificazione fiscale, startup) ottimizzata per keyword locali; modulo richiesta appuntamento con selezione del tipo di consulenza; FAQ fiscale con risposte alle domande più cercate ('quanto costa un commercialista per aprire partita IVA?', 'meglio forfettario o semplificato nel 2026?', 'il commercialista è detraibile?'); schema markup AccountingService e FAQPage per le AI Overviews. Con RecGroup un sito per studio commercialista parte da €700. Il gestionale da €900 centralizza anagrafiche, scadenze fiscali con alert WhatsApp automatici e fatturazione. Con Transizione 5.0 (45%) il costo effettivo scende a circa €880. Consegna in 1–2 settimane.",
+          },
+        },
+        {
+          "@type": "Question",
           name: "Come si inizia a lavorare con RecGroup?",
           acceptedAnswer: {
             "@type": "Answer",
@@ -1116,7 +1132,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-08-15",
+      dateModified: "2026-08-16",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
