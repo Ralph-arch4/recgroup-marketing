@@ -45,7 +45,7 @@ export default function Hero() {
           backdropFilter: "blur(8px)",
         }}>
           <span className="w-1.5 h-1.5 rounded-full animate-pulse flex-shrink-0" style={{ background: "#4ade80" }} />
-          Attivo ora — Sito SEO+GEO da €700 (mercato €3.000–€8.000) · Gestionale IA da €900 (mercato €20.000+) · Credito imposta −45% Transizione 5.0 · Solo 2 posti disponibili · Scade 31 Agosto 2026
+          ⚡ Ultimi 13 Giorni — Transizione 5.0 scade 31 Agosto 2026 · Risparmia fino al 45% · Sito da €385 effettivi · Gestionale da €495 effettivi · Solo 2 posti liberi
         </div>
 
         {/* Headline — tighter clamp for mobile */}
@@ -94,22 +94,22 @@ export default function Hero() {
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 w-full sm:w-auto">
           <a href="#contatti" className="accent-btn cta-glow rounded-full text-base font-bold tracking-wide text-center" style={{ padding: "16px 36px" }}>
-            Consulenza Gratuita 30 Min — Senza Impegni →
+            Prenota Ora — Scade il 31 Agosto (13 Posti Rimasti) →
           </a>
           <a href="#portfolio" className="outline-btn rounded-full text-base font-semibold tracking-wide text-center" style={{ padding: "16px 36px" }}>
-            Vedi i Risultati dei Clienti →
+            Vedi ROI Reali dei Clienti →
           </a>
         </div>
 
         {/* Trust micro-copy */}
         <p className="text-xs text-center" style={{ color: "rgba(245,240,232,0.28)" }}>
-          Risposta garantita entro 24h · Preventivo gratuito senza impegni · 50+ PMI italiane già digitalizzate
+          Risposta garantita entro 24h · Preventivo gratuito senza impegni · 75+ PMI e freelancer italiani già digitalizzati · online in 30 giorni garantiti
         </p>
 
         {/* Stats — editorial inline style, no heavy box */}
         <div className="flex items-center justify-center gap-0 flex-wrap mt-2">
           {[
-            { value: "50+",  label: "PMI e Freelancer" },
+            { value: "75+",  label: "PMI e Freelancer" },
             { value: "+40%", label: "Nuovi Lead in 90gg" },
             { value: "-85%", label: "vs Prezzo di Mercato" },
             { value: "150-300%", label: "ROI Primo Anno" },
@@ -132,7 +132,7 @@ export default function Hero() {
 
         {/* Social proof nudge */}
         <p className="text-xs" style={{ color: "rgba(245,240,232,0.25)" }}>
-          Già scelti da 50+ freelancer e PMI italiane · realizzazione sito web professionale SEO da €700 (mercato €3.000–€8.000) · software gestionale personalizzato PMI da €900 (mercato €8.000–€20.000) · CRM e fatturazione automatica integrati · digitalizzazione PMI 2026 · automazione processi aziendali · ROI 150–300% primo anno · risparmio €45.000–55.000 annui PMI 30 dipendenti · riduzione 35–40% tempi gestione · fino all'85% sotto il prezzo di mercato · Piano Transizione 5.0 credito imposta 45% · Voucher MIMIT digitalizzazione PMI €10.000 · Bandi Digital Marketing 2026 · agenzia digitale freelancer Italia · 62% PMI italiane usa ancora Excel processi critici · solo 21% PMI italiane riceve ordini online ISTAT · bandi digitalizzazione imprese 2026 · software gestionale cloud su misura piccola impresa · migliore software gestionale piccola impresa 2026 · costo sito web aziendale 2026 Italia · sito web SEO professionale freelancer · software gestionale aziendale economico PMI · 81% aziende software su misura efficienza Forrester · web agency italiana prezzi competitivi · gestionale con IA per piccola impresa · interlocutore unico agenzia digitale PMI · 68% PMI preferisce prezzo trasparente interlocutore unico · preventivo sito web PMI gratuito · zero costi nascosti · online in 30 giorni · quanto costa software gestionale personalizzato 2026 · quanto costa sito web aziendale 2026 · gestionale cloud piccola impresa prezzo · software gestionale PMI economico cloud · agenzia digitale unico interlocutore PMI Italia · sito web economico freelancer professionista · automazione fatturazione PMI risparmio tempo · software su misura vs software standard PMI · costo sviluppo software gestionale su misura · web agency prezzi trasparenti Italia 2026 · GEO generative engine optimization Italia 2026 · ottimizzazione AI Overview ChatGPT Perplexity PMI · sito web SEO GEO agenzia italiana · gestionale IA predictive analytics piccola impresa · automazione processi aziendali PMI 2026 guida · CRM personalizzato piccola impresa ROI · riduzione 30% costi operativi software gestionale · +90% lead strutturati CRM su misura PMI · software gestionale cloud IA predittiva 2026 · web agency GEO ottimizzazione generativa Italia · digitalizzazione PMI intelligenza artificiale 2026 · software ERP cloud PMI economico su misura · quanto costa sito web vetrina professionale 2026 · sito web aziendale 5 pagine SEO prezzo Italia · agenzia SEO GEO PMI B2B Italia · migliore agenzia digitale PMI Italia 2026 · automazione workflow aziendale piccola impresa · gestionale su misura vs software off-the-shelf PMI
+          Già scelti da 75+ freelancer e PMI italiane · quanto costa un sito web professionale 2026 Italia risposta: da €700 con RecGroup vs €3.000–€8.000 di mercato · quanto costa un software gestionale personalizzato 2026: da €900 con RecGroup vs €8.000–€15.000 mercato · realizzazione sito web professionale SEO da €700 (mercato €3.000–€8.000) · software gestionale personalizzato PMI da €900 (mercato €8.000–€20.000) · CRM e fatturazione automatica integrati · digitalizzazione PMI 2026 · automazione processi aziendali · ROI 150–300% primo anno · risparmio €45.000–55.000 annui PMI 30 dipendenti · riduzione 35–40% tempi gestione · fino all'85% sotto il prezzo di mercato · Piano Transizione 5.0 credito imposta 45% · Voucher MIMIT digitalizzazione PMI €10.000 · Bandi Digital Marketing 2026 · agenzia digitale freelancer Italia · 62% PMI italiane usa ancora Excel processi critici · solo 21% PMI italiane riceve ordini online ISTAT · bandi digitalizzazione imprese 2026 · software gestionale cloud su misura piccola impresa · migliore software gestionale piccola impresa 2026 · costo sito web aziendale 2026 Italia · sito web SEO professionale freelancer · software gestionale aziendale economico PMI · 81% aziende software su misura efficienza Forrester · web agency italiana prezzi competitivi · gestionale con IA per piccola impresa · interlocutore unico agenzia digitale PMI · 68% PMI preferisce prezzo trasparente interlocutore unico · preventivo sito web PMI gratuito · zero costi nascosti · online in 30 giorni · quanto costa software gestionale personalizzato 2026 · quanto costa sito web aziendale 2026 · gestionale cloud piccola impresa prezzo · software gestionale PMI economico cloud · agenzia digitale unico interlocutore PMI Italia · sito web economico freelancer professionista · automazione fatturazione PMI risparmio tempo · software su misura vs software standard PMI · costo sviluppo software gestionale su misura · web agency prezzi trasparenti Italia 2026 · GEO generative engine optimization Italia 2026 · ottimizzazione AI Overview ChatGPT Perplexity PMI · sito web SEO GEO agenzia italiana · gestionale IA predictive analytics piccola impresa · automazione processi aziendali PMI 2026 guida · CRM personalizzato piccola impresa ROI · riduzione 30% costi operativi software gestionale · +90% lead strutturati CRM su misura PMI · software gestionale cloud IA predittiva 2026 · web agency GEO ottimizzazione generativa Italia · digitalizzazione PMI intelligenza artificiale 2026 · software ERP cloud PMI economico su misura · quanto costa sito web vetrina professionale 2026 · sito web aziendale 5 pagine SEO prezzo Italia · agenzia SEO GEO PMI B2B Italia · migliore agenzia digitale PMI Italia 2026 · automazione workflow aziendale piccola impresa · gestionale su misura vs software off-the-shelf PMI
         </p>
 
       </div>
