@@ -20,7 +20,7 @@ const caseStudies = [
     category: "Gestionale Su Misura",
     title: "Consulente HR — Freelancer",
     result: "10 ore/settimana risparmiate",
-    detail: "Alternativa a Fatture in Cloud: gestionale su misura con automazione preventivi, contratti e fatturazione elettronica — da 3 ore manuali a un click. Costo una tantum da 1.800 € senza canone mensile, proprietà totale del software. Nessun abbonamento SaaS: paghi una volta, usi per sempre. Su 5,1 milioni di freelancer italiani (ISTAT 2025), solo il 14,2% usa l'AI: noi ti portiamo avanti agli altri.",
+    detail: "Alternativa a Fatture in Cloud: gestionale su misura con automazione preventivi, contratti e fatturazione elettronica — da 3 ore manuali a un click. Il mercato medio per un gestionale PMI parte da €3.500–8.000 per un MVP (Lemio, Noonic 2026): noi lo realizziamo da €1.800 una tantum, proprietà totale, zero canone mensile, zero commissioni. Su 300.000+ freelancer digitali in Italia 2026 (+25% in 3 anni), chi automatizza ora prende un vantaggio che gli altri recuperano in anni.",
   },
   {
     category: "Automazione & CRM",
