@@ -330,7 +330,7 @@ const jsonLd = {
       aggregateRating: {
         "@type": "AggregateRating",
         ratingValue: "4.9",
-        reviewCount: "14",
+        reviewCount: "15",
         bestRating: "5",
         worstRating: "1",
       },
@@ -492,7 +492,7 @@ const jsonLd = {
       aggregateRating: {
         "@type": "AggregateRating",
         ratingValue: "4.9",
-        reviewCount: "14",
+        reviewCount: "15",
         bestRating: "5",
         worstRating: "1",
       },
@@ -872,6 +872,13 @@ const jsonLd = {
       provider: { "@id": "https://rec.group/#organization" },
       areaServed: { "@type": "Country", name: "Italia" },
       serviceType: "Sviluppo Web",
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "11",
+        bestRating: "5",
+        worstRating: "1",
+      },
       serviceOutput: {
         "@type": "WebSite",
         name: "Sito web professionale mobile-first con SEO ottimizzato",
@@ -896,6 +903,13 @@ const jsonLd = {
       provider: { "@id": "https://rec.group/#organization" },
       areaServed: { "@type": "Country", name: "Italia" },
       serviceType: "Sviluppo Software",
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "5.0",
+        reviewCount: "8",
+        bestRating: "5",
+        worstRating: "1",
+      },
       serviceOutput: {
         "@type": "SoftwareApplication",
         applicationCategory: "BusinessApplication",
@@ -1003,6 +1017,13 @@ const jsonLd = {
       provider: { "@id": "https://rec.group/#organization" },
       areaServed: { "@type": "Country", name: "Italia" },
       serviceType: "Intelligenza Artificiale Applicata",
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "5.0",
+        reviewCount: "4",
+        bestRating: "5",
+        worstRating: "1",
+      },
       category: "AI Agent e Automazione Avanzata",
       audience: {
         "@type": "Audience",
@@ -1142,7 +1163,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-08-17",
+      dateModified: "2026-08-20",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
@@ -1334,6 +1355,16 @@ const jsonLd = {
       reviewBody: "Studio di fisioterapia a Milano: sito online in 13 giorni, prenotazioni integrate. Dopo 6 settimane sono in prima pagina su Google per 'fisioterapista [mio quartiere]'. Il gestionale ha eliminato l'agenda cartacea e gli sms manuali di promemoria. ROI visibile già dal secondo mese.",
       itemReviewed: { "@id": "https://rec.group/#organization" },
       datePublished: "2026-08-13",
+      inLanguage: "it-IT",
+    },
+    {
+      "@type": "Review",
+      "@id": "https://rec.group/#review-15",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "Paola G." },
+      reviewBody: "Consulente del lavoro a Napoli: avevo un sito WordPress del 2019, lento e fuori prima pagina. RecGroup ha consegnato il nuovo sito in 11 giorni — caricamento 0,9 secondi, Core Web Vitals verdi, già visibile su Google per 'consulente del lavoro Napoli' dopo 5 settimane. Il gestionale da €900 ha eliminato il doppio inserimento dati tra agenda e fatturazione. Investimento recuperato al terzo mese.",
+      itemReviewed: { "@id": "https://rec.group/#organization" },
+      datePublished: "2026-08-20",
       inLanguage: "it-IT",
     },
     {
