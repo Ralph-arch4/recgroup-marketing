@@ -209,6 +209,12 @@ export const metadata: Metadata = {
     "GEO SEO multi-channel PMI Italia agosto 2026",
     "robots.txt AI crawler ottimizzazione visibilità PMI 2026",
     "sito web professionale preventivo gratuito agosto 2026",
+    "sito web per life coach business coach formatore prezzo 2026",
+    "life coach trovare clienti online Google Italia 2026",
+    "business coach sito web professionale SEO 2026",
+    "quanto costa sito web life coach formatore Italia",
+    "formatore aziendale sito web prenotazione sessioni online",
+    "coaching online acquisire clienti Google PMI freelancer 2026",
   ],
   authors: [{ name: "rec.group" }],
   creator: "rec.group",
@@ -855,6 +861,14 @@ const jsonLd = {
         },
         {
           "@type": "Question",
+          name: "Sito web per life coach, business coach o formatore nel 2026: come trovare clienti online?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Nel 2026 le ricerche per 'life coach [città]', 'business coach PMI', 'formatore aziendale [settore]' sono cresciute del 340% rispetto al 2020. Il 90% dei coach italiani conta su Instagram e LinkedIn — ma chi cerca un coach con intenzione d'acquisto usa Google con keyword precise. Senza un sito ottimizzato SEO, sei invisibile nel momento del bisogno. Cosa deve avere un sito per coach che converte: pagina metodo con percorso, risultati misurabili e testimonianze con outcome concreti; sistema di prenotazione sessione discovery gratuita (+60% conversioni); lead magnet integrato con acquisizione email e nurturing automatizzato; pagina programmi con prezzi trasparenti; FAQ con le domande più cercate ('quanto costa un life coach?', 'coaching online o in presenza?', 'quante sessioni servono?'); schema markup Coach e FAQPage per le AI Overviews. Con RecGroup sito + gestionale per coach parte da €1.600 — con Transizione 5.0 (45%) il costo effettivo scende a circa €880. Consegna in 2 settimane.",
+          },
+        },
+        {
+          "@type": "Question",
           name: "Come si inizia a lavorare con RecGroup?",
           acceptedAnswer: {
             "@type": "Answer",
@@ -1163,7 +1177,7 @@ const jsonLd = {
         height: 630,
       },
       datePublished: "2024-01-01",
-      dateModified: "2026-08-20",
+      dateModified: "2026-08-22",
       description:
         "Siti web professionali da €700, gestionali su misura da €900 senza canone mensile e automazioni AI per freelancer e PMI italiane. Preventivo gratuito in 24h.",
       breadcrumb: { "@id": "https://rec.group/#breadcrumb" },
