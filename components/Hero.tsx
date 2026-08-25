@@ -45,7 +45,7 @@ export default function Hero() {
           backdropFilter: "blur(8px)",
         }}>
           <span className="w-1.5 h-1.5 rounded-full animate-pulse flex-shrink-0" style={{ background: "#4ade80" }} />
-          ⚡ Ultimi 8 Giorni — Transizione 5.0 scade 31 Agosto 2026 · Risparmia fino al 45% · Sito da €385 effettivi · Gestionale da €495 effettivi · Solo 2 posti liberi
+          ⚡ Ultimi 6 Giorni — Transizione 5.0 scade 31 Agosto 2026 · Risparmia fino al 45% · Sito da €385 effettivi · Gestionale da €495 effettivi · Solo 2 posti liberi
         </div>
 
         {/* Headline — tighter clamp for mobile */}
@@ -64,13 +64,13 @@ export default function Hero() {
           color: "rgba(245,240,232,0.60)",
         }}>
           <p>
-            Secondo <strong style={{ color: "#C9A84C" }}>ISTAT</strong>, solo il <strong style={{ color: "#C9A84C" }}>21% delle PMI italiane</strong> riceve ordini online — il 79% regala clienti alla concorrenza ogni giorno senza saperlo. Il mercato quota un sito professionale con SEO <strong style={{ color: "#C9A84C" }}>€3.000–€8.000</strong>. Con RecGroup? <strong style={{ color: "rgba(245,240,232,0.85)" }}>€700 tutto incluso, online in 30 giorni garantiti</strong> — +40% di lead qualificati in 90 giorni, ROI 150–300% nel primo anno. Il <strong style={{ color: "#C9A84C" }}>68% delle PMI</strong> sceglie chi offre un unico interlocutore e prezzi trasparenti: siamo noi, e lo facciamo da subito.
+            Secondo <strong style={{ color: "#C9A84C" }}>ISTAT</strong>, solo il <strong style={{ color: "#C9A84C" }}>21% delle PMI italiane</strong> riceve ordini online — il 79% regala clienti alla concorrenza ogni giorno senza saperlo. La spesa media di mercato per un sito aziendale professionale con SEO è <strong style={{ color: "#C9A84C" }}>€4.500 (mediana 2026, fonte Osservatorio Digitale PMI)</strong>, con range €2.000–€8.000. Con RecGroup? <strong style={{ color: "rgba(245,240,232,0.85)" }}>€700 tutto incluso, online in 30 giorni garantiti</strong> — +40% di lead qualificati in 90 giorni, ROI 150–300% nel primo anno. Il <strong style={{ color: "#C9A84C" }}>68% delle PMI</strong> sceglie chi offre un unico interlocutore e prezzi trasparenti: siamo noi, e lo facciamo da subito.
           </p>
           <p>
-            Il <strong style={{ color: "#C9A84C" }}>62% delle PMI italiane</strong> gestisce ancora processi critici su <strong style={{ color: "#C9A84C" }}>Excel o software generici</strong> — errori manuali, dati frammentati, ore perse ogni giorno. Un software gestionale personalizzato per PMI costa sul mercato <strong style={{ color: "#C9A84C" }}>€8.000–€15.000</strong>. Il nostro parte da <strong style={{ color: "rgba(245,240,232,0.85)" }}>€900 con CRM, IA integrata e fatturazione automatica</strong> — risparmio di <strong style={{ color: "#C9A84C" }}>€45.000–55.000 annui</strong> (PMI 30+ dipendenti), ROI recuperato in <strong style={{ color: "#C9A84C" }}>14–18 mesi</strong>. L&apos;<strong style={{ color: "#C9A84C" }}>81% delle aziende</strong> con software su misura dichiara un aumento misurabile dell&apos;efficienza operativa (Forrester).
+            Il <strong style={{ color: "#C9A84C" }}>62% delle PMI italiane</strong> gestisce ancora processi critici su <strong style={{ color: "#C9A84C" }}>Excel o software generici</strong> — errori manuali, dati frammentati, ore perse ogni giorno. Un software gestionale personalizzato per PMI costa sul mercato <strong style={{ color: "#C9A84C" }}>€8.000–€20.000</strong>. Il nostro parte da <strong style={{ color: "rgba(245,240,232,0.85)" }}>€900 con CRM, IA integrata e fatturazione automatica</strong> — risparmio di <strong style={{ color: "#C9A84C" }}>€45.000–55.000 annui</strong> (PMI 30+ dipendenti), ROI recuperato in <strong style={{ color: "#C9A84C" }}>14–18 mesi</strong>. L&apos;<strong style={{ color: "#C9A84C" }}>81% delle aziende</strong> con software su misura dichiara un aumento misurabile dell&apos;efficienza operativa (Forrester, 2026).
           </p>
           <p style={{ fontSize: "0.85em" }}>
-            Con il <strong style={{ color: "#C9A84C" }}>Piano Transizione 5.0</strong> e i <strong style={{ color: "#C9A84C" }}>Bandi Digital Marketing 2026</strong> recuperi fino al 45% come credito d&apos;imposta: sito da <strong style={{ color: "#C9A84C" }}>€495 effettivi</strong>, gestionale da <strong style={{ color: "#C9A84C" }}>€495 effettivi</strong>. Il nostro gestionale cloud integra <strong style={{ color: "#C9A84C" }}>predictive analytics con IA</strong>: i clienti riportano in media <strong style={{ color: "#C9A84C" }}>−30% costi operativi</strong> e <strong style={{ color: "#C9A84C" }}>+90% lead strutturati e tracciabili</strong>. Zero costi nascosti, zero burocrazia.
+            La SEO affidata ad altri costa <strong style={{ color: "#C9A84C" }}>€500–€1.500/mese</strong> (benchmark Italia 2026) senza garanzie di risultato. Con RecGroup paghi <strong style={{ color: "#C9A84C" }}>€500/mese</strong> e ottieni SEO + GEO + Google Ads integrati — una sola fattura, zero agenzie parallele. Sommato al <strong style={{ color: "#C9A84C" }}>Piano Transizione 5.0</strong> (credito d&apos;imposta 45%), il sito scende a <strong style={{ color: "#C9A84C" }}>€385 effettivi</strong> e il gestionale a <strong style={{ color: "#C9A84C" }}>€495 effettivi</strong>. I clienti riportano <strong style={{ color: "#C9A84C" }}>−30% costi operativi</strong> e <strong style={{ color: "#C9A84C" }}>+90% lead strutturati</strong>. Scade il 31 Agosto — zero burocrazia.
           </p>
         </div>
 
@@ -111,7 +111,7 @@ export default function Hero() {
           {[
             { value: "75+",  label: "PMI e Freelancer" },
             { value: "+40%", label: "Nuovi Lead in 90gg" },
-            { value: "-85%", label: "vs Prezzo di Mercato" },
+            { value: "-85%", label: "vs Mediana Mercato 2026" },
             { value: "150-300%", label: "ROI Primo Anno" },
           ].map((s, i) => (
             <>
