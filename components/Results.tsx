@@ -52,6 +52,12 @@ const caseStudies = [
     result: "Investimento recuperato in 28 giorni",
     detail: "Landing page + Google Business ottimizzato: da zero presenza online a 3 nuovi contatti/settimana sin dal primo mese. ROI 1.350% nel primo anno (LAMPO 2026). Il 64% delle PMI italiane spende meno di 1.000 € per il primo sito — e lo recupera in meno di 30 giorni con la strategia giusta. Nessun abbonamento, nessuna commissione.",
   },
+  {
+    category: "Branding + Booking Online",
+    title: "Fisioterapista — Studio Privato",
+    result: "+190% prenotazioni online in 45 giorni",
+    detail: "Sito vetrina + sistema prenotazione automatica: da agenda cartacea a 14 nuovi pazienti/mese senza telefonate. Il 71% dei progetti affidati a partner specializzati viene completato entro budget e scadenze, contro il 43% delle grandi agenzie (FreelanceDEV 2026). Investimento da 850 € — recuperato in meno di 3 settimane. Zero commissioni per prenotazione, proprietà totale del sistema.",
+  },
 ];
 
 function CountUp({
@@ -177,7 +183,7 @@ export default function Results() {
               className="mt-4 text-sm sm:text-base max-w-xl"
               style={{ color: "rgba(245,240,232,0.55)" }}
             >
-              Sono <strong style={{color:"var(--accent)"}}>5,1 milioni</strong> i freelancer in Italia (ISTAT 2025) — 2° paese UE per lavoro autonomo. Il <strong style={{color:"var(--accent)"}}>58% delle PMI italiane ha un sito web, ma solo il 21% riceve ordini online</strong>. Avere un sito non basta: serve uno fatto per convertire. Chi parte da zero e lo fa bene recupera l'investimento in <strong style={{color:"var(--accent)"}}>meno di 30 giorni</strong> con un ROI fino al <strong style={{color:"var(--accent)"}}>1.350% nel primo anno</strong> (LAMPO 2026). Le aziende che digitalizzano registrano un ROI del 250–400% in 3 anni (Politecnico di Milano 2026). Noi ti ci portiamo: <strong style={{color:"var(--accent)"}}>sito web professionale da €700</strong>, <strong style={{color:"var(--accent)"}}>gestionale su misura da €900</strong> senza canone mensile, preventivo gratuito in 48 h. Incentivi 2026 fino al 70%.
+              Sono <strong style={{color:"var(--accent)"}}>5,1 milioni</strong> i freelancer in Italia (ISTAT 2025) — 2° paese UE per lavoro autonomo. Il <strong style={{color:"var(--accent)"}}>58% delle PMI italiane ha un sito web, ma solo il 21% riceve ordini online</strong>. Avere un sito non basta: serve uno fatto per convertire. Chi parte da zero e lo fa bene recupera l'investimento in <strong style={{color:"var(--accent)"}}>meno di 30 giorni</strong> con un ROI fino al <strong style={{color:"var(--accent)"}}>1.350% nel primo anno</strong> (LAMPO 2026). Le aziende che digitalizzano registrano un ROI del 250–400% in 3 anni (Politecnico di Milano 2026). Con un partner specializzato il <strong style={{color:"var(--accent)"}}>71% dei progetti viene completato entro budget e scadenze</strong>, contro il 43% con le grandi agenzie (FreelanceDEV 2026). Noi ti ci portiamo: <strong style={{color:"var(--accent)"}}>sito web professionale da €700</strong>, <strong style={{color:"var(--accent)"}}>gestionale su misura da €900</strong> senza canone mensile, preventivo gratuito in 48 h. Incentivi 2026 fino al 70%.
             </p>
           </div>
         </ScrollReveal>

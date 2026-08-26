@@ -29,6 +29,8 @@ const items = [
   { icon: "💶", label: "64% delle PMI — Primo Sito da Meno di €1.000" },
   { icon: "👥", label: "300.000+ Freelancer Digitali in Italia 2026 — +25% in 3 Anni" },
   { icon: "💻", label: "Gestionale PMI: Mercato €3.500–8.000 — Noi da €1.800 Una Tantum" },
+  { icon: "🎯", label: "71% Progetti Entro Budget con Partner Specializzato — vs 43% Grandi Agenzie" },
+  { icon: "🏥", label: "+190% Prenotazioni Online — Studio Fisioterapia in 45 Giorni" },
 ];
 
 // Doubled for seamless loop
