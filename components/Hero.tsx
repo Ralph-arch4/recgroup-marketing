@@ -45,7 +45,7 @@ export default function Hero() {
           backdropFilter: "blur(8px)",
         }}>
           <span className="w-1.5 h-1.5 rounded-full animate-pulse flex-shrink-0" style={{ background: "#4ade80" }} />
-          ⚡ Ultimi 6 Giorni — Transizione 5.0 scade 31 Agosto 2026 · Risparmia fino al 45% · Sito da €385 effettivi · Gestionale da €495 effettivi · Solo 2 posti liberi
+          ⚡ Ultimi 2 Giorni — Transizione 5.0 scade 31 Agosto 2026 · Risparmia fino al 45% · Sito da €385 effettivi · Gestionale da €495 effettivi · Solo 2 posti liberi
         </div>
 
         {/* Headline — tighter clamp for mobile */}
