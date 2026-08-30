@@ -3,8 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://rec.group"),
-  title: "Sito Web PMI da €700 vs €2.000–8.000 di Mercato | Gestionale da €900 vs €3.500–25.000 — GEO/AEO 2026 | rec.group Catania",
-  description: "Agosto 2026: le agenzie strutturate quotano €2.000–8.000 per un sito vetrina e €3.500–25.000 per un gestionale (fonti: Solvyra, LEMIO, Noonic). RecGroup consegna sito da €700 e gestionale da €900 una tantum — zero canoni, break-even in 3–7 mesi (contro 18–30 dei SaaS). GEO+AEO+Core Web Vitals inclusi: visibile su Google AI Overviews, ChatGPT e Gemini mentre l'88% delle PMI è ancora assente. Incentivi Transizione 5.0 fino al 45% e Voucher Doppia Transizione fino al 70%. Preventivo dettagliato in 24h — risponde un umano, non un modulo.",
+  title: "ULTIMO GIORNO T5.0 · Sito Web PMI da €700 (→€385) vs €2.000–8.000 | Gestionale da €900 (→€495) — GEO/AEO 2026 | rec.group Catania",
+  description: "OGGI ULTIMO GIORNO Transizione 5.0 (scade 31 ago 2026): sito da €700→€385, gestionale da €900→€495 con credito imposta 45%. Le agenzie quotano €2.000–8.000 per un sito e €3.500–25.000 per un gestionale. RecGroup: zero canoni, break-even 3–7 mesi, GEO+AEO+Core Web Vitals inclusi. Risposta in 3 ore — risponde un umano.",
   keywords: [
     "agenzia digitale Catania",
     "sito web professionale freelancer",

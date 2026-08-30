@@ -45,7 +45,7 @@ export default function Hero() {
           backdropFilter: "blur(8px)",
         }}>
           <span className="w-1.5 h-1.5 rounded-full animate-pulse flex-shrink-0" style={{ background: "#4ade80" }} />
-          ⚡ Ultimi 2 Giorni — Transizione 5.0 scade 31 Agosto 2026 · Risparmia fino al 45% · Sito da €385 effettivi · Gestionale da €495 effettivi · Solo 2 posti liberi
+          🔴 OGGI ULTIMO GIORNO — Transizione 5.0 scade 31 Agosto 2026 · Risparmia fino al 45% · Sito da €385 effettivi · Gestionale da €495 effettivi · Domani non sarà più possibile
         </div>
 
         {/* Headline — tighter clamp for mobile */}
@@ -70,7 +70,7 @@ export default function Hero() {
             Il <strong style={{ color: "#C9A84C" }}>62% delle PMI italiane</strong> gestisce ancora processi critici su <strong style={{ color: "#C9A84C" }}>Excel o software generici</strong> — errori manuali, dati frammentati, ore perse ogni giorno. Un software gestionale personalizzato per PMI costa sul mercato <strong style={{ color: "#C9A84C" }}>€8.000–€20.000</strong>. Il nostro parte da <strong style={{ color: "rgba(245,240,232,0.85)" }}>€900 con CRM, IA integrata e fatturazione automatica</strong> — risparmio di <strong style={{ color: "#C9A84C" }}>€45.000–55.000 annui</strong> (PMI 30+ dipendenti), ROI recuperato in <strong style={{ color: "#C9A84C" }}>14–18 mesi</strong>. L&apos;<strong style={{ color: "#C9A84C" }}>81% delle aziende</strong> con software su misura dichiara un aumento misurabile dell&apos;efficienza operativa (Forrester, 2026).
           </p>
           <p style={{ fontSize: "0.85em" }}>
-            La SEO affidata ad altri costa <strong style={{ color: "#C9A84C" }}>€500–€1.500/mese</strong> (benchmark Italia 2026) senza garanzie di risultato. Con RecGroup paghi <strong style={{ color: "#C9A84C" }}>€500/mese</strong> e ottieni SEO + GEO + Google Ads integrati — una sola fattura, zero agenzie parallele. Sommato al <strong style={{ color: "#C9A84C" }}>Piano Transizione 5.0</strong> (credito d&apos;imposta 45%), il sito scende a <strong style={{ color: "#C9A84C" }}>€385 effettivi</strong> e il gestionale a <strong style={{ color: "#C9A84C" }}>€495 effettivi</strong>. I clienti riportano <strong style={{ color: "#C9A84C" }}>−30% costi operativi</strong> e <strong style={{ color: "#C9A84C" }}>+90% lead strutturati</strong>. Scade il 31 Agosto — zero burocrazia.
+            La SEO affidata ad altri costa <strong style={{ color: "#C9A84C" }}>€500–€1.500/mese</strong> (benchmark Italia 2026) senza garanzie di risultato. Con RecGroup paghi <strong style={{ color: "#C9A84C" }}>€500/mese</strong> e ottieni SEO + GEO + Google Ads integrati — una sola fattura, zero agenzie parallele. Sommato al <strong style={{ color: "#C9A84C" }}>Piano Transizione 5.0</strong> (credito d&apos;imposta 45%), il sito scende a <strong style={{ color: "#C9A84C" }}>€385 effettivi</strong> e il gestionale a <strong style={{ color: "#C9A84C" }}>€495 effettivi</strong>. I clienti riportano <strong style={{ color: "#C9A84C" }}>−30% costi operativi</strong> e <strong style={{ color: "#C9A84C" }}>+90% lead strutturati</strong>. <strong style={{ color: "#E8CC7A" }}>Scade DOMANI 31 Agosto</strong> — prenota oggi: zero burocrazia, risposta in 3 ore.
           </p>
         </div>
 
@@ -94,7 +94,7 @@ export default function Hero() {
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 w-full sm:w-auto">
           <a href="#contatti" className="accent-btn cta-glow rounded-full text-base font-bold tracking-wide text-center" style={{ padding: "16px 36px" }}>
-            Prenota Ora — Scade il 31 Agosto · Ultimi 2 Posti →
+            Prenota OGGI — Scade Domani 31 Agosto · Ultimi 2 Posti →
           </a>
           <a href="#portfolio" className="outline-btn rounded-full text-base font-semibold tracking-wide text-center" style={{ padding: "16px 36px" }}>
             Vedi ROI Reali dei Clienti →
@@ -103,7 +103,7 @@ export default function Hero() {
 
         {/* Trust micro-copy */}
         <p className="text-xs text-center" style={{ color: "rgba(245,240,232,0.28)" }}>
-          Risposta garantita entro 24h · Preventivo gratuito senza impegni · 75+ PMI e freelancer italiani già digitalizzati · online in 30 giorni garantiti
+          Risposta garantita in 3 ore oggi · Preventivo gratuito senza impegni · 75+ PMI e freelancer italiani già digitalizzati · Transizione 5.0 scade DOMANI 31 agosto
         </p>
 
         {/* Stats — editorial inline style, no heavy box */}
