@@ -1,0 +1,239 @@
+@import "tailwindcss";
+
+/* ========================================================================== */
+/*  DESIGN TOKENS                                                             */
+/* ========================================================================== */
+
+:root {
+  --ink:        #0A0A0B;   /* fondo */
+  --ink-2:      #111113;   /* superficie */
+  --ink-3:      #1A1A1D;   /* superficie elevata */
+  --line:       rgba(244, 243, 240, 0.10);
+  --paper:      #F4F3F0;   /* testo primario */
+  --paper-dim:  rgba(244, 243, 240, 0.56);
+  --paper-mute: rgba(244, 243, 240, 0.34);
+  --flame:      #FF4A1C;   /* accento */
+  --flame-lo:   #C9330E;
+  --ember:      #FFB020;   /* accento caldo secondario */
+
+  --shell: clamp(1.25rem, 5vw, 5rem);
+}
+
+@theme inline {
+  --color-background: var(--ink);
+  --color-foreground: var(--paper);
+  --font-display: var(--font-archivo), "Helvetica Neue", Arial, sans-serif;
+  --font-serif: var(--font-instrument), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+html, body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--paper);
+  overflow-x: hidden;
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+section[id] { scroll-margin-top: 88px; }
+
+a, button {
+  -webkit-tap-highlight-color: rgba(255, 74, 28, 0.14);
+  touch-action: manipulation;
+}
+
+::selection { background: var(--flame); color: #fff; }
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--ink); }
+::-webkit-scrollbar-thumb { background: #2E2E33; border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: var(--flame); }
+
+/* ========================================================================== */
+/*  TIPOGRAFIA                                                                */
+/* ========================================================================== */
+
+.display {
+  font-family: var(--font-archivo), "Helvetica Neue", Arial, sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.035em;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+
+.serif-it {
+  font-family: var(--font-instrument), Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  text-transform: none;
+}
+
+.eyebrow {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--flame);
+}
+
+.shell {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: var(--shell);
+}
+
+/* ========================================================================== */
+/*  SUPERFICI                                                                 */
+/* ========================================================================== */
+
+.surface {
+  background: linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.012));
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.surface-hover {
+  transition: border-color 0.35s ease, transform 0.35s ease, background 0.35s ease;
+}
+.surface-hover:hover {
+  border-color: rgba(255, 74, 28, 0.42);
+  transform: translateY(-4px);
+}
+
+.hairline { border-top: 1px solid var(--line); }
+
+/* ========================================================================== */
+/*  BOTTONI                                                                   */
+/* ========================================================================== */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 52px;
+  padding: 0 1.6rem;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: transform 0.22s ease, box-shadow 0.3s ease, background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+.btn:active { transform: scale(0.98); }
+
+.btn-flame {
+  background: linear-gradient(135deg, var(--flame), var(--flame-lo));
+  color: #fff;
+  box-shadow: 0 10px 30px -12px rgba(255, 74, 28, 0.7);
+}
+.btn-flame:hover {
+  box-shadow: 0 16px 44px -12px rgba(255, 74, 28, 0.85);
+  transform: translateY(-2px);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--paper);
+  border-color: rgba(244, 243, 240, 0.22);
+}
+.btn-ghost:hover {
+  border-color: var(--paper);
+  background: rgba(244, 243, 240, 0.06);
+}
+
+/* ========================================================================== */
+/*  ANIMAZIONI                                                                */
+/* ========================================================================== */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity 0.85s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.85s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.reveal.in-view { opacity: 1; transform: none; }
+
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(0.9em); }
+  to   { opacity: 1; transform: none; }
+}
+.rise > span {
+  display: inline-block;
+  animation: riseIn 1s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 34s linear infinite;
+}
+.marquee-track:hover { animation-play-state: paused; }
+
+@keyframes pulseDot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%      { opacity: 0.35; transform: scale(0.8); }
+}
+.dot-live { animation: pulseDot 2s ease-in-out infinite; }
+
+@keyframes scrollCue {
+  0%   { transform: translateY(-100%); opacity: 0; }
+  40%  { opacity: 1; }
+  100% { transform: translateY(100%); opacity: 0; }
+}
+.cue-line::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--flame);
+  animation: scrollCue 2.2s ease-in-out infinite;
+}
+
+/* Grana filmica */
+.grain::before {
+  content: "";
+  position: fixed;
+  inset: -50%;
+  pointer-events: none;
+  z-index: 60;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Griglia di fondo */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(244,243,240,0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(244,243,240,0.035) 1px, transparent 1px);
+  background-size: 72px 72px;
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .rise > span { animation: none; }
+  .marquee-track { animation: none; }
+  .dot-live, .cue-line::after { animation: none; }
+}
