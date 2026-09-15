@@ -8,7 +8,7 @@ export default function Transformations() {
     <section id="risultati" className="relative py-24 md:py-32">
       <div className="shell">
         <Reveal>
-          <DraftNotice text="Casi dimostrativi — in attesa di foto e dati reali" />
+          <DraftNotice text="Sezione in completamento — foto e dati di Ciro ed Edo in arrivo" />
           <p className="eyebrow">{transformations.eyebrow}</p>
           <h2 className="display mt-4 max-w-3xl" style={{ fontSize: "clamp(2.1rem, 5.6vw, 4rem)" }}>
             {transformations.title}

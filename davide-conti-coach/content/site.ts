@@ -178,8 +178,11 @@ export const transformations = {
       weeks: null as number | null, // TODO
       goal: "", // TODO
       result: "", // TODO
-      before: "", // TODO: "/trasformazioni/raffaele-prima.jpg"
-      after: "", // TODO: "/trasformazioni/raffaele-dopo.jpg"
+      // Ritagliate 3:4 e normalizzate in scala allineando spalle, capezzoli e
+      // ombelico: nello scatto "dopo" la distanza dallo specchio era maggiore e
+      // senza correzione il confronto avrebbe mostrato la distanza, non il fisico.
+      before: "/trasformazioni/raffaele-prima.jpg",
+      after: "/trasformazioni/raffaele-dopo.jpg"
     },
     {
       name: "Ciro",
