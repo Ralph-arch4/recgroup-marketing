@@ -29,12 +29,14 @@ export default function Transformations() {
                     <h3 className="display text-xl">
                       {c.name}, {c.age}
                     </h3>
-                    <span
-                      className="rounded-full px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.14em]"
-                      style={{ background: "rgba(255,74,28,0.14)", color: "#FF8B63" }}
-                    >
-                      {c.goal}
-                    </span>
+                    {c.goal && (
+                      <span
+                        className="rounded-full px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.14em]"
+                        style={{ background: "rgba(255,74,28,0.14)", color: "#FF8B63" }}
+                      >
+                        {c.goal}
+                      </span>
+                    )}
                   </div>
                   <p
                     className="mt-3 text-[15px] leading-relaxed"

@@ -166,47 +166,38 @@ export const transformations = {
     "Ogni percorso qui sotto è partito da una situazione diversa. Quello che hanno in comune non è il talento: è l’aver fatto la stessa cosa, bene, per molte settimane di fila.",
   disclaimer:
     "I risultati sono individuali e dipendono da aderenza, punto di partenza e stile di vita.",
+  // Tre casi reali: Raffaele, Ciro, Edo. Foto fornite dai diretti interessati.
+  // I campi vuoti sono in attesa dei dati veri: non vanno inventati.
+  // before/after restano "" finché i file non sono in public/trasformazioni/:
+  // un percorso verso un file inesistente fa rispondere 400 all'ottimizzatore
+  // immagini di Next e rompe la sezione.
   cases: [
     {
-      // Caso reale. Foto fornite dal diretto interessato, volto oscurato.
       name: "Raffaele",
       age: 22,
-      weeks: null, // TODO: durata reale del percorso
-      goal: "Ricomposizione",
-      result: "", // TODO: risultato reale (kg, misure, carichi) — non inventare
-      // TODO: caricare i file in public/trasformazioni/ e valorizzare questi due campi con
-      // "/trasformazioni/raffaele-prima.jpg" e "/trasformazioni/raffaele-dopo.jpg".
-      // Finche' restano vuoti il componente mostra il segnaposto: un percorso
-      // che punta a un file inesistente farebbe fallire l'ottimizzatore immagini.
-      before: "",
-      after: ""
+      weeks: null as number | null, // TODO
+      goal: "", // TODO
+      result: "", // TODO
+      before: "", // TODO: "/trasformazioni/raffaele-prima.jpg"
+      after: "", // TODO: "/trasformazioni/raffaele-dopo.jpg"
     },
     {
-      name: "Marco", // TODO
-      age: 34,
-      weeks: 20 as number | null,
-      goal: "Ricomposizione",
-      result: "-11 kg di grasso, +3 kg di massa magra", // TODO
-      before: "", // es. "/trasformazioni/marco-before.jpg"
-      after: "", // es. "/trasformazioni/marco-after.jpg"
+      name: "Ciro",
+      age: 27,
+      weeks: null as number | null, // TODO
+      goal: "", // TODO
+      result: "", // TODO
+      before: "", // TODO: "/trasformazioni/ciro-prima.jpg"
+      after: "", // TODO: "/trasformazioni/ciro-dopo.jpg"
     },
     {
-      name: "Giulia", // TODO
-      age: 29,
-      weeks: 16,
-      goal: "Tonificazione",
-      result: "-8 kg, forza raddoppiata sui fondamentali", // TODO
-      before: "",
-      after: "",
-    },
-    {
-      name: "Andrea", // TODO
-      age: 41,
-      weeks: 24,
-      goal: "Massa",
-      result: "+7 kg di peso, mal di schiena sparito", // TODO
-      before: "",
-      after: "",
+      name: "Edo",
+      age: 25,
+      weeks: null as number | null, // TODO
+      goal: "", // TODO
+      result: "", // TODO
+      before: "", // TODO: "/trasformazioni/edo-prima.jpg"
+      after: "", // TODO: "/trasformazioni/edo-dopo.jpg"
     },
   ],
 };
