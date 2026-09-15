@@ -8,7 +8,7 @@ export default function Transformations() {
     <section id="risultati" className="relative py-24 md:py-32">
       <div className="shell">
         <Reveal>
-          <DraftNotice text="Sezione in completamento — foto e dati di Ciro ed Edo in arrivo" />
+          <DraftNotice text="Foto di Ciro ed Edo in arrivo" />
           <p className="eyebrow">{transformations.eyebrow}</p>
           <h2 className="display mt-4 max-w-3xl" style={{ fontSize: "clamp(2.1rem, 5.6vw, 4rem)" }}>
             {transformations.title}
@@ -38,15 +38,19 @@ export default function Transformations() {
                       </span>
                     )}
                   </div>
-                  <p
-                    className="mt-3 text-[15px] leading-relaxed"
-                    style={{ color: c.result ? "var(--paper)" : "var(--paper-mute)" }}
-                  >
-                    {c.result || "Risultato da confermare"}
-                  </p>
-                  <p className="mt-3 text-[11px] uppercase tracking-[0.16em]" style={{ color: "var(--paper-mute)" }}>
-                    {c.weeks ? `${c.weeks} settimane di percorso` : "Durata da confermare"}
-                  </p>
+                  {/* Risultato e durata compaiono da soli appena i campi
+                      sono valorizzati in content/site.ts: finche' sono vuoti
+                      la scheda resta il solo confronto prima/dopo. */}
+                  {c.result && (
+                    <p className="mt-3 text-[15px] leading-relaxed" style={{ color: "var(--paper)" }}>
+                      {c.result}
+                    </p>
+                  )}
+                  {c.weeks && (
+                    <p className="mt-3 text-[11px] uppercase tracking-[0.16em]" style={{ color: "var(--paper-mute)" }}>
+                      {c.weeks} settimane di percorso
+                    </p>
+                  )}
                 </div>
               </article>
             </Reveal>
