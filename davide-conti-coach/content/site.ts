@@ -6,11 +6,11 @@
  *  i componenti: si modifica solo questo file.
  *
  *  ATTENZIONE — CONTENUTI IN BOZZA
- *  Il profilo Instagram @davideconti.coach non era raggiungibile in fase di
- *  build, quindi numeri, testimonianze e biografia qui sotto sono PLACEHOLDER
- *  realistici, non dati verificati. Ogni campo da confermare è marcato con
- *  // TODO. Finché DRAFT resta `true`, il sito mostra un piccolo avviso
- *  "contenuti dimostrativi" sopra numeri e testimonianze.
+ *  Posizionamento, claim e copy sono ricavati dal video di presentazione di
+ *  Davide (public/davide-showreel.mp4): biomeccanica applicata all'allenamento.
+ *  Restano PLACEHOLDER, marcati // TODO: numeri, listino e testimonianze.
+ *  Finché DRAFT resta `true`, il sito mostra un avviso "contenuti dimostrativi"
+ *  sopra numeri, risultati e testimonianze.
  *
  *  --> Quando i dati reali sono inseriti: DRAFT = false.
  * ============================================================================
@@ -19,7 +19,7 @@
 export const DRAFT = true;
 
 /* -------------------------------------------------------------------------- */
-/*  IDENTITA’                                                                  */
+/*  IDENTITÀ                                                                  */
 /* -------------------------------------------------------------------------- */
 
 export const identity = {
@@ -27,14 +27,15 @@ export const identity = {
   lastName: "Conti",
   fullName: "Davide Conti",
   initials: "DC",
-  role: "Personal Trainer & Online Coach",
-  claim: "Costruiamo il corpo. Poi il corpo costruisce te.",
-  city: "Italia", // TODO: citta’ reale (es. "Milano")
+  role: "Personal Trainer · Biomeccanica applicata all’allenamento",
+  claim: "Il problema non è quanto ti alleni. È come ti muovi.",
+  city: "Italia", // TODO: città / zona di lavoro reale
   instagram: "davideconti.coach",
   instagramUrl: "https://www.instagram.com/davideconti.coach/",
-  email: "info@davideconti.coach", // TODO: email reale
-  whatsapp: "393000000000", // TODO: numero reale, formato internazionale senza "+"
-  vatId: "", // TODO: P.IVA (obbligatoria in fattura/footer se attivita’ individuale)
+  email: "davideemanueleconti@gmail.com",
+  phoneDisplay: "333 358 1519",
+  whatsapp: "393333581519",
+  vatId: "", // non disponibile: finché è vuoto la riga non compare nel footer
   siteUrl: "https://davideconti-coach.vercel.app", // TODO: dominio definitivo
 };
 
@@ -46,6 +47,7 @@ export const whatsappLink = (text: string) =>
 /* -------------------------------------------------------------------------- */
 
 export const navLinks = [
+  { label: "Video", href: "#video" },
   { label: "Metodo", href: "#metodo" },
   { label: "Risultati", href: "#risultati" },
   { label: "Percorsi", href: "#percorsi" },
@@ -58,13 +60,13 @@ export const navLinks = [
 /* -------------------------------------------------------------------------- */
 
 export const hero = {
-  badge: "Posti limitati · Nuovo blocco coaching",
-  headline: ["Il tuo fisico", "non è un caso.", "È un progetto."],
+  badge: "Consulenza conoscitiva gratuita",
+  headline: ["Il problema", "non è quanto ti alleni.", "È come ti muovi."],
   lead:
-    "Allenamento, nutrizione e testa. Un unico percorso costruito su di te, seguito settimana per settimana finché il risultato non diventa la tua normalità.",
-  primaryCta: "Candidati al percorso",
-  secondaryCta: "Guarda il metodo",
-  scrollHint: "Scorri",
+    "Sono Davide Conti, personal trainer specializzato in biomeccanica applicata all’allenamento. Analizzo come ti muovi davvero, correggo quello che ti frena e costruisco un programma che progredisce. Non una scheda copia e incolla.",
+  primaryCta: "Richiedi la consulenza",
+  secondaryCta: "Guarda il video",
+  secondaryHref: "#video",
   // Statistiche in evidenza sotto l’headline
   stats: [
     { value: 200, suffix: "+", label: "Percorsi seguiti" }, // TODO
@@ -74,15 +76,41 @@ export const hero = {
 };
 
 export const marquee = [
-  "Ricomposizione corporea",
+  "Biomeccanica applicata",
+  "Analisi del movimento",
+  "Correzione tecnica",
+  "Progressioni misurate",
   "Ipertrofia",
   "Forza",
-  "Dimagrimento",
-  "Postura",
-  "Nutrizione flessibile",
-  "Mindset",
-  "Preparazione atletica",
+  "Ricomposizione corporea",
+  "Sblocco dello stallo",
 ];
+
+/* -------------------------------------------------------------------------- */
+/*  VIDEO DI PRESENTAZIONE                                                     */
+/*  Contenuti ricavati dal video stesso: sono parole sue, non inventate.       */
+/* -------------------------------------------------------------------------- */
+
+export const showreel = {
+  eyebrow: "Dalla sua voce",
+  title: "Te lo spiego in 40 secondi.",
+  src: "/davide-showreel.mp4",
+  poster: "/davide-showreel-poster.jpg",
+  unmuteLabel: "Attiva audio",
+  muteLabel: "Disattiva audio",
+  quote:
+    "La maggior parte delle persone compie sempre gli stessi errori per settimane senza accorgersene: tecnica sbagliata, movimenti imprecisi, progressioni fatte a caso.",
+  paths: [
+    {
+      when: "Se sei all’inizio",
+      what: "Ti seguo passo passo. Prima si impara a muoversi bene, poi si carica: nessun esercizio che non sai perché stai facendo.",
+    },
+    {
+      when: "Se sei in stallo",
+      what: "Troviamo insieme cosa ti blocca. Quasi mai è la voglia: di solito è un movimento eseguito male da mesi, o una progressione che non c’è mai stata.",
+    },
+  ],
+};
 
 /* -------------------------------------------------------------------------- */
 /*  METODO                                                                     */
@@ -90,37 +118,37 @@ export const marquee = [
 
 export const method = {
   eyebrow: "Il metodo",
-  title: "Quattro fasi. Zero improvvisazione.",
+  title: "Prima come ti muovi. Poi quanto carichi.",
   intro:
-    "Non vendo schede. Costruisco un sistema che regge quando la motivazione finisce: dati alla mano, correzioni continue, nessuna fase lasciata al caso.",
+    "Quattro fasi in ordine, perché l’ordine è il metodo. Caricare su un movimento sbagliato non ti fa progredire: ti fa accumulare l’errore più in fretta.",
   steps: [
     {
       n: "01",
-      title: "Analisi",
+      title: "Analisi del movimento",
       body:
-        "Anamnesi completa, storico infortuni, abitudini alimentari, sonno e livello di stress. Misuriamo il punto di partenza reale, non quello che pensi di avere.",
-      points: ["Check posturale e mobilità", "Plicometria e circonferenze", "Analisi abitudini 7 giorni"],
+        "Guardo come ti muovi davvero, non come pensi di muoverti. Video dei fondamentali, mobilità articolare, compensi, storico infortuni. Qui esce il vero motivo per cui sei fermo.",
+      points: ["Video-analisi dei fondamentali", "Test di mobilità e stabilità", "Anamnesi e storico infortuni"],
     },
     {
       n: "02",
-      title: "Protocollo",
+      title: "Correzione tecnica",
       body:
-        "Programma di allenamento e piano nutrizionale costruiti sul tuo tempo disponibile, sulla tua attrezzatura e sui tuoi gusti. Sostenibile prima che perfetto.",
-      points: ["Scheda con video di ogni esercizio", "Macro e menu flessibili", "Integrazione solo se serve"],
+        "Si sistema l’esecuzione prima di aggiungere peso: angoli, traiettorie, ritmo, respirazione. Ogni correzione ha un perché che ti spiego, così la porti avanti da solo.",
+      points: ["Un correttivo alla volta, mirato", "Regressioni dove serve", "Perché di ogni scelta, spiegato"],
     },
     {
       n: "03",
-      title: "Esecuzione",
+      title: "Programma su di te",
       body:
-        "Ogni allenamento è tracciato. Carichi, serie, sensazioni. Correggo la tecnica sui video che mi mandi e rispondo entro 24 ore, sempre io.",
-      points: ["Check settimanale 1:1", "Analisi video tecnica", "Supporto diretto in chat"],
+        "Costruito sui tuoi giorni disponibili, sulla tua attrezzatura e su come sei fatto. Niente template: la stessa scheda su due persone diverse dà due risultati diversi.",
+      points: ["Sui tuoi giorni reali", "Video di ogni esercizio", "Alternative per ogni attrezzo"],
     },
     {
       n: "04",
-      title: "Progressione",
+      title: "Progressione misurata",
       body:
-        "I dati decidono. Ogni quattro settimane rileggiamo i numeri e il protocollo cambia: più carico, più calorie, più recupero. Mai fermi allo stesso punto.",
-      points: ["Revisione mensile del piano", "Deload programmati", "Obiettivi a 12 settimane"],
+        "Carichi, serie e sensazioni tracciati ogni settimana. Ogni quattro settimane i numeri decidono cosa cambia: più carico, più volume, o più recupero.",
+      points: ["Check settimanale 1:1", "Revisione del piano ogni 4 settimane", "Deload quando serve, non a caso"],
     },
   ],
 };
@@ -129,13 +157,13 @@ export const method = {
 /*  TRASFORMAZIONI                                                             */
 /* -------------------------------------------------------------------------- */
 /*  Le immagini vanno in /public/trasformazioni/ e i percorsi vanno qui sotto. */
-/*  Finche’ `before`/`after` restano vuoti, il componente mostra un segnaposto. */
+/*  Finché `before`/`after` restano vuoti, il componente mostra un segnaposto. */
 
 export const transformations = {
   eyebrow: "Risultati",
   title: "Le persone, non i numeri.",
   intro:
-    "Ogni percorso qui sotto e’ partito da una situazione diversa. Quello che hanno in comune non è il talento: è l’aver fatto la stessa cosa, bene, per molte settimane di fila.",
+    "Ogni percorso qui sotto è partito da una situazione diversa. Quello che hanno in comune non è il talento: è l’aver fatto la stessa cosa, bene, per molte settimane di fila.",
   disclaimer:
     "I risultati sono individuali e dipendono da aderenza, punto di partenza e stile di vita.",
   cases: [
@@ -181,7 +209,7 @@ export const programs = {
   items: [
     {
       name: "Starter",
-      tagline: "Per chi vuole partire con la strada gia’ tracciata",
+      tagline: "Per chi vuole partire con la strada già tracciata",
       price: "da 89",
       period: "una tantum",
       featured: false,
@@ -237,19 +265,20 @@ export const about = {
   eyebrow: "Chi sono",
   title: "Davide Conti",
   // TODO: riscrivere con la biografia reale
+  // Ricavato dalle sue parole nel video. // TODO: ampliare con il suo percorso reale.
   paragraphs: [
-    "Ho iniziato ad allenarmi per gli stessi motivi per cui inizia quasi tutti: non mi piacevo. Ci ho messo anni a capire che il punto non era l’estetica, era il metodo. Da quel momento ho smesso di cercare scorciatoie e ho cominciato a studiare.",
-    "Oggi accompagno persone normali — con un lavoro, una famiglia, poco tempo e tanta voglia di cambiare — dentro percorsi che funzionano perché sono costruiti sulla loro vita, non su quella di un atleta professionista.",
-    "Non prometto trasformazioni in 30 giorni. Prometto che se fai il lavoro, i risultati arrivano e restano.",
+    "Sono un personal trainer specializzato in biomeccanica applicata all’allenamento. In pratica: prima di dirti quanto caricare, guardo come ti muovi.",
+    "È lì che si nasconde quasi sempre il motivo per cui non ottieni risultati. Non è che ti alleni poco: è che da settimane ripeti gli stessi errori senza accorgertene, su progressioni fatte a caso.",
+    "Se sei all’inizio ti seguo passo passo. Se sei in stallo troviamo insieme cosa ti blocca, e da lì costruiamo la soluzione adatta a te.",
   ],
-  quote: "Non esistono corpi difficili. Esistono protocolli sbagliati e settimane saltate.",
+  quote: "Non è quanto ti alleni. È come ti muovi mentre lo fai.",
   credentials: [
     "Personal Trainer certificato", // TODO: ente e anno
-    "Specializzazione in ricomposizione corporea", // TODO
-    "Formazione continua in nutrizione sportiva", // TODO
-    "Preparazione atletica funzionale", // TODO
+    "Specializzazione in biomeccanica applicata all’allenamento", // TODO: ente e anno
+    "Video-analisi tecnica dei fondamentali",
+    "Programmazione individuale per principianti e atleti in stallo",
   ],
-  portrait: "", // es. "/davide.jpg" — TODO: foto reale
+  portrait: "/davide-ritratto.jpg",
 };
 
 /* -------------------------------------------------------------------------- */
@@ -277,7 +306,7 @@ export const testimonials = {
   items: [
     {
       quote:
-        "Avevo provato tre app diverse e mollato ogni volta dopo un mese. La differenza qui e’ che qualcuno guarda davvero cosa fai e ti corregge. In venti settimane ho cambiato corpo e abitudini.",
+        "Avevo provato tre app diverse e mollato ogni volta dopo un mese. La differenza qui è che qualcuno guarda davvero cosa fai e ti corregge. In venti settimane ho cambiato corpo e abitudini.",
       author: "Marco",
       detail: "34 anni · Ricomposizione",
     },
@@ -289,7 +318,7 @@ export const testimonials = {
     },
     {
       quote:
-        "La cosa che mi ha convinto e’ che non mi ha promesso niente alla prima call. Mi ha spiegato quanto tempo serviva. Aveva ragione al mese.",
+        "La cosa che mi ha convinto è che non mi ha promesso niente alla prima call. Mi ha spiegato quanto tempo serviva. Aveva ragione al mese.",
       author: "Andrea",
       detail: "41 anni · Forza e massa",
     },
@@ -314,7 +343,7 @@ export const faq = {
     },
     {
       q: "Sono un principiante assoluto, è un problema?",
-      a: "È il momento migliore per partire, perche’ non devi disimparare niente. Ogni esercizio arriva con un video dimostrativo e nelle prime settimane la priorita’ e’ solo una: eseguire bene.",
+      a: "È il momento migliore per partire, perché non devi disimparare niente. Ogni esercizio arriva con un video dimostrativo e nelle prime settimane la priorità è solo una: eseguire bene.",
     },
     {
       q: "Devo pesare tutto quello che mangio?",
@@ -322,7 +351,7 @@ export const faq = {
     },
     {
       q: "Come funziona il supporto durante il percorso?",
-      a: "Hai una chat diretta con me: rispondo entro 24 ore nei giorni feriali. Ogni settimana c’e’ un check strutturato in cui rivediamo dati, foto e sensazioni, e ogni quattro settimane il piano viene riscritto.",
+      a: "Hai una chat diretta con me: rispondo entro 24 ore nei giorni feriali. Ogni settimana c’è un check strutturato in cui rivediamo dati, foto e sensazioni, e ogni quattro settimane il piano viene riscritto.",
     },
     {
       q: "Posso interrompere quando voglio?",
@@ -339,10 +368,10 @@ export const contact = {
   eyebrow: "Candidatura",
   title: "Il primo passo dura dieci minuti.",
   intro:
-    "Compila i campi qui sotto: apro WhatsApp con il messaggio gia’ pronto. Ti rispondo io, di persona, e fissiamo una call conoscitiva gratuita e senza impegno.",
+    "Compila i campi qui sotto: apro WhatsApp con il messaggio già pronto. Ti rispondo io, di persona, e fissiamo la consulenza conoscitiva — gratuita e senza impegno.",
   goals: ["Dimagrire", "Mettere massa", "Ricomposizione", "Forza", "Rimettermi in moto"],
   levels: ["Principiante", "Intermedio", "Avanzato"],
-  submit: "Apri WhatsApp con il messaggio pronto",
+  submit: "Richiedi la consulenza su WhatsApp",
   altLabel: "Preferisci scrivere una mail?",
   privacy:
     "Non salvo nulla su questo sito: il modulo compone solo un messaggio WhatsApp che parte dal tuo telefono.",
@@ -353,7 +382,7 @@ export const contact = {
 /* -------------------------------------------------------------------------- */
 
 export const footer = {
-  claim: "Costruiamo il corpo. Poi il corpo costruisce te.",
+  claim: "Il problema non è quanto ti alleni. È come ti muovi.",
   credits: "Sito realizzato da rec.group",
   creditsUrl: "https://rec.group",
 };

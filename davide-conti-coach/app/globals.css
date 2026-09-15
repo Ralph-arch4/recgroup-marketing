@@ -195,19 +195,6 @@ a, button {
 }
 .dot-live { animation: pulseDot 2s ease-in-out infinite; }
 
-@keyframes scrollCue {
-  0%   { transform: translateY(-100%); opacity: 0; }
-  40%  { opacity: 1; }
-  100% { transform: translateY(100%); opacity: 0; }
-}
-.cue-line::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: var(--flame);
-  animation: scrollCue 2.2s ease-in-out infinite;
-}
-
 /* Grana filmica */
 .grain::before {
   content: "";
@@ -235,5 +222,5 @@ a, button {
   .reveal { opacity: 1; transform: none; transition: none; }
   .rise > span { animation: none; }
   .marquee-track { animation: none; }
-  .dot-live, .cue-line::after { animation: none; }
+  .dot-live { animation: none; }
 }

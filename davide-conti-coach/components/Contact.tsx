@@ -47,6 +47,16 @@ export default function Contact() {
 
           <div className="mt-10 flex flex-col gap-3">
             <a
+              href={`tel:+${identity.whatsapp}`}
+              className="flex items-center gap-3 text-[15px] transition-colors hover:text-[var(--flame)]"
+              style={{ color: "var(--paper-dim)" }}
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--flame)" strokeWidth="1.7" aria-hidden>
+                <path d="M6.5 3h3l1.5 4-2 1.5a12 12 0 0 0 5.5 5.5L16 12l4 1.5v3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 3.5 5.2 2 2 0 0 1 5.5 3Z" />
+              </svg>
+              {identity.phoneDisplay}
+            </a>
+            <a
               href={`mailto:${identity.email}`}
               className="flex items-center gap-3 text-[15px] transition-colors hover:text-[var(--flame)]"
               style={{ color: "var(--paper-dim)" }}

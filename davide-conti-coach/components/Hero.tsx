@@ -80,7 +80,7 @@ export default function Hero() {
               {hero.primaryCta}
               <span aria-hidden>&rarr;</span>
             </a>
-            <a href="#metodo" className="btn btn-ghost">
+            <a href={hero.secondaryHref} className="btn btn-ghost">
               {hero.secondaryCta}
             </a>
           </div>
@@ -109,6 +109,7 @@ export default function Hero() {
             src={about.portrait}
             alt={`${identity.fullName}, ${identity.role}`}
             className="aspect-[4/5] w-full"
+            priority
           />
           <div
             className="absolute -bottom-6 -left-6 max-w-[240px] rounded-2xl p-4"
@@ -122,16 +123,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* indicatore scroll */}
-      <div className="absolute bottom-6 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 md:flex">
-        <span className="text-[10px] uppercase tracking-[0.3em]" style={{ color: "var(--paper-mute)" }}>
-          {hero.scrollHint}
-        </span>
-        <span
-          className="cue-line relative block h-10 w-px overflow-hidden"
-          style={{ background: "rgba(244,243,240,0.14)" }}
-        />
-      </div>
     </section>
   );
 }

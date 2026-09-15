@@ -10,6 +10,7 @@ import Nav from "@/components/Nav";
 import Numbers from "@/components/Numbers";
 import Programs from "@/components/Programs";
 import ScrollProgress from "@/components/ScrollProgress";
+import Showreel from "@/components/Showreel";
 import Testimonials from "@/components/Testimonials";
 import Transformations from "@/components/Transformations";
 
@@ -21,6 +22,7 @@ export default function Home() {
       <main>
         <Hero />
         <Marquee />
+        <Showreel />
         <Method />
         <Numbers />
         <Transformations />

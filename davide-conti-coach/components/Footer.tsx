@@ -45,6 +45,13 @@ export default function Footer() {
             >
               Email
             </a>
+            <a
+              href={`tel:+${identity.whatsapp}`}
+              className="text-[13px] transition-colors hover:text-[var(--paper)]"
+              style={{ color: "var(--paper-dim)" }}
+            >
+              {identity.phoneDisplay}
+            </a>
           </div>
         </div>
 
