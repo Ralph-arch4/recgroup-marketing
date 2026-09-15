@@ -69,7 +69,7 @@ export const hero = {
   secondaryHref: "#video",
   // Statistiche in evidenza sotto l’headline
   stats: [
-    { value: 200, suffix: "+", label: "Percorsi seguiti" }, // TODO
+    { value: 40, suffix: "+", label: "Percorsi seguiti" },
     { value: 7, suffix: "", label: "Anni sul campo" }, // TODO
     { value: 94, suffix: "%", label: "Rinnovi a fine ciclo" }, // TODO
   ],
@@ -303,8 +303,8 @@ export const numbers = {
   eyebrow: "In numeri",
   title: "Quello che succede quando il metodo tiene.",
   items: [
-    { value: 200, suffix: "+", label: "Persone seguite" }, // TODO
-    { value: 1800, suffix: "+", label: "Schede scritte" }, // TODO
+    { value: 40, suffix: "+", label: "Persone seguite" },
+    { value: 100, suffix: "+", label: "Schede scritte" },
     { value: 24, suffix: "h", label: "Tempo di risposta" },
     { value: 94, suffix: "%", label: "Tasso di rinnovo" }, // TODO
   ],
