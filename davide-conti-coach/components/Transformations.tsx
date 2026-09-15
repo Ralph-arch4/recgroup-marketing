@@ -36,11 +36,14 @@ export default function Transformations() {
                       {c.goal}
                     </span>
                   </div>
-                  <p className="mt-3 text-[15px] leading-relaxed" style={{ color: "var(--paper)" }}>
-                    {c.result}
+                  <p
+                    className="mt-3 text-[15px] leading-relaxed"
+                    style={{ color: c.result ? "var(--paper)" : "var(--paper-mute)" }}
+                  >
+                    {c.result || "Risultato da confermare"}
                   </p>
                   <p className="mt-3 text-[11px] uppercase tracking-[0.16em]" style={{ color: "var(--paper-mute)" }}>
-                    {c.weeks} settimane di percorso
+                    {c.weeks ? `${c.weeks} settimane di percorso` : "Durata da confermare"}
                   </p>
                 </div>
               </article>

@@ -168,9 +168,23 @@ export const transformations = {
     "I risultati sono individuali e dipendono da aderenza, punto di partenza e stile di vita.",
   cases: [
     {
+      // Caso reale. Foto fornite dal diretto interessato, volto oscurato.
+      name: "Raffaele",
+      age: 22,
+      weeks: null, // TODO: durata reale del percorso
+      goal: "Ricomposizione",
+      result: "", // TODO: risultato reale (kg, misure, carichi) — non inventare
+      // TODO: caricare i file in public/trasformazioni/ e valorizzare questi due campi con
+      // "/trasformazioni/raffaele-prima.jpg" e "/trasformazioni/raffaele-dopo.jpg".
+      // Finche' restano vuoti il componente mostra il segnaposto: un percorso
+      // che punta a un file inesistente farebbe fallire l'ottimizzatore immagini.
+      before: "",
+      after: ""
+    },
+    {
       name: "Marco", // TODO
       age: 34,
-      weeks: 20,
+      weeks: 20 as number | null,
       goal: "Ricomposizione",
       result: "-11 kg di grasso, +3 kg di massa magra", // TODO
       before: "", // es. "/trasformazioni/marco-before.jpg"
